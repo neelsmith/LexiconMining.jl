@@ -60,7 +60,7 @@ function principalparts_cex(verb; divider = "|")
         l24stem = lat24(verb.pp1)
         push!(cexlines, presstem_cex(l24stem, verb; divider = divider))
 
-        l25stem = lat25(verb.pp1)
+        l25stem = verb.pp1
         push!(cexlines, presstem_cex(l25stem, verb; divider = divider))
     end
 
@@ -75,7 +75,7 @@ function principalparts_cex(verb; divider = "|")
         l24stem = lat24(verb.pp4)
         push!(cexlines, pftpass_stem_cex(l24stem, verb; divider = divider))
 
-        l25stem = lat25(verb.pp4)
+        l25stem = verb.pp4
         push!(cexlines, pftpass_stem_cex(l25stem, verb; divider = divider))
     end
   
@@ -105,7 +105,7 @@ function presstem_cex(pp1, verb; divider = "|")
         #@info("Formed stem $(stem)")
         #@info("Using pres stem $(stem) for $(verb)")
         if isempty(stem)
-            @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        #@warn("Empty present stem $(verb.lsid)")
             "" #[]
         else
             conj = presentconj(verb)
@@ -151,7 +151,7 @@ function pftactstem_cex(pp3, verb; divider = "|")
         stem = replace(pp3, r"i$" => "") |> 
         suareznorm
         if isempty(stem) 
-            @warn("EMPTY PERFECT ACTIVE STEM $(verb.lsid)")
+            #@warn("Empty perfect active stem $(verb.lsid)")
             []
         else
             note = "Automatically generated"
@@ -213,7 +213,7 @@ function conj3_cex(verb; divider = "|")
     lexentity = string("lsx.", verb.lsid)
     stem = replace(verb.pp1, r"ior?$" => "") |> suareznorm
     if isempty(stem)
-        @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        @warn("Empty present stem $(verb.lsid)")
         []
     else
         note = "Automatically generated"
@@ -244,7 +244,7 @@ function conj4_cex(verb; divider = "|")
     lexentity = string("lsx.", verb.lsid)
     stem = replace(verb.pp1, r"ior?$" => "") |> suareznorm
     if isempty(stem)
-        @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        @warn("Empty present stem $(verb.lsid)")
         []
     else
         note = "Automatically generated"
@@ -269,7 +269,7 @@ function conj2_cex(verb; divider = "|")
     lexentity = string("lsx.", verb.lsid)
     stem = replace(verb.pp1, r"eor?$" => "") |> suareznorm
     if isempty(stem)
-        @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        @warn("Empty present stem $(verb.lsid)")
         []
     else
         note = "Automatically generated"
@@ -298,7 +298,7 @@ function conj1_cex(verb; divider = "|")
     lexentity = string("lsx.", verb.lsid)
     stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
     if isempty(stem)
-        @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        @warn("Empty present stem $(verb.lsid)")
         []
     else
         note = "Automatically generated"
