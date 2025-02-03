@@ -10,7 +10,7 @@
     @test obliviscor.conjugation == 3
     @test obliviscor.pp1 == "obliviscor"
     @test obliviscor.pp2 == "oblivisci"
-    @test_broken isempty(obliviscor.pp3)
+    @test isempty(obliviscor.pp3)
     @test obliviscor.pp4 == "oblitus"
     @test_broken tabulaeclass(obliviscor) == "c3pres"
 
