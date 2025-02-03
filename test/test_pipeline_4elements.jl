@@ -11,7 +11,7 @@
     @test obliviscor.pp1 == "obliviscor"
     @test obliviscor.pp2 == "oblivisci"
     @test_broken isempty(obliviscor.pp3)
-    @test_broken obliviscor.pp4 == "oblitus"
+    @test obliviscor.pp4 == "oblitus"
     @test_broken tabulaeclass(obliviscor) == "c3pres"
 
     # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ

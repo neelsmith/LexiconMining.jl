@@ -118,8 +118,11 @@ function structure4(cols)
     end
 
     if conjugation == 3
+        @info("Cehck conj 3")
         if endswith(cols[1], "or") && endswith(cols[end - 1], "i")
             pp2 = cols[end - 1]
+        elseif endswith(cols[end - 1], "i")
+            pp3 = cols[end - 1]
         end
 
             
