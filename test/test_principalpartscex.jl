@@ -2,7 +2,7 @@
     obliviscor = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus" |> LexiconMining.readdataline |> verb
 
     @test obliviscor isa LSVerb
-
+    divider = "|"
     defaultpres = LexiconMining.presstem_cex(obliviscor; divider = divider)
     
 

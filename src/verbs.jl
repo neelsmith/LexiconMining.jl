@@ -101,7 +101,7 @@ end
 $(SIGNATURES)
 """
 function structure4(cols)
-    @info("Figure out 4 cols $(cols)")
+    #@info("Figure out 4 cols $(cols)")
     conjugation = 0
     try 
         conjugation = parse(Int, strip(cols[1]))
@@ -120,7 +120,7 @@ function structure4(cols)
     if conjugation == 3
         #@info("CONJ3: $(cols[2]) and $(cols[end-1])")
         if endswith(cols[2], "or") && endswith(cols[end - 1], "i")
-            @info("Cehck conj 3 deponent")
+            #@info("Cehck conj 3 deponent")
             pp2 = cols[end - 1]
         elseif endswith(cols[end - 1], "i")
             pp3 = cols[end - 1]

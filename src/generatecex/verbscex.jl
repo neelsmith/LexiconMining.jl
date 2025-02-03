@@ -11,7 +11,7 @@ function missingpart(verb::LSVerb)
 end
 
 
-"""Compose CEX lines for a verb stem.
+"""Compose a vector of CEX lines for a verb stem.
 $(SIGNATURES)
 """
 function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
@@ -83,35 +83,18 @@ function principalparts_cex(verb; divider = "|")
 end
 
 
-"""Compose CEX line for present stem.
+"""Compose CEX line for present stem of a given verb.
 $(SIGNATURES)
 """
 function presstem_cex(verb; divider = "|")
     presstem_cex(verb.pp1, verb; divider = divider)
-    #=
-    if verb.pp1 == "–" || verb.pp1 == "-"
-        "" #[]
-    else
-        iclass = tabulaeclass(verb)
-        lexentity = string("lsx.", verb.lsid)
-
-        stem = presentstem(verb)
-        if isempty(stem)
-            @warn("EMPTY PRESENT STEM $(verb.lsid)")
-            "" #[]
-        else
-            conj = presentconj(verb)
-            note = "Automatically generated"
-            verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
-            divider = divider)[1] #|> Iterators.flatten |> collect
-        end
-    end
-    =#
 end
 
-
+"""Compose CEX line for present stem of a given, using the supplied form for the first principal part.
+$(SIGNATURES)
+"""
 function presstem_cex(pp1, verb; divider = "|")
-    @info("Use presnt stem $(pp1) for verb $(verb)")
+    #@info("Use presnt stem $(pp1) for verb $(verb)")
     if pp1 == "–" || pp1 == "-"
         "" #[]
     else
@@ -119,7 +102,7 @@ function presstem_cex(pp1, verb; divider = "|")
         lexentity = string("lsx.", verb.lsid)
 
         stem = presentstem(verb.conjugation, pp1)
-        @info("Formed stem $(stem)")
+        #@info("Formed stem $(stem)")
         #@info("Using pres stem $(stem) for $(verb)")
         if isempty(stem)
             @warn("EMPTY PRESENT STEM $(verb.lsid)")
@@ -130,7 +113,7 @@ function presstem_cex(pp1, verb; divider = "|")
             finalcex = verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
             divider = divider)[1] #|> Iterators.flatten |> collect
 
-            @info("So cex is $(finalcex)")
+            #@info("So cex is $(finalcex)")
             finalcex
         end
     end
