@@ -16,7 +16,7 @@
 
     # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
     cex = cexline(obliviscor)
-    @test_broken length(cex) == 3
+    @test_broken length(cex) == 6
 
 end
 

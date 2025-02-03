@@ -19,10 +19,13 @@ function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")
     if iscommon(stem)
         [join(["latcommon.verb$(id)", lexentity, stem, conj, note], divider)]
     else
+        #@info("Stem needs ortho-specific lines")
         l23 = join(["lat23.verb$(id)", lexentity, lat23(stem), conj, note], divider)
         l24 = join(["lat24.verb$(id)", lexentity, lat24(stem),  conj, note], divider)
         l25 = join(["lat25.verb$(id)", lexentity, stem,  conj, note], divider)
-        [l23, l24, l25]
+        stemlines = [l23, l24, l25]
+        #@info("Returnging $(stemlines)")
+        stemlines
     end
 end
 
@@ -31,13 +34,52 @@ end
 $(SIGNATURES)
 """
 function principalparts_cex(verb; divider = "|")
-    candidates = [
-        presstem_cex(verb; divider = divider),
-        pftactstem_cex(verb; divider = divider),
-        pftpassstem_cex(verb; divider = divider)
-    ]
+    #@info("PRINCPARTS FOR $(verb)")
+    cexlines = []
 
-    filter(row -> ! isempty(row), candidates)
+    if iscommon(verb.pp1)
+        push!(cexlines, presstem_cex(verb; divider = divider))
+    else
+        l23stem = lat23(verb.pp1)
+        push!(cexlines, presstem_cex(l23stem, verb; divider = divider))
+
+        l24stem = lat24(verb.pp1)
+        push!(cexlines, presstem_cex(l24stem, verb; divider = divider))
+
+        push!(cexlines, presstem_cex(verb; divider = divider))
+    end
+
+
+    if iscommon(verb.pp3)
+        push!(cexlines, pftactstem_cex(verb; divider = divider))
+
+    else
+        l23stem = lat23(verb.pp3)
+        push!(cexlines, pftactstem_cex(l23stem, verb; divider = divider))
+
+        l24stem = lat24(verb.pp1)
+        push!(cexlines, presstem_cex(l24stem, verb; divider = divider))
+
+        l25stem = lat25(verb.pp1)
+        push!(cexlines, presstem_cex(l25stem, verb; divider = divider))
+    end
+
+
+    if iscommon(verb.pp4)
+        push!(cexlines, pftpass_stem_cex(verb; divider = divider))
+
+    else
+        l23stem = lat23(verb.pp4)
+        push!(cexlines, pftpass_stem_cex(l23stem, verb; divider = divider))
+
+        l24stem = lat24(verb.pp4)
+        push!(cexlines, pftpass_stem_cex(l24stem, verb; divider = divider))
+
+        l25stem = lat25(verb.pp4)
+        push!(cexlines, pftpass_stem_cex(l25stem, verb; divider = divider))
+    end
+  
+    filter(ln -> ! isempty(ln), cexlines)
 end
 
 
@@ -45,7 +87,8 @@ end
 $(SIGNATURES)
 """
 function presstem_cex(verb; divider = "|")
-    
+    presstem_cex(verb.pp1, verb; divider = divider)
+    #=
     if verb.pp1 == "–" || verb.pp1 == "-"
         "" #[]
     else
@@ -61,6 +104,34 @@ function presstem_cex(verb; divider = "|")
             note = "Automatically generated"
             verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
             divider = divider)[1] #|> Iterators.flatten |> collect
+        end
+    end
+    =#
+end
+
+
+function presstem_cex(pp1, verb; divider = "|")
+    @info("Use presnt stem $(pp1) for verb $(verb)")
+    if pp1 == "–" || pp1 == "-"
+        "" #[]
+    else
+        iclass = tabulaeclass(verb)
+        lexentity = string("lsx.", verb.lsid)
+
+        stem = presentstem(verb.conjugation, pp1)
+        @info("Formed stem $(stem)")
+        #@info("Using pres stem $(stem) for $(verb)")
+        if isempty(stem)
+            @warn("EMPTY PRESENT STEM $(verb.lsid)")
+            "" #[]
+        else
+            conj = presentconj(verb)
+            note = "Automatically generated"
+            finalcex = verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
+            divider = divider)[1] #|> Iterators.flatten |> collect
+
+            @info("So cex is $(finalcex)")
+            finalcex
         end
     end
 end
@@ -81,16 +152,20 @@ function presentstem(verb::LSVerb)
     presentstem(verb.conjugation, verb.pp1)
 end
 
+function pftactstem_cex(verb; divider = "|")
+    pftactstem_cex(verb.pp3, verb; divider = divider)
+end
 
 """Compose CEX line for perfect active stem.
 $(SIGNATURES)
 """
-function pftactstem_cex(verb; divider = "|")
-    if verb.pp3 == "–" || verb.pp3 == "-"  || isdeponent(verb)
+function pftactstem_cex(pp3, verb; divider = "|")
+    
+    if pp3 == "–" || pp3 == "-"  || isdeponent(verb)
         []
     else
         lexentity = string("lsx.", verb.lsid)
-        stem = replace(verb.pp3, r"i$" => "") |> 
+        stem = replace(pp3, r"i$" => "") |> 
         suareznorm
         if isempty(stem) 
             @warn("EMPTY PERFECT ACTIVE STEM $(verb.lsid)")
@@ -103,16 +178,19 @@ function pftactstem_cex(verb; divider = "|")
     end
 end
 
+function pftpass_stem_cex(verb; divider = "|")
+    pftpass_stem_cex(verb.pp4, verb; divider = divider)
+end
 
 """Compose CEX line for perfect passive stem.
 $(SIGNATURES)
 """
-function pftpassstem_cex(verb; divider = "|")
-    if verb.pp4 == "–" || verb.pp4 == "-"
+function pftpass_stem_cex(pp4, verb; divider = "|")
+    if pp4 == "–" || pp4 == "-"
         []
     else
         lexentity = string("lsx.", verb.lsid)
-        stem = replace(verb.pp4, r"tu[ms]$" => "t") |> suareznorm
+        stem = replace(pp4, r"tu[ms]$" => "t") |> suareznorm
         if isempty(stem)
             @warn("EMPTY PERFECT PASSIVE STEM $(verb.lsid)")
             []
@@ -173,7 +251,7 @@ function conj3_cex(verb; divider = "|")
             divider = divider)
 
         else
-            #@info("Not regular")
+            #@info("C3: Not regular")
             principalparts_cex(verb)
         end
     end
