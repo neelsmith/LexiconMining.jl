@@ -175,7 +175,7 @@ function pftpass_stem_cex(pp4, verb; divider = "|")
         lexentity = string("lsx.", verb.lsid)
         stem = replace(pp4, r"tu[ms]$" => "t") |> suareznorm
         if isempty(stem)
-            @warn("EMPTY PERFECT PASSIVE STEM $(verb.lsid)")
+            #@warn("EMPTY PERFECT PASSIVE STEM $(verb.lsid)")
             []
         else
             note = "Automatically generated"

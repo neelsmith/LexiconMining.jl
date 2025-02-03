@@ -140,15 +140,15 @@ function structure4(cols)
     end
 
     if isempty(pp1)
-        @warn("NO first pp in $(cols)")
+        #@warn("No first principal part in $(cols)")
     elseif isempty(pp2)
         #@warn("NO second pp")
        # @warn("Guess at infin for $(pp1) of conjugation $(conjugation)")   
         pp2 = guessinfinitive(pp1, conjugation)
     elseif isempty(pp3)
-        @warn("No third pp in in $(cols)")
+        #@warn("No third principal part in $(cols)")
     elseif isempty(pp4)
-        @warn("No fourth pp in $(cols)")
+        #@warn("No fourth principal part in $(cols)")
         
     end
 
@@ -265,15 +265,15 @@ function structure3(cols)
     end
 
     if isempty(pp1)
-        @warn("NO first pp in $(cols)")
+        #@warn("No first principal part in $(cols)")
     elseif isempty(pp2)
         #@warn("NO second pp")
        # @warn("Guess at infin for $(pp1) of conjugation $(conjugation)")   
         pp2 = guessinfinitive(pp1, conjugation)
     elseif isempty(pp3)
-        @warn("No third pp in in $(cols)")
+        #@warn("No third principal part in $(cols)")
     elseif isempty(pp4)
-        @warn("No fourth pp in $(cols)")
+        #@warn("No fourth principal part in $(cols)")
         
     end
 
@@ -327,7 +327,7 @@ function verb(tpl)
         (pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
     else
-        @info("Very short verb entry : $(cols)")
+        @info("Very short verb entry $(shortid) : $(cols)")
         tpl
     end
 end
