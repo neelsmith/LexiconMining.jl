@@ -1,3 +1,16 @@
+#11955|urn:cite2:hmt:ls.markdown:n11954|cŭpĭo|to desire, to long for|verb |3,cupio,cŭpīre,cŭpīvī,cŭpītum
+
+@testset "Test pipeline for verb: third-io conjugation with 5 elements given in morphology property" begin
+    summary = "11955|urn:cite2:hmt:ls.markdown:n11954|cŭpĭo|to desire, to long for|verb |3,cupio,cŭpīre,cŭpīvī,cŭpītum"
+
+
+    cupio = LexiconMining.readdataline(summary) |> verb
+    @test cupio isa LSVerb
+
+
+    cex = cexline(cupio)
+    @test_broken length(cex) == 5
+end
 
 @testset "Test pipeline for verb: regular first conjugation with 5 elements given in morphology property" begin
     summary = "40|urn:cite2:hmt:ls.markdown:n39|ab-brevio |to shorten, abridge |verb  |1, ab-brevio, ab-breviare, ab-breviavi, ab-breviatum"
