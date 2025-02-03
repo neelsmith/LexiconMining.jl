@@ -10,3 +10,5 @@
     #cex = cexline(obliviscor)
 
 end
+
+#9319|urn:cite2:hmt:ls.markdown:n9318|com-mĕmĭni |, to recollect or remember | verb  |3, -, -, commemini, -
