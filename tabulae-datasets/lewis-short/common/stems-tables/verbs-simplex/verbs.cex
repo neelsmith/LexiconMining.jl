@@ -6198,6 +6198,10 @@ latcommon.verbn21948|lsx.n21948|implet|pftpass|Automatically generated
 latcommon.verbn21959|lsx.n21959|implicisc|c3presdep|Automatically generated
 latcommon.verbn21959|lsx.n21959|implicit|pftpass|Automatically generated
 latcommon.verbn21961|lsx.n21961|implicit|c1pres|Automatically generated
+latcommon.verbn21963|lsx.n21963|implico|c4pres|Automatically generated
+latcommon.verbn21963|lsx.n21963|implicu|pftact|Automatically generated
+latcommon.verbn21963|lsx.n21963|implicit|pftpass|Automatically generated
+latcommon.verbn21963x|lsx.n21963x|implic|conj1|Automatically generated
 latcommon.verbn21966|lsx.n21966|implor|conj1dep|Automatically generated
 latcommon.verbn21967|lsx.n21967|inplumb|conj1|Automatically generated
 latcommon.verbn21969|lsx.n21969|implu|c3pres|Automatically generated
@@ -9498,6 +9502,7 @@ latcommon.verbn35772|lsx.n35772|pessumded|pftact|Automatically generated
 latcommon.verbn35772|lsx.n35772|pessumdat|pftpass|Automatically generated
 latcommon.verbn35799|lsx.n35799|peto|conj3|Automatically generated
 latcommon.verbn35812|lsx.n35812|petiss|c3pres|Automatically generated
+latcommon.verbn35819|lsx.n35819|petitur|c4pres|Automatically generated
 latcommon.verbn35822|lsx.n35822|peto|conj3|Automatically generated
 latcommon.verbn35899|lsx.n35899|phalang|conj1|Automatically generated
 latcommon.verbn35911|lsx.n35911|phaler|conj1|Automatically generated
@@ -9517,6 +9522,7 @@ latcommon.verbn36277|lsx.n36277|piguit|pftact|Automatically generated
 latcommon.verbn36277|lsx.n36277|pigit|pftpass|Automatically generated
 latcommon.verbn36284|lsx.n36284|pigner|conj1|Automatically generated
 latcommon.verbn36285|lsx.n36285|pigner|conj1|Automatically generated
+latcommon.verbn36292|lsx.n36292|pigr|c2pres|Automatically generated
 latcommon.verbn36293|lsx.n36293|pigresc|c3pres|Automatically generated
 latcommon.verbn36296|lsx.n36296|pigrit|c1presdep|Automatically generated
 latcommon.verbn36296|lsx.n36296|at|pftpass|Automatically generated
@@ -9543,6 +9549,10 @@ latcommon.verbn36394|lsx.n36394|pip|conj1|Automatically generated
 latcommon.verbn36429|lsx.n36429|pisc|c1presdep|Automatically generated
 latcommon.verbn36429|lsx.n36429|piscatus sum|pftpass|Automatically generated
 latcommon.verbn36436|lsx.n36436|pisit|conj1|Automatically generated
+latcommon.verbn36437|lsx.n36437|pis|conj1|Automatically generated
+latcommon.verbn36437x|lsx.n36437x|pis|c3pres|Automatically generated
+latcommon.verbn36437x|lsx.n36437x|pis|pftact|Automatically generated
+latcommon.verbn36437x|lsx.n36437x|pisum|pftpass|Automatically generated
 latcommon.verbn36449|lsx.n36449|pist|conj1|Automatically generated
 latcommon.verbn36504|lsx.n36504|plac|conj2|Automatically generated
 latcommon.verbn36509|lsx.n36509|placid|conj1|Automatically generated
@@ -10536,6 +10546,7 @@ latcommon.verbn39009|lsx.n39009|scissum|pftpass|Automatically generated
 latcommon.verbn39012|lsx.n39012|proscrib|c3pres|Automatically generated
 latcommon.verbn39012|lsx.n39012|proscrips|pftact|Automatically generated
 latcommon.verbn39012|lsx.n39012|proscript|pftpass|Automatically generated
+latcommon.verbn39016|lsx.n39016|proscriptur|c4pres|Automatically generated
 latcommon.verbn39018|lsx.n39018|prosec|c1pres|Automatically generated
 latcommon.verbn39018|lsx.n39018|prosecu|pftact|Automatically generated
 latcommon.verbn39018|lsx.n39018|prosect|pftpass|Automatically generated
@@ -10771,6 +10782,7 @@ latcommon.verbn40348|lsx.n40348|rat|pftpass|Automatically generated
 latcommon.verbn40353|lsx.n40353|rad|c3pres|Automatically generated
 latcommon.verbn40353|lsx.n40353|ras|pftact|Automatically generated
 latcommon.verbn40353|lsx.n40353|rasus|pftpass|Automatically generated
+latcommon.verbn40379|lsx.n40379|rancesc|c3pres|Automatically generated
 latcommon.verbn40383|lsx.n40383|ranc|conj1|Automatically generated
 latcommon.verbn40405|lsx.n40405|rap|c3pres|Automatically generated
 latcommon.verbn40405|lsx.n40405|rapu|pftact|Automatically generated
