@@ -15,7 +15,9 @@ end
 $(SIGNATURES)
 """
 function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
-    #@info("VERB LINES FOR $(conj) $(stem)")
+    @info("VERB LINES FOR $(conj) $(stem)")
+    @info("Conj is $(conj)")
+
     if iscommon(stem)
         [join(["latcommon.verb$(id)", lexentity, stem, conj, note], divider)]
     else
@@ -34,7 +36,8 @@ end
 $(SIGNATURES)
 """
 function principalparts_cex(verb; divider = "|")
-    #@info("PRINCPARTS FOR $(verb)")
+    @info("PRINCPARTS FOR $(verb)")
+    @info("Its tabulae class is $(tabulaeclass(verb))")
     cexlines = []
 
     if iscommon(verb.pp1)
@@ -108,9 +111,9 @@ function presstem_cex(pp1, verb; divider = "|")
         #@warn("Empty present stem $(verb.lsid)")
             "" #[]
         else
-            conj = presentconj(verb)
+            #conj = presentconj(verb)
             note = "Automatically generated"
-            finalcex = verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
+            finalcex = verb_cexlines(verb.lsid, lexentity, stem, iclass, note; 
             divider = divider)[1] #|> Iterators.flatten |> collect
 
             #@info("So cex is $(finalcex)")
@@ -198,7 +201,7 @@ deponent_classes = [
         "conj1dep", "c1presdep",
         "conj2dep",  "c2presdep",
         "conj3dep",  "c3presdep",
-        "conj3iodep",  "c3iopresdep",
+        "conj3io",  "c3iopresdep",
         "conj4dep",  "c4presdep",
 ]
 
@@ -219,10 +222,11 @@ function conj3_cex(verb; divider = "|")
         note = "Automatically generated"
 
         iclass = tabulaeclass(verb)
-        #@info("$(iclass)?")
+        @info("$(iclass)?")
         if iclass in regular_conjungations 
+            #=
             conj = if endswith(stem, "ior")
-                "conj3iodep"
+               "conj3iodep"
             elseif endswith(stem, "io")
                 "conj3io"
             elseif endswith(stem, "or")
@@ -230,7 +234,9 @@ function conj3_cex(verb; divider = "|")
             else
                 "conj3"
             end
-            verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
+=#  
+            @info("Call verb_cexlines with $(iclass)")
+            verb_cexlines(verb.lsid, lexentity, stem, iclass, note; 
             divider = divider)
 
         else
