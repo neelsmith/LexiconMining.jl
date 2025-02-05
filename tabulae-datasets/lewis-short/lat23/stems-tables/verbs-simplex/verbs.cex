@@ -153,12 +153,7 @@ lat23.verbn4688|lsx.n4688|auerr|c3pres|Automatically generated
 lat23.verbn4688|lsx.n4688|auerr|c3pres|Automatically generated
 lat23.verbn4688|lsx.n4688|auerr|c3pres|Automatically generated
 lat23.verbn4689|lsx.n4689|auerrunc|conj1|Automatically generated
-lat23.verbn4696|lsx.n4696|auers|c1presdep|Automatically generated
-lat23.verbn4696|lsx.n4696|auers|c1presdep|Automatically generated
-lat23.verbn4696|lsx.n4696|auers|c1presdep|Automatically generated
-lat23.verbn4696|lsx.n4696|auers|c1presdep|Automatically generated
-lat23.verbn4696|lsx.n4696|auersatus sum|pftpass|Automatically generated
-lat23.verbn4696|lsx.n4696|auersatus sum|pftpass|Automatically generated
+lat23.verbn4696|lsx.n4696|auers|conj1|Automatically generated
 lat23.verbn4701|lsx.n4701|auert|c3pres|Automatically generated
 lat23.verbn4701|lsx.n4701|auert|c3pres|Automatically generated
 lat23.verbn4701|lsx.n4701|auert|c3pres|Automatically generated
@@ -179,8 +174,8 @@ lat23.verbn6344|lsx.n6344|calu|c4pres|Automatically generated
 lat23.verbn6344|lsx.n6344|calu|c4pres|Automatically generated
 lat23.verbn6348|lsx.n6348|calu|c3presdep|Automatically generated
 lat23.verbn6348|lsx.n6348|calu|c3presdep|Automatically generated
-lat23.verbn6348|lsx.n6348|caluitus sum|pftpass|Automatically generated
-lat23.verbn6348|lsx.n6348|caluitus sum|pftpass|Automatically generated
+lat23.verbn6348|lsx.n6348|caluit|pftpass|Automatically generated
+lat23.verbn6348|lsx.n6348|caluit|pftpass|Automatically generated
 lat23.verbn6707|lsx.n6707|captiu|conj1|Automatically generated
 lat23.verbn7243|lsx.n7243|cauefac|c3pres|Automatically generated
 lat23.verbn7243|lsx.n7243|cauefac|c3pres|Automatically generated
@@ -220,12 +215,7 @@ lat23.verbn8349|lsx.n8349|circumuad|c3pres|Automatically generated
 lat23.verbn8349|lsx.n8349|circumuad|c3pres|Automatically generated
 lat23.verbn8349|lsx.n8349|circumuasum|pftpass|Automatically generated
 lat23.verbn8349|lsx.n8349|circumuasum|pftpass|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuag|c1presdep|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuag|c1presdep|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuag|c1presdep|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuag|c1presdep|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuagatus sum|pftpass|Automatically generated
-lat23.verbn8350|lsx.n8350|circumuagatus sum|pftpass|Automatically generated
+lat23.verbn8350|lsx.n8350|circumuag|conj1|Automatically generated
 lat23.verbn8352|lsx.n8352|circumuall|conj1|Automatically generated
 lat23.verbn8354|lsx.n8354|circumuectit|c1presdep|Automatically generated
 lat23.verbn8354|lsx.n8354|circumuectit|c1presdep|Automatically generated
@@ -338,12 +328,7 @@ lat23.verbn10887|lsx.n10887|contrauen|c4pres|Automatically generated
 lat23.verbn10887|lsx.n10887|contrauen|c4pres|Automatically generated
 lat23.verbn10887|lsx.n10887|contrauent|pftpass|Automatically generated
 lat23.verbn10887|lsx.n10887|contrauent|pftpass|Automatically generated
-lat23.verbn10912|lsx.n10912|controuers|c1presdep|Automatically generated
-lat23.verbn10912|lsx.n10912|controuers|c1presdep|Automatically generated
-lat23.verbn10912|lsx.n10912|controuers|c1presdep|Automatically generated
-lat23.verbn10912|lsx.n10912|controuers|c1presdep|Automatically generated
-lat23.verbn10912|lsx.n10912|controuersatus sum|pftpass|Automatically generated
-lat23.verbn10912|lsx.n10912|controuersatus sum|pftpass|Automatically generated
+lat23.verbn10912|lsx.n10912|controuers|conj1|Automatically generated
 lat23.verbn10956|lsx.n10956|conuad|conj1|Automatically generated
 lat23.verbn10959|lsx.n10959|conualesc|c3pres|Automatically generated
 lat23.verbn10959|lsx.n10959|conualesc|c3pres|Automatically generated
@@ -552,12 +537,7 @@ lat23.verbn13592|lsx.n13592|deuerr|c3pres|Automatically generated
 lat23.verbn13592|lsx.n13592|deuersum|pftpass|Automatically generated
 lat23.verbn13592|lsx.n13592|deuersum|pftpass|Automatically generated
 lat23.verbn13593|lsx.n13593|deuersit|conj1|Automatically generated
-lat23.verbn13595|lsx.n13595|deuers|c1presdep|Automatically generated
-lat23.verbn13595|lsx.n13595|deuers|c1presdep|Automatically generated
-lat23.verbn13595|lsx.n13595|deuers|c1presdep|Automatically generated
-lat23.verbn13595|lsx.n13595|deuers|c1presdep|Automatically generated
-lat23.verbn13595|lsx.n13595|deuersatus sum|pftpass|Automatically generated
-lat23.verbn13595|lsx.n13595|deuersatus sum|pftpass|Automatically generated
+lat23.verbn13595|lsx.n13595|deuers|conj1|Automatically generated
 lat23.verbn13601|lsx.n13601|deuert|c3pres|Automatically generated
 lat23.verbn13601|lsx.n13601|deuert|c3pres|Automatically generated
 lat23.verbn13601|lsx.n13601|deuert|c3pres|Automatically generated
@@ -899,8 +879,8 @@ lat23.verbn18673|lsx.n18673|fou|c2pres|Automatically generated
 lat23.verbn18673|lsx.n18673|fou|c2pres|Automatically generated
 lat23.verbn18673|lsx.n18673|fou|c2pres|Automatically generated
 lat23.verbn18673|lsx.n18673|fou|c2pres|Automatically generated
-lat23.verbn19331|lsx.n19331|gauisus sum|pftpass|Automatically generated
-lat23.verbn19331|lsx.n19331|gauisus sum|pftpass|Automatically generated
+lat23.verbn19331|lsx.n19331|gauisus|pftpass|Automatically generated
+lat23.verbn19331|lsx.n19331|gauisus|pftpass|Automatically generated
 lat23.verbn19933|lsx.n19933|grauesc|c3pres|Automatically generated
 lat23.verbn19933|lsx.n19933|grauesc|c3pres|Automatically generated
 lat23.verbn19935|lsx.n19935|grauid|conj1|Automatically generated
@@ -940,9 +920,7 @@ lat23.verbn23500|lsx.n23500|iniect|conj1|Automatically generated
 lat23.verbn23514|lsx.n23514|iniung|c3pres|Automatically generated
 lat23.verbn23514|lsx.n23514|iniung|c3pres|Automatically generated
 lat23.verbn23514|lsx.n23514|iniunct|pftpass|Automatically generated
-lat23.verbn23519|lsx.n23519|iniuri|c1presdep|Automatically generated
-lat23.verbn23519|lsx.n23519|iniuri|c1presdep|Automatically generated
-lat23.verbn23519|lsx.n23519|iniuriatus sum|pftpass|Automatically generated
+lat23.verbn23519|lsx.n23519|iniuri|conj1|Automatically generated
 lat23.verbn23523|lsx.n23523|iniur|conj1|Automatically generated
 lat23.verbn23547|lsx.n23547|innauig|conj1|Automatically generated
 lat23.verbn23569|lsx.n23569|innou|conj1|Automatically generated
@@ -1121,9 +1099,7 @@ lat23.verbn25220|lsx.n25220|ieiun|conj1|Automatically generated
 lat23.verbn25224|lsx.n25224|ient|conj1|Automatically generated
 lat23.verbn25234|lsx.n25234|ioc|conj1|Automatically generated
 lat23.verbn25235|lsx.n25235|ioc|conj1|Automatically generated
-lat23.verbn25244|lsx.n25244|iocul|c1presdep|Automatically generated
-lat23.verbn25244|lsx.n25244|iocul|c1presdep|Automatically generated
-lat23.verbn25244|lsx.n25244|ioculatus sum|pftpass|Automatically generated
+lat23.verbn25244|lsx.n25244|iocul|conj1|Automatically generated
 lat23.verbn25264|lsx.n25264|iub|c2pres|Automatically generated
 lat23.verbn25264|lsx.n25264|iub|c2pres|Automatically generated
 lat23.verbn25264|lsx.n25264|iussum|pftpass|Automatically generated
@@ -1141,9 +1117,7 @@ lat23.verbn25370|lsx.n25370|iur|conj1|Automatically generated
 lat23.verbn25378|lsx.n25378|iurg|conj1|Automatically generated
 lat23.verbn25384|lsx.n25384|iurig|conj1|Automatically generated
 lat23.verbn25390|lsx.n25390|iur|conj1|Automatically generated
-lat23.verbn25391|lsx.n25391|iur|c1presdep|Automatically generated
-lat23.verbn25391|lsx.n25391|iur|c1presdep|Automatically generated
-lat23.verbn25391|lsx.n25391|iuratus sum|pftpass|Automatically generated
+lat23.verbn25391|lsx.n25391|iur|conj1|Automatically generated
 lat23.verbn25416|lsx.n25416|iustific|conj1|Automatically generated
 lat23.verbn25433|lsx.n25433|iuuenculasc|c3pres|Automatically generated
 lat23.verbn25433|lsx.n25433|iuuenculasc|c3pres|Automatically generated
@@ -1202,12 +1176,7 @@ lat23.verbn30575|lsx.n30575|nau|conj1|Automatically generated
 lat23.verbn31048|lsx.n31048|niuesc|c3pres|Automatically generated
 lat23.verbn31048|lsx.n31048|niuesc|c3pres|Automatically generated
 lat23.verbn31268|lsx.n31268|nouell|conj1|Automatically generated
-lat23.verbn31283|lsx.n31283|nouerc|c1presdep|Automatically generated
-lat23.verbn31283|lsx.n31283|nouerc|c1presdep|Automatically generated
-lat23.verbn31283|lsx.n31283|nouerc|c1presdep|Automatically generated
-lat23.verbn31283|lsx.n31283|nouerc|c1presdep|Automatically generated
-lat23.verbn31283|lsx.n31283|nouercatus sum|pftpass|Automatically generated
-lat23.verbn31283|lsx.n31283|nouercatus sum|pftpass|Automatically generated
+lat23.verbn31283|lsx.n31283|nouerc|conj1|Automatically generated
 lat23.verbn31304|lsx.n31304|nou|conj1|Automatically generated
 lat23.verbn31628|lsx.n31628|obiect|pftpass|Automatically generated
 lat23.verbn31638|lsx.n31638|obiac|c2pres|Automatically generated
@@ -1244,12 +1213,7 @@ lat23.verbn32037|lsx.n32037|obuerber|c1pres|Automatically generated
 lat23.verbn32037|lsx.n32037|obuerber|c1pres|Automatically generated
 lat23.verbn32037|lsx.n32037|obuerber|c1pres|Automatically generated
 lat23.verbn32037|lsx.n32037|obuerber|c1pres|Automatically generated
-lat23.verbn32039|lsx.n32039|obuers|c1presdep|Automatically generated
-lat23.verbn32039|lsx.n32039|obuers|c1presdep|Automatically generated
-lat23.verbn32039|lsx.n32039|obuers|c1presdep|Automatically generated
-lat23.verbn32039|lsx.n32039|obuers|c1presdep|Automatically generated
-lat23.verbn32039|lsx.n32039|obuersatus sum|pftpass|Automatically generated
-lat23.verbn32039|lsx.n32039|obuersatus sum|pftpass|Automatically generated
+lat23.verbn32039|lsx.n32039|obuers|conj1|Automatically generated
 lat23.verbn32041|lsx.n32041|obuert|c3pres|Automatically generated
 lat23.verbn32041|lsx.n32041|obuert|c3pres|Automatically generated
 lat23.verbn32041|lsx.n32041|obuert|c3pres|Automatically generated
@@ -1366,10 +1330,7 @@ lat23.verbn35702|lsx.n35702|peruen|c4pres|Automatically generated
 lat23.verbn35702|lsx.n35702|peruen|c4pres|Automatically generated
 lat23.verbn35702|lsx.n35702|peruent|pftpass|Automatically generated
 lat23.verbn35702|lsx.n35702|peruent|pftpass|Automatically generated
-lat23.verbn35703|lsx.n35703|peruen|c1presdep|Automatically generated
-lat23.verbn35703|lsx.n35703|peruen|c1presdep|Automatically generated
-lat23.verbn35703|lsx.n35703|peruenatus sum|pftpass|Automatically generated
-lat23.verbn35703|lsx.n35703|peruenatus sum|pftpass|Automatically generated
+lat23.verbn35703|lsx.n35703|peruen|conj1|Automatically generated
 lat23.verbn35711|lsx.n35711|peruert|c3pres|Automatically generated
 lat23.verbn35711|lsx.n35711|peruert|c3pres|Automatically generated
 lat23.verbn35711|lsx.n35711|peruert|c3pres|Automatically generated
@@ -1452,8 +1413,8 @@ lat23.verbn37957|lsx.n37957|praeseru|conj1|Automatically generated
 lat23.verbn38097|lsx.n38097|praeternauig|conj1|Automatically generated
 lat23.verbn38105|lsx.n38105|praeterueh|c3presdep|Automatically generated
 lat23.verbn38105|lsx.n38105|praeterueh|c3presdep|Automatically generated
-lat23.verbn38105|lsx.n38105|praeteruectus sum|pftpass|Automatically generated
-lat23.verbn38105|lsx.n38105|praeteruectus sum|pftpass|Automatically generated
+lat23.verbn38105|lsx.n38105|praeteruect|pftpass|Automatically generated
+lat23.verbn38105|lsx.n38105|praeteruect|pftpass|Automatically generated
 lat23.verbn38106|lsx.n38106|praeteruert|c3pres|Automatically generated
 lat23.verbn38106|lsx.n38106|praeteruert|c3pres|Automatically generated
 lat23.verbn38106|lsx.n38106|praeteruert|c3pres|Automatically generated
@@ -1474,12 +1435,7 @@ lat23.verbn38151|lsx.n38151|praeualesc|c3pres|Automatically generated
 lat23.verbn38154|lsx.n38154|praeuall|c1pres|Automatically generated
 lat23.verbn38154|lsx.n38154|praeuall|c1pres|Automatically generated
 lat23.verbn38155|lsx.n38155|praeuapor|conj1dep|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaric|c1presdep|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaric|c1presdep|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaric|c1presdep|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaric|c1presdep|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaricatus sum|pftpass|Automatically generated
-lat23.verbn38159|lsx.n38159|praeuaricatus sum|pftpass|Automatically generated
+lat23.verbn38159|lsx.n38159|praeuaric|conj1|Automatically generated
 lat23.verbn38162|lsx.n38162|praeueh|c3presdep|Automatically generated
 lat23.verbn38162|lsx.n38162|praeueh|c3presdep|Automatically generated
 lat23.verbn38162|lsx.n38162|praeuect|pftpass|Automatically generated
@@ -1686,12 +1642,7 @@ lat23.verbn41565|lsx.n41565|uent|pftpass|Automatically generated
 lat23.verbn41565|lsx.n41565|uent|pftpass|Automatically generated
 lat23.verbn41566|lsx.n41566|reuentil|conj1|Automatically generated
 lat23.verbn41570|lsx.n41570|reuerber|conj1|Automatically generated
-lat23.verbn41576|lsx.n41576|reuer|c2presdep|Automatically generated
-lat23.verbn41576|lsx.n41576|reuer|c2presdep|Automatically generated
-lat23.verbn41576|lsx.n41576|reuer|c2presdep|Automatically generated
-lat23.verbn41576|lsx.n41576|reuer|c2presdep|Automatically generated
-lat23.verbn41576|lsx.n41576|reueritus sum|pftpass|Automatically generated
-lat23.verbn41576|lsx.n41576|reueritus sum|pftpass|Automatically generated
+lat23.verbn41576|lsx.n41576|reuer|conj2|Automatically generated
 lat23.verbn41577|lsx.n41577|reuerg|c3pres|Automatically generated
 lat23.verbn41577|lsx.n41577|reuerg|c3pres|Automatically generated
 lat23.verbn41578|lsx.n41578|reuerr|c3pres|Automatically generated
@@ -1972,12 +1923,7 @@ lat23.verbn46924|lsx.n46924|superuolu|c3pres|Automatically generated
 lat23.verbn46924|lsx.n46924|superuolu|c3pres|Automatically generated
 lat23.verbn46924|lsx.n46924|superuolut|pftpass|Automatically generated
 lat23.verbn46924|lsx.n46924|superuolut|pftpass|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuers|c1presdep|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuers|c1presdep|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuers|c1presdep|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuers|c1presdep|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuersatus sum|pftpass|Automatically generated
-lat23.verbn47867|lsx.n47867|tergiuersatus sum|pftpass|Automatically generated
+lat23.verbn47867|lsx.n47867|tergiuers|conj1|Automatically generated
 lat23.verbn48710|lsx.n48710|traiic|c3pres|Automatically generated
 lat23.verbn48710|lsx.n48710|traiic|c3pres|Automatically generated
 lat23.verbn48710|lsx.n48710|traiect|pftpass|Automatically generated
@@ -2123,12 +2069,7 @@ lat23.verbn50322|lsx.n50322|uect|pftpass|Automatically generated
 lat23.verbn50336|lsx.n50336|uel|conj1|Automatically generated
 lat23.verbn50346|lsx.n50346|uelific|conj1|Automatically generated
 lat23.verbn50347|lsx.n50347|uelific|conj1|Automatically generated
-lat23.verbn50358|lsx.n50358|uelit|c1presdep|Automatically generated
-lat23.verbn50358|lsx.n50358|uelit|c1presdep|Automatically generated
-lat23.verbn50358|lsx.n50358|uelit|c1presdep|Automatically generated
-lat23.verbn50358|lsx.n50358|uelit|c1presdep|Automatically generated
-lat23.verbn50358|lsx.n50358|uelitatus sum|pftpass|Automatically generated
-lat23.verbn50358|lsx.n50358|uelitatus sum|pftpass|Automatically generated
+lat23.verbn50358|lsx.n50358|uelit|conj1|Automatically generated
 lat23.verbn50368|lsx.n50368|uell|c1pres|Automatically generated
 lat23.verbn50368|lsx.n50368|uell|c1pres|Automatically generated
 lat23.verbn50368|lsx.n50368|uell|c1pres|Automatically generated
@@ -2158,12 +2099,7 @@ lat23.verbn50422|lsx.n50422|ueneo|c4pres|Automatically generated
 lat23.verbn50422|lsx.n50422|uenit|pftpass|Automatically generated
 lat23.verbn50422|lsx.n50422|uenit|pftpass|Automatically generated
 lat23.verbn50433|lsx.n50433|uener|conj1|Automatically generated
-lat23.verbn50434|lsx.n50434|uener|c1presdep|Automatically generated
-lat23.verbn50434|lsx.n50434|uener|c1presdep|Automatically generated
-lat23.verbn50434|lsx.n50434|uener|c1presdep|Automatically generated
-lat23.verbn50434|lsx.n50434|uener|c1presdep|Automatically generated
-lat23.verbn50434|lsx.n50434|ueneratus sum|pftpass|Automatically generated
-lat23.verbn50434|lsx.n50434|ueneratus sum|pftpass|Automatically generated
+lat23.verbn50434|lsx.n50434|uener|conj1|Automatically generated
 lat23.verbn50442|lsx.n50442|uen|c4pres|Automatically generated
 lat23.verbn50442|lsx.n50442|uen|c4pres|Automatically generated
 lat23.verbn50442|lsx.n50442|uen|c4pres|Automatically generated
@@ -2262,10 +2198,7 @@ lat23.verbn50777|lsx.n50777|uetustesc|c3pres|Automatically generated
 lat23.verbn50792|lsx.n50792|uex|conj1|Automatically generated
 lat23.verbn50817|lsx.n50817|uibriss|conj1|Automatically generated
 lat23.verbn50818|lsx.n50818|uibr|conj1|Automatically generated
-lat23.verbn50853|lsx.n50853|uicin|c1presdep|Automatically generated
-lat23.verbn50853|lsx.n50853|uicin|c1presdep|Automatically generated
-lat23.verbn50853|lsx.n50853|uicinatus sum|pftpass|Automatically generated
-lat23.verbn50853|lsx.n50853|uicinatus sum|pftpass|Automatically generated
+lat23.verbn50853|lsx.n50853|uicin|conj1|Automatically generated
 lat23.verbn50863|lsx.n50863|uictim|conj1|Automatically generated
 lat23.verbn50864|lsx.n50864|uictit|conj1|Automatically generated
 lat23.verbn50883|lsx.n50883|uid|c2pres|Automatically generated

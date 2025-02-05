@@ -34,6 +34,7 @@ lat24.verbn4039|lsx.n4039|asserv|conj4|Automatically generated
 lat24.verbn4040|lsx.n4040|asserv|conj1|Automatically generated
 lat24.verbn4050|lsx.n4050|adsever|conj1|Automatically generated
 lat24.verbn4689|lsx.n4689|averrunc|conj1|Automatically generated
+lat24.verbn4696|lsx.n4696|avers|conj1|Automatically generated
 lat24.verbn4724|lsx.n4724|avoc|conj1|Automatically generated
 lat24.verbn4725|lsx.n4725|avol|conj1|Automatically generated
 lat24.verbn4847|lsx.n4847|baiul|conj1|Automatically generated
@@ -46,6 +47,7 @@ lat24.verbn7259|lsx.n7259|cavill|conj1|Automatically generated
 lat24.verbn7262|lsx.n7262|cav|conj1|Automatically generated
 lat24.verbn8229|lsx.n8229|circumlev|conj1|Automatically generated
 lat24.verbn8249|lsx.n8249|circumnavig|conj1|Automatically generated
+lat24.verbn8350|lsx.n8350|circumvag|conj1|Automatically generated
 lat24.verbn8352|lsx.n8352|circumvall|conj1|Automatically generated
 lat24.verbn8355|lsx.n8355|circumvect|conj1|Automatically generated
 lat24.verbn8358|lsx.n8358|circumvel|conj1|Automatically generated
@@ -66,6 +68,7 @@ lat24.verbn10364|lsx.n10364|coniur|conj1|Automatically generated
 lat24.verbn10419|lsx.n10419|consavi|conj1|Automatically generated
 lat24.verbn10492|lsx.n10492|conserv|conj1|Automatically generated
 lat24.verbn10661|lsx.n10661|consuavi|conj1|Automatically generated
+lat24.verbn10912|lsx.n10912|controvers|conj1|Automatically generated
 lat24.verbn10956|lsx.n10956|convad|conj1|Automatically generated
 lat24.verbn10963|lsx.n10963|convall|conj1|Automatically generated
 lat24.verbn10964|lsx.n10964|convari|conj1|Automatically generated
@@ -107,6 +110,7 @@ lat24.verbn13584|lsx.n13584|devel|conj1|Automatically generated
 lat24.verbn13587|lsx.n13587|devenust|conj1|Automatically generated
 lat24.verbn13588|lsx.n13588|deverber|conj1|Automatically generated
 lat24.verbn13593|lsx.n13593|deversit|conj1|Automatically generated
+lat24.verbn13595|lsx.n13595|devers|conj1|Automatically generated
 lat24.verbn13603|lsx.n13603|devest|conj4|Automatically generated
 lat24.verbn13614|lsx.n13614|devi|conj1|Automatically generated
 lat24.verbn13617|lsx.n13617|devirgin|conj1|Automatically generated
@@ -173,6 +177,7 @@ lat24.verbn22283|lsx.n22283|incav|conj1|Automatically generated
 lat24.verbn22673|lsx.n22673|incurv|conj1|Automatically generated
 lat24.verbn23391|lsx.n23391|ingravid|conj1|Automatically generated
 lat24.verbn23500|lsx.n23500|iniect|conj1|Automatically generated
+lat24.verbn23519|lsx.n23519|iniuri|conj1|Automatically generated
 lat24.verbn23523|lsx.n23523|iniur|conj1|Automatically generated
 lat24.verbn23547|lsx.n23547|innavig|conj1|Automatically generated
 lat24.verbn23569|lsx.n23569|innov|conj1|Automatically generated
@@ -205,6 +210,7 @@ lat24.verbn25220|lsx.n25220|ieiun|conj1|Automatically generated
 lat24.verbn25224|lsx.n25224|ient|conj1|Automatically generated
 lat24.verbn25234|lsx.n25234|ioc|conj1|Automatically generated
 lat24.verbn25235|lsx.n25235|ioc|conj1|Automatically generated
+lat24.verbn25244|lsx.n25244|iocul|conj1|Automatically generated
 lat24.verbn25269|lsx.n25269|iubil|conj1|Automatically generated
 lat24.verbn25273|lsx.n25273|iucund|conj1|Automatically generated
 lat24.verbn25294|lsx.n25294|iudic|conj1|Automatically generated
@@ -215,6 +221,7 @@ lat24.verbn25370|lsx.n25370|iur|conj1|Automatically generated
 lat24.verbn25378|lsx.n25378|iurg|conj1|Automatically generated
 lat24.verbn25384|lsx.n25384|iurig|conj1|Automatically generated
 lat24.verbn25390|lsx.n25390|iur|conj1|Automatically generated
+lat24.verbn25391|lsx.n25391|iur|conj1|Automatically generated
 lat24.verbn25416|lsx.n25416|iustific|conj1|Automatically generated
 lat24.verbn25921|lsx.n25921|larv|conj1|Automatically generated
 lat24.verbn26412|lsx.n26412|levig|conj1|Automatically generated
@@ -227,6 +234,7 @@ lat24.verbn30559|lsx.n30559|navicul|conj1|Automatically generated
 lat24.verbn30567|lsx.n30567|navig|conj1|Automatically generated
 lat24.verbn30575|lsx.n30575|nav|conj1|Automatically generated
 lat24.verbn31268|lsx.n31268|novell|conj1|Automatically generated
+lat24.verbn31283|lsx.n31283|noverc|conj1|Automatically generated
 lat24.verbn31304|lsx.n31304|nov|conj1|Automatically generated
 lat24.verbn31644|lsx.n31644|obiect|conj1|Automatically generated
 lat24.verbn31652|lsx.n31652|obiurgit|conj1|Automatically generated
@@ -239,6 +247,7 @@ lat24.verbn32027|lsx.n32027|obvagul|conj1|Automatically generated
 lat24.verbn32028|lsx.n32028|obvall|conj1|Automatically generated
 lat24.verbn32030|lsx.n32030|obvar|conj1|Automatically generated
 lat24.verbn32031|lsx.n32031|obvel|conj1|Automatically generated
+lat24.verbn32039|lsx.n32039|obvers|conj1|Automatically generated
 lat24.verbn32043|lsx.n32043|obvigil|conj1|Automatically generated
 lat24.verbn32044|lsx.n32044|obvi|conj1|Automatically generated
 lat24.verbn32045|lsx.n32045|obviol|conj1|Automatically generated
@@ -261,6 +270,7 @@ lat24.verbn35506|lsx.n35506|persever|conj1|Automatically generated
 lat24.verbn35686|lsx.n35686|pervag|conj1|Automatically generated
 lat24.verbn35690|lsx.n35690|pervapor|conj1dep|Automatically generated
 lat24.verbn35695|lsx.n35695|pervast|conj1|Automatically generated
+lat24.verbn35703|lsx.n35703|perven|conj1|Automatically generated
 lat24.verbn35715|lsx.n35715|pervestig|conj1|Automatically generated
 lat24.verbn35732|lsx.n35732|pervigil|conj1|Automatically generated
 lat24.verbn35737|lsx.n35737|pervi|conj1|Automatically generated
@@ -279,6 +289,7 @@ lat24.verbn37957|lsx.n37957|praeserv|conj1|Automatically generated
 lat24.verbn38097|lsx.n38097|praeternavig|conj1|Automatically generated
 lat24.verbn38107|lsx.n38107|praetervol|conj1|Automatically generated
 lat24.verbn38155|lsx.n38155|praevapor|conj1dep|Automatically generated
+lat24.verbn38159|lsx.n38159|praevaric|conj1|Automatically generated
 lat24.verbn38164|lsx.n38164|praevel|conj1|Automatically generated
 lat24.verbn38185|lsx.n38185|praeviti|conj1|Automatically generated
 lat24.verbn38187|lsx.n38187|praevol|conj1|Automatically generated
@@ -302,6 +313,7 @@ lat24.verbn41556|lsx.n41556|revect|conj1|Automatically generated
 lat24.verbn41562|lsx.n41562|revel|conj1|Automatically generated
 lat24.verbn41566|lsx.n41566|reventil|conj1|Automatically generated
 lat24.verbn41570|lsx.n41570|reverber|conj1|Automatically generated
+lat24.verbn41576|lsx.n41576|rever|conj2|Automatically generated
 lat24.verbn41580|lsx.n41580|revers|conj1|Automatically generated
 lat24.verbn41584|lsx.n41584|revest|conj4|Automatically generated
 lat24.verbn41587|lsx.n41587|revibr|conj1|Automatically generated
@@ -342,6 +354,7 @@ lat24.verbn46910|lsx.n46910|supervag|conj1|Automatically generated
 lat24.verbn46912|lsx.n46912|supervect|conj1|Automatically generated
 lat24.verbn46919|lsx.n46919|supervest|conj4|Automatically generated
 lat24.verbn46923|lsx.n46923|supervol|conj1|Automatically generated
+lat24.verbn47867|lsx.n47867|tergivers|conj1|Automatically generated
 lat24.verbn48715|lsx.n48715|traiect|conj1|Automatically generated
 lat24.verbn48858|lsx.n48858|transnavig|conj1|Automatically generated
 lat24.verbn48898|lsx.n48898|transvaric|conj1|Automatically generated
@@ -372,11 +385,13 @@ lat24.verbn50310|lsx.n50310|veget|conj1|Automatically generated
 lat24.verbn50336|lsx.n50336|vel|conj1|Automatically generated
 lat24.verbn50346|lsx.n50346|velific|conj1|Automatically generated
 lat24.verbn50347|lsx.n50347|velific|conj1|Automatically generated
+lat24.verbn50358|lsx.n50358|velit|conj1|Automatically generated
 lat24.verbn50371|lsx.n50371|vel|conj1|Automatically generated
 lat24.verbn50402|lsx.n50402|vendic|conj1|Automatically generated
 lat24.verbn50407|lsx.n50407|vendit|conj1|Automatically generated
 lat24.verbn50419|lsx.n50419|venen|conj1|Automatically generated
 lat24.verbn50433|lsx.n50433|vener|conj1|Automatically generated
+lat24.verbn50434|lsx.n50434|vener|conj1|Automatically generated
 lat24.verbn50445|lsx.n50445|ven|conj1|Automatically generated
 lat24.verbn50454|lsx.n50454|ventil|conj1|Automatically generated
 lat24.verbn50456|lsx.n50456|ventit|conj1|Automatically generated
@@ -399,6 +414,7 @@ lat24.verbn50763|lsx.n50763|veter|conj1|Automatically generated
 lat24.verbn50792|lsx.n50792|vex|conj1|Automatically generated
 lat24.verbn50817|lsx.n50817|vibriss|conj1|Automatically generated
 lat24.verbn50818|lsx.n50818|vibr|conj1|Automatically generated
+lat24.verbn50853|lsx.n50853|vicin|conj1|Automatically generated
 lat24.verbn50863|lsx.n50863|victim|conj1|Automatically generated
 lat24.verbn50864|lsx.n50864|victit|conj1|Automatically generated
 lat24.verbn50890|lsx.n50890|vidu|conj1|Automatically generated
