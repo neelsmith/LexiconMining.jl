@@ -2,6 +2,7 @@
 # 31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus
 # 19686|urn:cite2:hmt:ls.markdown:n19683|glōrĭor | to boast, vaunt, or glory | verb  | 1, glōrĭor, glōrĭārī, glōriātus
 
+
 @testset "Test verb pipeline: compound with omitted prefixes" begin
     summary = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus"
 

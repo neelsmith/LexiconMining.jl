@@ -15,8 +15,8 @@ end
 $(SIGNATURES)
 """
 function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
-    @info("VERB LINES FOR $(conj) $(stem)")
-    @info("Conj is $(conj)")
+    #@info("VERB LINES FOR $(conj) $(stem)")
+    #@info("Conj is $(conj)")
 
     if iscommon(stem)
         [join(["latcommon.verb$(id)", lexentity, stem, conj, note], divider)]
@@ -36,8 +36,8 @@ end
 $(SIGNATURES)
 """
 function principalparts_cex(verb; divider = "|")
-    @info("PRINCPARTS FOR $(verb)")
-    @info("Its tabulae class is $(tabulaeclass(verb))")
+    #@info("PRINCPARTS FOR $(verb)")
+    #@info("Its tabulae class is $(tabulaeclass(verb))")
     cexlines = []
 
     if iscommon(verb.pp1)
@@ -222,20 +222,9 @@ function conj3_cex(verb; divider = "|")
         note = "Automatically generated"
 
         iclass = tabulaeclass(verb)
-        @info("$(iclass)?")
+        #@info("$(iclass)?")
         if iclass in regular_conjungations 
-            #=
-            conj = if endswith(stem, "ior")
-               "conj3iodep"
-            elseif endswith(stem, "io")
-                "conj3io"
-            elseif endswith(stem, "or")
-                "conj3dep"
-            else
-                "conj3"
-            end
-=#  
-            @info("Call verb_cexlines with $(iclass)")
+            #@info("Call verb_cexlines with $(iclass)")
             verb_cexlines(verb.lsid, lexentity, stem, iclass, note; 
             divider = divider)
 
