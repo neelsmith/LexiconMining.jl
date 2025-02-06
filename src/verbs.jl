@@ -170,7 +170,7 @@ function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
     if occursin("-", pp1)
         (prefix,body) = split(pp1, "-")
     end
-    stem = presentstem(conj, pp1)
+    stem = present_stem(conj, pp1)
     #@info("1. Stem: $(stem) Prefix? $(prefix)")
 
 
@@ -541,8 +541,25 @@ end
 
 
 
+function pftact_stem(vrb::LSVerb)
+    pftact_stem(vrb.pp3)
+end
 
-function presentstem(conj::Int, present)
+function pftact_stem(pftpass::AbstractString)
+    replace(pftpass, r"i$" => "")
+end
+##
+
+
+function pftpass_stem(vrb::LSVerb)
+    pftpass_stem(vrb.pp4)
+end
+
+function pftpass_stem(pftpass::AbstractString)
+    replace(pftpass, r"u[ms]$" => "")
+end
+
+function present_stem(conj::Int, present)
     #@info("Form 1st part for $(present), conj. $(conj)")
     if conj == 1
         replace(present, r"or?$" => "") |> suareznorm
@@ -557,8 +574,8 @@ function presentstem(conj::Int, present)
     end 
 end
 
-function presentstem(verb::LSVerb)
-    presentstem(verb.conjugation, verb.pp1)
+function present_stem(verb::LSVerb)
+    present_stem(verb.conjugation, verb.pp1)
 end
 
 """True if a principal part is explicitly marked as missing.

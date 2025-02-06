@@ -1,9 +1,17 @@
+@testset "Test forming stems of principal parts" begin
+    summary = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus"
+
+    obliviscor = summary |> LexiconMining.readdataline |> verb
+    @test LexiconMining.present_stem(obliviscor) == "oblivisc"
+    @test LexiconMining.pftact_stem(obliviscor) |> isempty
+    @test LexiconMining.pftpass_stem(obliviscor) == "oblit"
+end
 @testset "Test forming CEX lines for verbs with varied principal parts" begin
     obliviscor = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus" |> LexiconMining.readdataline |> verb
 
     @test obliviscor isa LSVerb
     divider = "|"
-    defaultpres = LexiconMining.presstem_cex(obliviscor; divider = divider)
+    defaultpres = LexiconMining.pres_stem_cex(obliviscor; divider = divider)
     
 
 
@@ -19,29 +27,33 @@ end
     obliviscor = summary |> LexiconMining.readdataline |> verb
     l23pp1 = LexiconMining.lat23(obliviscor.pp1)
     @test l23pp1 == "obliuiscor"
-    l23stem = LexiconMining.presentstem(3, l23pp1)
+    l23stem = LexiconMining.present_stem(3, l23pp1)
     @test l23stem == "obliuisc"
 
 
-    actualpresent = LexiconMining.presstem_cex(obliviscor)
+    actualpresent = LexiconMining.pres_stem_cex(obliviscor)
     expectedpresent = [
-        "lat23.verbn31709|lsx.n31709|obliuisc|c3presdep|Automatically generated",
-        "lat24.verbn31709|lsx.n31709|oblivisc|c3presdep|Automatically generated",
-        "lat25.verbn31709|lsx.n31709|oblivisc|c3presdep|Automatically generated"]
-    @test_broken  actualpresent == expectedpresent
+        "lat23.verbn31709a|lsx.n31709|obliuisc|c3presdep|Automatically generated",
+        "lat24.verbn31709a|lsx.n31709|oblivisc|c3presdep|Automatically generated",
+        "lat25.verbn31709a|lsx.n31709|oblivisc|c3presdep|Automatically generated"]
+    @test  actualpresent == expectedpresent
 
+    actualpftpass = LexiconMining.pftpass_stem_cex(obliviscor)
+    expectedpftpass = ["latcommon.verbn31709c|lsx.n31709|oblit|pp4|Automatically generated"]
+    @test actualpftpass == expectedpftpass
 
+    # Perfect active should be []
     
 #=
     iclass = tabulaeclass(obliviscor)
     lexentity = string("lsx.", obliviscor.lsid)
-    stem = LexiconMining.presentstem(obliviscor.conjugation, obliviscor.pp1)
+    stem = LexiconMining.present_stem(obliviscor.conjugation, obliviscor.pp1)
     actualpresentcex = LexiconMining.verb_cexlines(obliviscor.lsid, lexentity, stem, iclass, "Automatically generated")
     
     @test actualpresentcex == expectedpresentcex
     
     
-    presentcex = LexiconMining.presstem_cex(l23stem, obliviscor; divider = "|")
+    presentcex = LexiconMining.pres_stem_cex(l23stem, obliviscor; divider = "|")
     expected = "lat23.verbn31709a|lsx.n31709|obliuisc|c3presdep|Automatically generated"
 
     @test_broken presentcex == expected
@@ -56,4 +68,23 @@ end
  "lat23.verbn31709|lsx.n31709|obliuisc|c4presdep|Automatically generated"
  "lat23.verbn31709|lsx.n31709|obliuisc|c4presdep|Automatically generated
     =#
+end
+
+@testset "Test CEX lines for regular verbs with common orthography " begin
+     summary = "15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum"
+
+    abaestuo = summary |> LexiconMining.readdataline |> verb
+    expected = ["latcommon.verbn14|lsx.n14|abaestu|conj1|Automatically generated"] 
+    @test cexline(abaestuo) == expected
+
+
+    venor = "50448|urn:cite2:hmt:ls.markdown:n50445|vēnor | to hunt, chase | verb  | 1, vēnor, vēnārī, vēnātus" |> LexiconMining.readdataline |> verb
+
+    venorexpected =  ["lat23.verbn50445a|lsx.n50445|uen|conj1dep|Automatically generated",
+        "lat24.verbn50445a|lsx.n50445|ven|conj1dep|Automatically generated",
+        "lat25.verbn50445a|lsx.n50445|ven|conj1dep|Automatically generated"
+    ]
+    @test cexline(venor) == venorexpected
+
+
 end

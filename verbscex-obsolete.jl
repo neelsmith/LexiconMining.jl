@@ -35,23 +35,23 @@ function principalparts_cex(verb; divider = "|")
     cexlines = []
 
     if iscommon(verb.pp1)
-        #push!(cexlines, presstem_cex(verb; divider = divider))
+        #push!(cexlines, pres_stem_cex(verb; divider = divider))
         @info("Generate PP1 for latcommon stem $(verb.pp1)")
     else
         @info("Need distinct orthos for pres stem of $(verb)")
         #=
         l23stem = lat23(verb.pp1)
-        l23cex =  presstem_cex(l23stem, verb; divider = divider)
+        l23cex =  pres_stem_cex(l23stem, verb; divider = divider)
         #@info("Pushing L23 $(l23cex)")
         push!(cexlines,l23cex)
 
         l24stem = lat24(verb.pp1)
-        l24cex = presstem_cex(l24stem, verb; divider = divider)
+        l24cex = pres_stem_cex(l24stem, verb; divider = divider)
         #@info("Pushing L24 $(l24cex)")
         push!(cexlines, l24cex)
 
 
-        l25cex = presstem_cex(verb; divider = divider)
+        l25cex = pres_stem_cex(verb; divider = divider)
         #@info("Pushing L25 $(l25cex)")
         push!(cexlines, l25cex)
         =#
@@ -95,23 +95,23 @@ end
 """Compose CEX line for present stem of a given verb.
 $(SIGNATURES)
 """
-function presstem_cex(verb; divider = "|")
-    @info("Pass along to presstem_cex with 2 params")
-    presstem_cex(verb.pp1, verb; divider = divider)
+function pres_stem_cex(verb; divider = "|")
+    @info("Pass along to pres_stem_cex with 2 params")
+    pres_stem_cex(verb.pp1, verb; divider = divider)
 end
 
 
 """Compose CEX for the present stem of a given verb, using the supplied form for the first principal part.
 $(SIGNATURES)
 """
-function presstem_cex(pp1, vrb; divider = "|")
+function pres_stem_cex(pp1, vrb; divider = "|")
     @info("Use presnt stem $(pp1) for verb $(vrb)")
     if pp1 == "–" || pp1 == "-"
         "" 
     else
         iclass = tabulaeclass(vrb)
         lexentity = string("lsx.", vrb.lsid)
-        stem = presentstem(vrb.conjugation, pp1)
+        stem = present_stem(vrb.conjugation, pp1)
 
         if isempty(stem)
             #@warn("Empty present stem $(vrb.lsid)")

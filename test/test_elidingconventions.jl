@@ -1,9 +1,9 @@
 @testset "Form present stem correctly depending on conjugation" begin
-    @test LexiconMining.presentstem(1, "ab-brevio") == "abbrevi"
-    @test LexiconMining.presentstem(2, "abolĕo") == "abol"
-    @test LexiconMining.presentstem(3, "ab-ŏlesco") == "abolesc"
-    @test LexiconMining.presentstem(3, "abripio") == "abrip"
-    @test LexiconMining.presentstem(4, "abortio") == "abort"
+    @test LexiconMining.present_stem(1, "ab-brevio") == "abbrevi"
+    @test LexiconMining.present_stem(2, "abolĕo") == "abol"
+    @test LexiconMining.present_stem(3, "ab-ŏlesco") == "abolesc"
+    @test LexiconMining.present_stem(3, "abripio") == "abrip"
+    @test LexiconMining.present_stem(4, "abortio") == "abort"
 end
 
 
