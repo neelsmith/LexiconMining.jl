@@ -26,13 +26,24 @@ function presstem_cex(vrb; divider = "|")
     #presstem_cex(verb.pp1, verb; divider = divider)
     
     stem = presentstem(vrb.conjugation, vrb.pp1)
+    iclass = tabulaeclass(vrb)
     @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
         @info("Generate latcommon for pp1")
         []
     else
-        @info("Generate all orthos for pp1")
         cexlines = []
+        @info("Generate all orthos for pp1. Here's alt23")
+     
+        lat23line = join(["lat23.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
+        push!(cexlines, lat23line)
+
+        lat24line = join(["lat24.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", lat24(stem) ,  iclass, "Automatically generated"], divider)
+        push!(cexlines, lat24line)
+
+        lat25line = join(["lat25.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+        push!(cexlines, lat25line)
+        
 
     end
 end
@@ -40,6 +51,8 @@ end
 
 
 
+function verb_cexlines(id, lexentity, stem, conj, note, stemsuffix = ""; commonortho = true, divider = "|")  
+end
 
 
 

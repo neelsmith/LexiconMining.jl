@@ -24,10 +24,10 @@ include("adverbs.jl")
 
 
 include("generatecex/nounscex.jl")
-#include("generatecex/verbscex.jl")
+include("generatecex/verbscex.jl")
 include("generatecex/adjectivescex.jl")
 include("generatecex/cextables.jl")
-include("generatecex/verbrewrite.jl")
+
 
 include("tabulae.jl")
 
