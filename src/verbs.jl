@@ -370,47 +370,6 @@ function presentconj(verb::LSVerb)
     end
 end
 
-"""Compose CEX content for a verb. Despite the function name,
-this produces a vector of lines, not a single line.
-$(SIGNATURES)
-"""
-function cexline(verb::LSVerb; divider = "|")    
-    #@info("Start from tabulaeclass for $(verb):")
-    #iclass = tabulaeclass(verb)
-    #@info("$(iclass)")
-
-    # Change this check to look at iclass:
-    if missingpart(verb)
-        principalparts_cex(verb)
-    elseif verb.conjugation == 1
-        conj1_cex(verb; divider = divider)
-    elseif verb.conjugation == 2
-        conj2_cex(verb; divider = divider)
-    elseif verb.conjugation == 3
-        conj3_cex(verb; divider = divider)        
-    elseif verb.conjugation == 4
-        conj4_cex(verb; divider = divider)        
-    else
-        []
-    end
-end
-
-
-
-function cextable(verblist::Vector{LSVerb}, ortho = "latcommon"; divider = "|")
-    hdr = join(
-        ["StemUrn", "LexicalEntity", "Stem", "InflClass", "Notes"], 
-        divider)
-        
-    cexlines = cexline.(verblist; divider = divider) |> Iterators.flatten |> collect
-    
-    ortholines = filter(ln -> occursin(ortho, ln), cexlines)
-    string(
-        hdr,
-        "\n",
-        join(ortholines, "\n")
-    )
-end
 
 """True if any value for principal part is missing.
 $(SIGNATURES)
@@ -541,7 +500,7 @@ Returns empty string if no class found.
 $(SIGNATURES)
 """
 function tabulaeclass(verb::LSVerb)
-    @info("Get calss for $(verb) of conj $(verb.conjugation)")
+    #@info("Get calss for $(verb) of conj $(verb.conjugation)")
 
     if isempty(verb.pp1)
         nothing
@@ -561,7 +520,7 @@ function tabulaeclass(verb::LSVerb)
         end
         
     elseif verb.conjugation == 3
-        @info("Figure out tabulae class for verb $(verb)")
+        #@info("Figure out tabulae class for verb $(verb)")
         if endswith(verb.pp1, "or")
             conj3deponentclass(verb)
         else
@@ -580,3 +539,76 @@ function tabulaeclass(verb::LSVerb)
     end
 end
 
+
+
+
+function presentstem(conj::Int, present)
+    #@info("Form 1st part for $(present), conj. $(conj)")
+    if conj == 1
+        replace(present, r"or?$" => "") |> suareznorm
+    elseif conj == 2
+        replace(present, r"[ĕe]or?$" => "") |> suareznorm
+    elseif conj == 4
+        replace(present, r"ior?$" => "") |> suareznorm
+    elseif conj == 3
+        stem = replace(present, r"i?or?$" => "") |> suareznorm
+        #@info("Return stem $(stem)")
+        stem
+    end 
+end
+
+function presentstem(verb::LSVerb)
+    presentstem(verb.conjugation, verb.pp1)
+end
+
+"""True if a principal part is explicitly marked as missing.
+$(SIGNATURES)
+"""
+function missingpart(verb::LSVerb)
+    verb.pp1 == "–" || verb.pp1 == "-" ||
+    verb.pp2 == "–" || verb.pp2 == "-" ||
+    verb.pp3 == "–" || verb.pp3 == "-" ||
+    verb.pp4 == "–" || verb.pp4 == "-" 
+
+end
+
+
+
+regular_conjugations = [
+    "conj1", "conj1dep",
+    "conj2", "conj2dep",
+    "conj3", "conj3dep",
+    "conj3io", "conj3iodep",
+    "conj4", "conj4dep"
+]
+
+function isregular(iclass)
+    iclass in regular_conjugations
+end
+
+function isregular(verb::LSVerb)
+    tabulaeclass(verb) |> isregular
+end
+
+
+deponent_classes = [
+        "conj1dep", "c1presdep",
+        "conj2dep",  "c2presdep",
+        "conj3dep",  "c3presdep",
+        "conj3io",  "c3iopresdep",
+        "conj4dep",  "c4presdep",
+]
+
+
+
+
+function isdeponent(iclass)
+    iclass in deponent_classes
+end
+
+"""True if verb's inflectional class is deponent.
+$(SIGNATURES)
+"""
+function isdeponent(verb::LSVerb)
+    tabulaeclass(verb) in deponent_classes 
+end

@@ -14,8 +14,6 @@ using Documenter
 using DocStringExtensions
 
 include("suarez.jl")
-#include("tranchereader.jl")
-
 
 include("nouns.jl")
 include("adjectives.jl")
@@ -26,9 +24,10 @@ include("adverbs.jl")
 
 
 include("generatecex/nounscex.jl")
-include("generatecex/verbscex.jl")
+#include("generatecex/verbscex.jl")
 include("generatecex/adjectivescex.jl")
 include("generatecex/cextables.jl")
+include("generatecex/verbrewrite.jl")
 
 include("tabulae.jl")
 
@@ -36,6 +35,7 @@ export datatuples, lexicaldata
 export summarydirs, readdata
 export LSNoun, nouns
 export LSVerb, verb, verbs
+export isregular, isdeponent
 export LSAdjective, adjectives
 export LSPreposition, prepositions # These are OK
 export LSConjunction, conjunctions # These are OK
