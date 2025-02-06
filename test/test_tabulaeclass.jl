@@ -5,6 +5,13 @@
     abaestuo = "15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum" |> LexiconMining.readdataline |> verb
     @test tabulaeclass(abaestuo) == "conj1"
      
+end
 
+
+@testset "Test third conjugation deponenent" begin
+    summary = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus"
+
+    obliviscor = summary |> LexiconMining.readdataline |> verb
+    @test tabulaeclass(obliviscor) == "c3presdep"
 
 end

@@ -426,9 +426,9 @@ function conj3deponentclass(verb::LSVerb)
     stem = replace(verb.pp1, r"ior$" => "") |> suareznorm
     if suareznorm(verb.pp2) == string(stem, "iri") &&
         (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
-        "conj4dep"
+        "conj3dep"
     else
-        "c4presdep"
+        "c3presdep"
     end
 end
 
@@ -541,7 +541,7 @@ Returns empty string if no class found.
 $(SIGNATURES)
 """
 function tabulaeclass(verb::LSVerb)
-    #@info("Get calss for $(verb) of conj $(verb.conjugation)")
+    @info("Get calss for $(verb) of conj $(verb.conjugation)")
 
     if isempty(verb.pp1)
         nothing
@@ -561,7 +561,7 @@ function tabulaeclass(verb::LSVerb)
         end
         
     elseif verb.conjugation == 3
-        #@info("Figure out tabulae class for verb $(verb)")
+        @info("Figure out tabulae class for verb $(verb)")
         if endswith(verb.pp1, "or")
             conj3deponentclass(verb)
         else

@@ -9,7 +9,7 @@
 
 
     cex = cexline(cupio)
-    @test_broken length(cex) == 5
+    @test length(cex) == 5
 end
 
 @testset "Test pipeline for verb: regular first conjugation with 5 elements given in morphology property" begin

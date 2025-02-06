@@ -15,7 +15,7 @@ end
 $(SIGNATURES)
 """
 function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
-    #@info("VERB LINES FOR $(conj) $(stem)")
+    @info("VERB LINES FOR $(conj) $(stem)")
     #@info("Conj is $(conj)")
 
     if iscommon(stem)
@@ -43,13 +43,21 @@ function principalparts_cex(verb; divider = "|")
     if iscommon(verb.pp1)
         push!(cexlines, presstem_cex(verb; divider = divider))
     else
+        #@info("Need distinct orthos for pres stem of $(verb)")
         l23stem = lat23(verb.pp1)
-        push!(cexlines, presstem_cex(l23stem, verb; divider = divider))
+        l23cex =  presstem_cex(l23stem, verb; divider = divider)
+        #@info("Pushing L23 $(l23cex)")
+        push!(cexlines,l23cex)
 
         l24stem = lat24(verb.pp1)
-        push!(cexlines, presstem_cex(l24stem, verb; divider = divider))
+        l24cex = presstem_cex(l24stem, verb; divider = divider)
+        #@info("Pushing L24 $(l24cex)")
+        push!(cexlines, l24cex)
 
-        push!(cexlines, presstem_cex(verb; divider = divider))
+
+        l25cex = presstem_cex(verb; divider = divider)
+        #@info("Pushing L25 $(l25cex)")
+        push!(cexlines, l25cex)
     end
 
 
@@ -57,14 +65,15 @@ function principalparts_cex(verb; divider = "|")
         push!(cexlines, pftactstem_cex(verb; divider = divider))
 
     else
+ 
         l23stem = lat23(verb.pp3)
         push!(cexlines, pftactstem_cex(l23stem, verb; divider = divider))
 
-        l24stem = lat24(verb.pp1)
-        push!(cexlines, presstem_cex(l24stem, verb; divider = divider))
+        l24stem = lat24(verb.pp3)
+        push!(cexlines, pftactstem_cex(l24stem, verb; divider = divider))
 
-        l25stem = verb.pp1
-        push!(cexlines, presstem_cex(l25stem, verb; divider = divider))
+        l25stem = verb.pp3
+        push!(cexlines, pftactstem_cex(l25stem, verb; divider = divider))
     end
 
 
@@ -113,16 +122,20 @@ function presstem_cex(pp1, verb; divider = "|")
         else
             #conj = presentconj(verb)
             note = "Automatically generated"
+            @info("Check LSID $(verb.lsid)")
+
+            @info("iclass $(iclass)")
             finalcex = verb_cexlines(verb.lsid, lexentity, stem, iclass, note; 
             divider = divider)[1] #|> Iterators.flatten |> collect
 
-            #@info("So cex is $(finalcex)")
+            @info("So cex is $(finalcex)")
             finalcex
         end
     end
 end
 
 function presentstem(conj::Int, present)
+    #@info("Form 1st part for $(present), conj. $(conj)")
     if conj == 1
         replace(present, r"or?$" => "") |> suareznorm
     elseif conj == 2
@@ -130,7 +143,9 @@ function presentstem(conj::Int, present)
     elseif conj == 4
         replace(present, r"ior?$" => "") |> suareznorm
     elseif conj == 3
-        replace(present, r"i?or?$" => "") |> suareznorm
+        stem = replace(present, r"i?or?$" => "") |> suareznorm
+        #@info("Return stem $(stem)")
+        stem
     end 
 end
 
@@ -146,7 +161,7 @@ end
 $(SIGNATURES)
 """
 function pftactstem_cex(pp3, verb; divider = "|")
-    
+    #@info("Form 3rd part for $(verb) with $(pp3)")
     if pp3 == "–" || pp3 == "-"  || isdeponent(verb)
         []
     else
@@ -172,6 +187,7 @@ end
 $(SIGNATURES)
 """
 function pftpass_stem_cex(pp4, verb; divider = "|")
+    
     if pp4 == "–" || pp4 == "-"
         []
     else
