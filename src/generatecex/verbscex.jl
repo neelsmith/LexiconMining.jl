@@ -16,9 +16,18 @@ function cexline(vrb::LSVerb; divider = "|")
         
     else
         @info("Work through all princ parts")
-        pres_stem_cex(vrb; divider = divider)
-        # pftact
-        pftpass_stem_cex(vrb; divider = divider)
+        cexlines = pres_stem_cex(vrb; divider = divider)
+        if ! isempty(vrb.pp3)
+            for ln in pftact_stem_cex(vrb; divider = divider)
+                push!(cexlines, ln)
+            end
+        end
+        if ! isempty(vrb.pp4)
+            for ln in pftpass_stem_cex(vrb; divider = divider)
+                push!(cexlines, ln)
+            end
+        end
+        cexlines
     end
 end
 
@@ -34,7 +43,7 @@ function pres_stem_cex(vrb::LSVerb; divider = "|")
     @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
         @info("Generate latcommon for pp1")
-        commonline = join(["latcommon.verb$(vrb.lsid)", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+        commonline = join(["latcommon.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
         [commonline]
     else
         cexlines = []
@@ -54,7 +63,33 @@ function pres_stem_cex(vrb::LSVerb; divider = "|")
 end
 
 function pftact_stem_cex(vrb::LSVerb; divider = "|")
-    @info("Create cex for perfect active stem")
+    
+    stem = pftact_stem(vrb)
+    @info("Create cex for perfect active stem $(stem) from $(vrb)")
+    if isempty(stem)
+        []
+    else
+        iclass = "pp3"
+        @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
+        if iscommon(stem)
+            @info("Generate latcommon for pp3")
+            delimited = join(["latcommon.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+            [delimited]
+        else
+            cexlines = []
+            @info("Generate all orthos for pp3. Here's alt23")
+     
+            lat23line = join(["lat23.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
+            push!(cexlines, lat23line)
+
+            lat24line = join(["lat24.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", lat24(stem) ,  iclass, "Automatically generated"], divider)
+            push!(cexlines, lat24line)
+
+            lat25line = join(["lat25.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+            push!(cexlines, lat25line)
+            cexlines
+        end
+    end
 end
 
 function pftpass_stem_cex(vrb::LSVerb; divider = "|")

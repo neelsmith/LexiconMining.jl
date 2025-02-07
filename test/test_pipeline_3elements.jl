@@ -41,10 +41,11 @@ end
 
     cex = cexline(metior)
     expected = [
-     "latcommon.verbn28947|lsx.n28947|met|c4presdep|Automatically generated",
-    "latcommon.verbn28947|lsx.n28947|mensus|pftpass|Automatically generated"
+        "latcommon.verbn28947a|lsx.n28947|met|c4presdep|Automatically generated",
+        "latcommon.verbn28947c|lsx.n28947|mens|pp4|Automatically generated"
     ]
     @test cex == expected
+  
 end
 
 @testset "Test pipeline: deponent verb with in present system only" begin
