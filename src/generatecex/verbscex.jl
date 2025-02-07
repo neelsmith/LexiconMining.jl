@@ -70,7 +70,7 @@ function pftact_stem_cex(vrb::LSVerb; divider = "|")
     if isempty(stem)
         []
     else
-        iclass = "pp3"
+        iclass = "pftact"
         #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
         if iscommon(stem)
             #@info("Generate latcommon for pp3")
@@ -98,7 +98,7 @@ function pftpass_stem_cex(vrb::LSVerb; divider = "|")
     #pres_stem_cex(verb.pp1, verb; divider = divider)
     
     stem = pftpass_stem(vrb)
-    iclass = "pp4"
+    iclass = "pftpass"
     #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
         #@info("Generate latcommon for pp4")

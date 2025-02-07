@@ -42,7 +42,7 @@ end
     cex = cexline(metior)
     expected = [
         "latcommon.verbn28947a|lsx.n28947|met|c4presdep|Automatically generated",
-        "latcommon.verbn28947c|lsx.n28947|mens|pp4|Automatically generated"
+        "latcommon.verbn28947c|lsx.n28947|mens|pftpass|Automatically generated"
     ]
     @test cex == expected
   

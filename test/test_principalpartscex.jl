@@ -31,7 +31,7 @@ end
     @test isempty(actualpftact)
 
     actualpftpass = LexiconMining.pftpass_stem_cex(obliviscor)
-    expectedpftpass = ["latcommon.verbn31709c|lsx.n31709|oblit|pp4|Automatically generated"]
+    expectedpftpass = ["latcommon.verbn31709c|lsx.n31709|oblit|pftpass|Automatically generated"]
     @test actualpftpass == expectedpftpass
 
     
@@ -56,3 +56,7 @@ end
 
 
 end
+
+
+
+#14182|urn:cite2:hmt:ls.markdown:n14180|disco|to learn, to become acquainted with|verb |3,dīscō,didicī,-
