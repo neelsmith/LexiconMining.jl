@@ -25,5 +25,6 @@ end
 @testset "Test tidying string values" begin
     @test LexiconMining.suareznorm("sēd") ==  "sed"
     @test LexiconMining.suareznorm(" ăb-usque") ==  "abusque"
+    @test LexiconMining.suareznorm("ex-pertus") ==  "expertus"
 
 end

@@ -15,14 +15,16 @@ function cexline(vrb::LSVerb; divider = "|")
         
         
     else
-        #@info("Work through all princ parts")
+        @info("Work through all princ parts")
         cexlines = pres_stem_cex(vrb; divider = divider)
         if ! isempty(vrb.pp3)
             for ln in pftact_stem_cex(vrb; divider = divider)
                 push!(cexlines, ln)
             end
         end
+        @info("Look at pp4: $(vrb.pp4)")
         if ! isempty(vrb.pp4)
+            
             for ln in pftpass_stem_cex(vrb; divider = divider)
                 push!(cexlines, ln)
             end
@@ -94,10 +96,11 @@ function pftact_stem_cex(vrb::LSVerb; divider = "|")
 end
 
 function pftpass_stem_cex(vrb::LSVerb; divider = "|")
-    #@info("Create cex for perfect passive stem")
+    @info("Create cex for perfect passive stem")
     #pres_stem_cex(verb.pp1, verb; divider = divider)
     
-    stem = pftpass_stem(vrb)
+    stem = pftpass_stem(vrb) |> suareznorm
+    @info("USe stem value $(stem)")
     iclass = "pftpass"
     #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)

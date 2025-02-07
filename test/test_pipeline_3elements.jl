@@ -59,4 +59,13 @@ end
     @test isempty(astipulor.pp3)
     @test isempty(astipulor.pp4)
     @test tabulaeclass(astipulor) == "c1presdep"
+
+
+    experior = "17028|urn:cite2:hmt:ls.markdown:n17025|ex-pĕrĭor|to try, prove, put to the test|verb |4, ex-perior, ex-pertus" |> LexiconMining.readdataline |> verb
+
+    actualcex = cexline(experior)
+    expected = [ "latcommon.verbn17025a|lsx.n17025|exper|c4presdep|Automatically generated",
+    "latcommon.verbn17025c|lsx.n17025|expert|pftpass|Automatically generated"
+    ]
+    @test actualcex == expected
 end
