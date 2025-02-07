@@ -14,11 +14,11 @@
     @test obliviscor.pp2 == "oblivisci"
     @test isempty(obliviscor.pp3)
     @test obliviscor.pp4 == "oblitus"
-    @test_broken tabulaeclass(obliviscor) == "c3pres"
+    @test tabulaeclass(obliviscor) == "c3presdep"
 
-    # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
+    
     cex = cexline(obliviscor)
-    @test_broken length(cex) == 6
+    @test length(cex) == 4
 
 end
 
