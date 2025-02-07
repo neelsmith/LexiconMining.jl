@@ -1631,7 +1631,8 @@ latcommon.nounn4912|lsx.n4912|bannanic|feminine|a_ae
 latcommon.nounn4914|lsx.n4914|baphe|masculine|us_i
 latcommon.nounn4915|lsx.n4915|baphi|neuter|us_i
 latcommon.nounn4918|lsx.n4918|bapt|masculine|es_ae
-latcommon.nounn4919|lsx.n4919|baptismin|neuter|0_is
+latcommon.nounn4919|lsx.n4919|baptismat|neuter|0_is
+latcommon.nounn4919x|lsx.n4919x|baptism|masculine|us_i
 latcommon.nounn4920|lsx.n4920|baptist|masculine|a_ae
 latcommon.nounn4921|lsx.n4921|baptisteri|neuter|us_i
 latcommon.nounn4922|lsx.n4922|baptization|feminine|o_onis

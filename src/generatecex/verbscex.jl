@@ -7,15 +7,15 @@ function cexline(vrb::LSVerb; divider = "|")
     
     iclass = tabulaeclass(vrb)
     
-    @info("Start from tabulaeclass for $(vrb): $(iclass)")
-    @info("Is it regular? $(iclass in regular_conjugations)")
+    #@info("Start from tabulaeclass for $(vrb): $(iclass)")
+    #@info("Is it regular? $(iclass in regular_conjugations)")
     if isregular(vrb)
-        @info("Work thorugh all conjugations")
+        #@info("Work thorugh all conjugations")
         pres_stem_cex(vrb; divider = divider)
         
         
     else
-        @info("Work through all princ parts")
+        #@info("Work through all princ parts")
         cexlines = pres_stem_cex(vrb; divider = divider)
         if ! isempty(vrb.pp3)
             for ln in pftact_stem_cex(vrb; divider = divider)
@@ -35,20 +35,20 @@ end
 $(SIGNATURES)
 """
 function pres_stem_cex(vrb::LSVerb; divider = "|")
-    @info("Create cex for pres stem")
+    #@info("Create cex for pres stem")
     
     suffix = isregular(vrb) ? "" : "a"
     
     stem = present_stem(vrb.conjugation, vrb.pp1)
     iclass = tabulaeclass(vrb)
-    @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
+    #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
-        @info("Generate latcommon for pp1")
+        #@info("Generate latcommon for pp1")
         commonline = join(["latcommon.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
         [commonline]
     else
         cexlines = []
-        @info("Generate all orthos for pp1. Here's alt23")
+        #@info("Generate all orthos for pp1. Here's alt23")
      
         lat23line = join(["lat23.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
         push!(cexlines, lat23line)
@@ -66,19 +66,19 @@ end
 function pftact_stem_cex(vrb::LSVerb; divider = "|")
     
     stem = pftact_stem(vrb)
-    @info("Create cex for perfect active stem $(stem) from $(vrb)")
+    #@info("Create cex for perfect active stem $(stem) from $(vrb)")
     if isempty(stem)
         []
     else
         iclass = "pp3"
-        @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
+        #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
         if iscommon(stem)
-            @info("Generate latcommon for pp3")
+            #@info("Generate latcommon for pp3")
             delimited = join(["latcommon.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
             [delimited]
         else
             cexlines = []
-            @info("Generate all orthos for pp3. Here's alt23")
+            #@info("Generate all orthos for pp3. Here's alt23")
      
             lat23line = join(["lat23.verb$(vrb.lsid)b", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
             push!(cexlines, lat23line)
@@ -94,19 +94,19 @@ function pftact_stem_cex(vrb::LSVerb; divider = "|")
 end
 
 function pftpass_stem_cex(vrb::LSVerb; divider = "|")
-    @info("Create cex for perfect passive stem")
+    #@info("Create cex for perfect passive stem")
     #pres_stem_cex(verb.pp1, verb; divider = divider)
     
     stem = pftpass_stem(vrb)
     iclass = "pp4"
-    @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
+    #@info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
-        @info("Generate latcommon for pp4")
+        #@info("Generate latcommon for pp4")
         delimited = join(["latcommon.verb$(vrb.lsid)c", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
         [delimited]
     else
         cexlines = []
-        @info("Generate all orthos for pp4. Here's alt23")
+        #@info("Generate all orthos for pp4. Here's alt23")
      
         lat23line = join(["lat23.verb$(vrb.lsid)c", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
         push!(cexlines, lat23line)
