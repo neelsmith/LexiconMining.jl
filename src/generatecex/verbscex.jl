@@ -36,26 +36,27 @@ $(SIGNATURES)
 """
 function pres_stem_cex(vrb::LSVerb; divider = "|")
     @info("Create cex for pres stem")
-    #pres_stem_cex(verb.pp1, verb; divider = divider)
+    
+    suffix = isregular(vrb) ? "" : "a"
     
     stem = present_stem(vrb.conjugation, vrb.pp1)
     iclass = tabulaeclass(vrb)
     @info("Check stem for orthos: $(stem) is common? $(iscommon(stem))")
     if iscommon(stem)
         @info("Generate latcommon for pp1")
-        commonline = join(["latcommon.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+        commonline = join(["latcommon.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
         [commonline]
     else
         cexlines = []
         @info("Generate all orthos for pp1. Here's alt23")
      
-        lat23line = join(["lat23.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
+        lat23line = join(["lat23.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", lat23(stem) ,  iclass, "Automatically generated"], divider)
         push!(cexlines, lat23line)
 
-        lat24line = join(["lat24.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", lat24(stem) ,  iclass, "Automatically generated"], divider)
+        lat24line = join(["lat24.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", lat24(stem) ,  iclass, "Automatically generated"], divider)
         push!(cexlines, lat24line)
 
-        lat25line = join(["lat25.verb$(vrb.lsid)a", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
+        lat25line = join(["lat25.verb$(vrb.lsid)$(suffix)", "lsx.$(vrb.lsid)", stem ,  iclass, "Automatically generated"], divider)
         push!(cexlines, lat25line)
         
 

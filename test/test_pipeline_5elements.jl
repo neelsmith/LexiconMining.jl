@@ -30,7 +30,7 @@ end
     @test length(cex) == 3
 end
 
-@testset "Test pipeline: regular first conjugation with 5 elements given in morphology property, but some elements abbreviated" begin
+@testset "Test pipeline: regular first conjugation with 5 elements given in morphology property, but some elements abbreviated, but some elements abbreviated" begin
 
     summary = "15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum"
 
@@ -80,7 +80,7 @@ end
     @test tabulaeclass(peto) == "conj3"
 
 
-    expected = "latcommon.verbn35822|lsx.n35822|peto|conj3|Automatically generated"
+    expected = "latcommon.verbn35822|lsx.n35822|pet|conj3|Automatically generated"
     @test cexline(peto) == [expected]
  end
 

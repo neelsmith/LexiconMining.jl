@@ -47,9 +47,10 @@ end
 
     venor = "50448|urn:cite2:hmt:ls.markdown:n50445|vēnor | to hunt, chase | verb  | 1, vēnor, vēnārī, vēnātus" |> LexiconMining.readdataline |> verb
 
-    venorexpected =  ["lat23.verbn50445a|lsx.n50445|uen|conj1dep|Automatically generated",
-        "lat24.verbn50445a|lsx.n50445|ven|conj1dep|Automatically generated",
-        "lat25.verbn50445a|lsx.n50445|ven|conj1dep|Automatically generated"
+    venorexpected =  [
+        "lat23.verbn50445|lsx.n50445|uen|conj1dep|Automatically generated",
+        "lat24.verbn50445|lsx.n50445|ven|conj1dep|Automatically generated",
+        "lat25.verbn50445|lsx.n50445|ven|conj1dep|Automatically generated"
     ]
     @test cexline(venor) == venorexpected
 

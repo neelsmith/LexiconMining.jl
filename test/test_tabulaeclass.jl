@@ -13,5 +13,5 @@ end
 
     obliviscor = summary |> LexiconMining.readdataline |> verb
     @test tabulaeclass(obliviscor) == "c3presdep"
-
+   
 end
