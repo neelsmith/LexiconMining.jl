@@ -33,8 +33,12 @@ function cexline(n::LSNoun; divider = "|")
             stem = replace(n.nomsg, r"x$" => "") |> suareznorm
             #@info("x_cis yields stem $(stem)")
 
-        elseif iclass == "o_onis"
+        elseif iclass == "o_onis" ||  iclass == "o_inis"
             stem = replace(n.nomsg, r"o$" => "") |> suareznorm
+
+      
+        elseif iclass == "us_eris"
+            stem = replace(n.nomsg, r"us$" => "") |> suareznorm
 
         elseif endswith(n.gensg, "is")
             stem = replace(n.gensg, r"is$" => "") |> suareznorm

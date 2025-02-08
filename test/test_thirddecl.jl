@@ -2,6 +2,16 @@
     summary = "10099|urn:cite2:hmt:ls.markdown:n10098|confessio | confession, acknowledgement | noun | confessio, confessionis, feminine"
 
     confessio = summary |> LexiconMining.readdataline |> noun
-    expectedcex = ["latcommon.nounn10098|lsx.n10098|confessi|feminine|o_onis"]
-    @test cexline(confessio) == expectedcex
+    confessiocex = ["latcommon.nounn10098|lsx.n10098|confessi|feminine|o_onis"]
+    @test cexline(confessio) == confessiocex
+
+
+    similitudo = "44309|urn:cite2:hmt:ls.markdown:n44306|sĭmĭlĭtūdo|likeness, resemblance|noun|similitudo, similitudinis, feminine" |>  LexiconMining.readdataline |> noun
+    similitudocex  =  ["latcommon.nounn44306|lsx.n44306|similitud|feminine|o_inis"]
+    @test cexline(similitudo) == similitudocex
+
+
+    pondus = "37010|urn:cite2:hmt:ls.markdown:n37007|pondus |a weight or burden |noun |pondus, ponderis, neuter" |>  LexiconMining.readdataline |> noun
+    ponduscex = ["latcommon.nounn37007|lsx.n37007|pond|neuter|us_eris"] 
+    @test cexline(pondus) == ponduscex
 end
