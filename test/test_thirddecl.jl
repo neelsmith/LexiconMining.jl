@@ -14,4 +14,9 @@
     pondus = "37010|urn:cite2:hmt:ls.markdown:n37007|pondus |a weight or burden |noun |pondus, ponderis, neuter" |>  LexiconMining.readdataline |> noun
     ponduscex = ["latcommon.nounn37007|lsx.n37007|pond|neuter|us_eris"] 
     @test cexline(pondus) == ponduscex
+
+
+    gens = "19464|urn:cite2:hmt:ls.markdown:n19461|gens | race, clan, or nation | noun | gens, gentis, feminine" |>  LexiconMining.readdataline |> noun
+    genscex = ["latcommon.nounn19461|lsx.n19461|gen|feminine|s_tis"]
+    @test cexline(gens) == genscex
 end
