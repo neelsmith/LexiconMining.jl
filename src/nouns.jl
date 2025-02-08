@@ -7,7 +7,6 @@ struct LSNoun
     declension::Int
 end
 
-
 """Override Base.show for LSNoun type.
 $(SIGNATURES)
 """
@@ -25,7 +24,7 @@ function show(io::IO, n::LSNoun)
     print(io, join(msg))
 end
 
-"""Override Base.== for gerundive rule type.
+"""Override Base.== for LSNoun type.
 $(SIGNATURES)
 """
 function ==(n1::LSNoun, n2::LSNoun)
@@ -61,7 +60,9 @@ function normalizegender(s)
     end
 end
 
-
+"""Apply genitive ending to a nominative stem.
+$(SIGNATURES)
+"""
 function expand(nom, gen)
     if gen == "ae"
         replace(nom, r"a$" => "") * "ae"
@@ -90,18 +91,44 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
     bad = []
 
     for tpl in noundata
-        cols = split(tpl.morphology,",")
-        if length(cols) > 2
-            nsraw = cols[1]
-            gsraw = cols[2]
-            genderraw = cols[3]
-            ns = Unicode.normalize(nsraw, stripmark = true)
-            gs = Unicode.normalize(gsraw, stripmark = true)
-            gender = normalizegender(genderraw)
-            if isempty(gender)
-                @warn("Invalid value for gender $(genderraw) in ($(tpl.lemma), $(tpl.urn))")
-                push!(bad, tpl)
-            end
+        nounobj = noun(tpl)
+        if isnothing(nounobj)
+            push!(bad, tpl)
+        else
+            push!(good, noun(tpl))
+        end
+    end
+
+    if includebad
+        (good, bad)
+    else
+        good
+    end
+end
+
+
+
+function noun(tpl)
+    shortid = "" 
+    ns = "" 
+    gs = "" 
+    gender = "" 
+    decl = 0
+
+    cols = split(tpl.morphology,",")
+    if length(cols) < 3
+        nothing
+    else
+        nsraw = cols[1]
+        gsraw = cols[2]
+        genderraw = cols[3]
+        ns = Unicode.normalize(nsraw, stripmark = true)
+        gs = Unicode.normalize(gsraw, stripmark = true)
+        gender = normalizegender(genderraw)
+        if isempty(gender)
+            @warn("Invalid value for gender $(genderraw) in ($(tpl.lemma), $(tpl.urn))")
+            nothing
+        else
             shortid = trimid(tpl.urn)
 
             bareendings = ["i", "ae", "arum", "orum"]
@@ -110,7 +137,7 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
                 gs = expand(ns, gs)
                 #@info("Expanded to $(gs)")
             end
-    
+
             decl = if endswith(gs, "ae")
                 1
             elseif endswith(gs, "arum")
@@ -134,24 +161,19 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
                 2
 
             elseif endswith(gs, "es") && endswith(ns, "e")
-               # @info("GREEK 1st: $(ns)")
+            # @info("GREEK 1st: $(ns)")
                 1 # Greek
             else
                 0
             end
-            push!(good, LSNoun(shortid, ns, gs, gender, decl))
-        
-        else
-            @warn("$(tpl.urn): wrong number of columns for noun")
-            push!(bad, tpl)
         end
-    end    
-    if includebad
-        (good, bad)
-    else
-        good
+        LSNoun(shortid, ns, gs, gender, decl)
     end
 end
+
+
+
+
 
 function decl1class(nom, gen)
     

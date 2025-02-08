@@ -33,7 +33,7 @@ include("tabulae.jl")
 
 export datatuples, lexicaldata
 export summarydirs, readdata
-export LSNoun, nouns
+export LSNoun, noun, nouns
 export LSVerb, verb, verbs
 export isregular, isdeponent
 export LSAdjective, adjectives
