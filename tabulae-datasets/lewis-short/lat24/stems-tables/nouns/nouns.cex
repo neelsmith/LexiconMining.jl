@@ -563,8 +563,8 @@ lat24.nounn25267|lsx.n25267|iubilati|feminine|o_onis
 lat24.nounn25268|lsx.n25268|iubilat|masculine|us_i
 lat24.nounn25270|lsx.n25270|iubil|neuter|us_i
 lat24.nounn25272|lsx.n25272|iucundita|feminine|s_tis
-lat24.nounn25280|lsx.n25280|iudic|masculine|ex_icis
-lat24.nounn25280|lsx.n25280|iudic|feminine|ex_icis
+lat24.nounn25280|lsx.n25280|iud|masculine|ex_icis
+lat24.nounn25280|lsx.n25280|iud|feminine|ex_icis
 lat24.nounn25282|lsx.n25282|iudicati|feminine|o_onis
 lat24.nounn25284|lsx.n25284|iudicatori|neuter|us_i
 lat24.nounn25286|lsx.n25286|iudicatri|feminine|x_cis
@@ -793,7 +793,7 @@ lat24.nounn35915|lsx.n35915|phallovitrobol|masculine|us_i
 lat24.nounn36750|lsx.n36750|pluvi|feminine|a_ae
 lat24.nounn37430|lsx.n37430|praeclavi|neuter|us_i
 lat24.nounn37532|lsx.n37532|praedivinati|feminine|o_onis
-lat24.nounn37668|lsx.n37668|praeiudic|masculine|ex_icis
+lat24.nounn37668|lsx.n37668|praeiud|masculine|ex_icis
 lat24.nounn37669|lsx.n37669|praeiudicat|neuter|us_i
 lat24.nounn37672|lsx.n37672|praeiudici|neuter|us_i
 lat24.nounn37785|lsx.n37785|praenavigati|feminine|o_onis
@@ -1253,7 +1253,7 @@ lat24.nounn50636|lsx.n50636|vers|masculine|us_us
 lat24.nounn50638|lsx.n50638|versuti|feminine|a_ae
 lat24.nounn50642|lsx.n50642|vertag|masculine|us_i
 lat24.nounn50643|lsx.n50643|vertebr|feminine|a_ae
-lat24.nounn50645|lsx.n50645|vertic|masculine|ex_icis
+lat24.nounn50645|lsx.n50645|vert|masculine|ex_icis
 lat24.nounn50646|lsx.n50646|vertibul|neuter|us_i
 lat24.nounn50647|lsx.n50647|verticill|masculine|us_i
 lat24.nounn50650|lsx.n50650|verticul|feminine|a_ae
@@ -1320,7 +1320,7 @@ lat24.nounn50798|lsx.n50798|viatic|neuter|us_i
 lat24.nounn50799x|lsx.n50799x|viatic|neuter|us_i
 lat24.nounn50800|lsx.n50800|viator|masculine|0_is
 lat24.nounn50802|lsx.n50802|viatri|feminine|x_cis
-lat24.nounn50803|lsx.n50803|vibic|feminine|ex_icis
+lat24.nounn50803|lsx.n50803|vib|feminine|ex_icis
 lat24.nounn50804|lsx.n50804|vibi|feminine|a_ae
 lat24.nounn50808|lsx.n50808|vib|masculine|o_onis
 lat24.nounn50812|lsx.n50812|vibramin|neuter|en_inis
@@ -1391,8 +1391,8 @@ lat24.nounn50977|lsx.n50977|vindemi|feminine|a_ae
 lat24.nounn50979|lsx.n50979|vindemiator|masculine|0_is
 lat24.nounn50982|lsx.n50982|vindemiol|feminine|a_ae
 lat24.nounn50983|lsx.n50983|vindemitor|masculine|0_is
-lat24.nounn50984|lsx.n50984|vindic|masculine|ex_icis
-lat24.nounn50984|lsx.n50984|vindic|feminine|ex_icis
+lat24.nounn50984|lsx.n50984|vind|masculine|ex_icis
+lat24.nounn50984|lsx.n50984|vind|feminine|ex_icis
 lat24.nounn50985|lsx.n50985|vindicati|feminine|o_onis
 lat24.nounn50986|lsx.n50986|vindicator|masculine|0_is
 lat24.nounn50987|lsx.n50987|vindici|feminine|a_ae
@@ -1465,7 +1465,7 @@ lat24.nounn51153|lsx.n51153|vitati|feminine|o_onis
 lat24.nounn51158|lsx.n51158|vitellin|feminine|a_ae
 lat24.nounn51160|lsx.n51160|vitell|neuter|us_i
 lat24.nounn51161|lsx.n51161|vitell|masculine|us_i
-lat24.nounn51163|lsx.n51163|vitic|feminine|ex_icis
+lat24.nounn51163|lsx.n51163|vit|feminine|ex_icis
 lat24.nounn51165|lsx.n51165|vitiari|neuter|us_i
 lat24.nounn51166|lsx.n51166|vitiati|feminine|o_onis
 lat24.nounn51167|lsx.n51167|vitiator|masculine|0_is
@@ -1549,7 +1549,7 @@ lat24.nounn51387|lsx.n51387|vorag|feminine|o_inis
 lat24.nounn51388|lsx.n51388|vorator|masculine|0_is
 lat24.nounn51389|lsx.n51389|voratrin|feminine|a_ae
 lat24.nounn51390|lsx.n51390|vorat|masculine|us_us
-lat24.nounn51395|lsx.n51395|vortic|masculine|ex_icis
+lat24.nounn51395|lsx.n51395|vort|masculine|ex_icis
 lat24.nounn51400|lsx.n51400|votivita|feminine|s_tis
 lat24.nounn51403|lsx.n51403|vot|neuter|us_i
 lat24.nounn51406|lsx.n51406|vo|feminine|x_cis

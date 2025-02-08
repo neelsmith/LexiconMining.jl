@@ -19,4 +19,9 @@
     gens = "19464|urn:cite2:hmt:ls.markdown:n19461|gens | race, clan, or nation | noun | gens, gentis, feminine" |>  LexiconMining.readdataline |> noun
     genscex = ["latcommon.nounn19461|lsx.n19461|gen|feminine|s_tis"]
     @test cexline(gens) == genscex
+
+
+    codex = "7170|urn:cite2:hmt:ls.markdown:n7169|caudex|trunk of a tree, block of wood, book, ledger|noun|caudex,caudicis,m" |> LexiconMining.readdataline |> noun
+    codexcex = ["latcommon.nounn7169|lsx.n7169|caud|masculine|ex_icis"]
+    @test cexline(codex) == codexcex
 end
