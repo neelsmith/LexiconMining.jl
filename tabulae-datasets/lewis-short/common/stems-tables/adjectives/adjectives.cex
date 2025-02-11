@@ -118,7 +118,7 @@ latcommon.adjn1142|lsx.n1142|aedilici|us_a_um
 latcommon.adjn1145|lsx.n1145|aediliti|us_a_um
 latcommon.adjn1150|lsx.n1150|aeditual|is_e
 latcommon.adjn1154|lsx.n1154|aedoni|us_a_um
-latcommon.adjn1162|lsx.n1162|aegr|er_ra_rum
+latcommon.adjn1162|lsx.n1162|aeg|er_ra_rum
 latcommon.adjn1180|lsx.n1180|aegison|us_a_um
 latcommon.adjn1200|lsx.n1200|aegrotatici|us_a_um
 latcommon.adjn1203|lsx.n1203|aegrot|us_a_um
@@ -164,7 +164,7 @@ latcommon.adjn1408|lsx.n1408|aeternabil|is_e
 latcommon.adjn1409|lsx.n1409|aeternal|is_e
 latcommon.adjn1413|lsx.n1413|aetern|us_a_um
 latcommon.adjn1416|lsx.n1416|aetheri|us_a_um
-latcommon.adjn1437|lsx.n1437|affabr|er_ra_rum
+latcommon.adjn1437|lsx.n1437|affab|er_ra_rum
 latcommon.adjn1438|lsx.n1438|affabil|is_e
 latcommon.adjn1451|lsx.n1451|affectat|us_a_um
 latcommon.adjn1454|lsx.n1454|affectios|us_a_um
@@ -225,8 +225,8 @@ latcommon.adjn2006|lsx.n2006|alsi|us_a_um
 latcommon.adjn2013|lsx.n2013|altegradi|us_a_um
 latcommon.adjn2016|lsx.n2016|altercabil|is_e
 latcommon.adjn2028|lsx.n2028|altern|us_a_um
-latcommon.adjn2030|lsx.n2030|alterutr|er_ra_rum
-latcommon.adjn2031|lsx.n2031|alterutr|er_ra_rum
+latcommon.adjn2030|lsx.n2030|alterut|er_ra_rum
+latcommon.adjn2031|lsx.n2031|alterut|er_ra_rum
 latcommon.adjn2036|lsx.n2036|alticinct|us_a_um
 latcommon.adjn2037|lsx.n2037|alticom|us_a_um
 latcommon.adjn2039|lsx.n2039|altilane|us_a_um
@@ -531,7 +531,7 @@ latcommon.adjn4205|lsx.n4205|astutul|us_a_um
 latcommon.adjn4206|lsx.n4206|astut|us_a_um
 latcommon.adjn4218|lsx.n4218|asymbol|us_a_um
 latcommon.adjn4219x|lsx.n4219x|asyndet|us_a_um
-latcommon.adjn4232|lsx.n4232|atr|er_ra_rum
+latcommon.adjn4232|lsx.n4232|at|er_ra_rum
 latcommon.adjn4259|lsx.n4259|athletic|us_a_um
 latcommon.adjn4282|lsx.n4282|atrat|us_a_um
 latcommon.adjn4289|lsx.n4289|atricapill|us_a_um
@@ -701,7 +701,7 @@ latcommon.adjn5352|lsx.n5352|bimatr|is_e
 latcommon.adjn5354|lsx.n5354|bimembr|is_e
 latcommon.adjn5355|lsx.n5355|bimenstru|us_a_um
 latcommon.adjn5356|lsx.n5356|bimestr|is_e
-latcommon.adjn5357|lsx.n5357|bimetr|er_ra_rum
+latcommon.adjn5357|lsx.n5357|bimet|er_ra_rum
 latcommon.adjn5358|lsx.n5358|bimul|us_a_um
 latcommon.adjn5359|lsx.n5359|bim|us_a_um
 latcommon.adjn5360|lsx.n5360|binari|us_a_um
@@ -781,7 +781,7 @@ latcommon.adjn5934|lsx.n5934|cacabat|us_a_um
 latcommon.adjn5942|lsx.n5942|cachectic|us_a_um
 latcommon.adjn5944|lsx.n5944|cachinnabil|is_e
 latcommon.adjn5948|lsx.n5948|cachinnos|us_a_um
-latcommon.adjn5954|lsx.n5954|cacometr|er_ra_rum
+latcommon.adjn5954|lsx.n5954|cacomet|er_ra_rum
 latcommon.adjn5960|lsx.n5960|cacozel|us_a_um
 latcommon.adjn5972|lsx.n5972|cadial|is_e
 latcommon.adjn5981|lsx.n5981|caducari|us_a_um
@@ -1474,7 +1474,7 @@ latcommon.adjn11479|lsx.n11479|crastin|us_a_um
 latcommon.adjn11493|lsx.n11493|cratici|us_a_um
 latcommon.adjn11496|lsx.n11496|craticul|us_a_um
 latcommon.adjn11502|lsx.n11502|creabil|is_e
-latcommon.adjn11509|lsx.n11509|crebr|er_ra_rum
+latcommon.adjn11509|lsx.n11509|creb|er_ra_rum
 latcommon.adjn11511|lsx.n11511|crebrat|us_a_um
 latcommon.adjn11519|lsx.n11519|credibil|is_e
 latcommon.adjn11527|lsx.n11527|credul|us_a_um
@@ -1735,7 +1735,7 @@ latcommon.adjn13548|lsx.n13548|detractori|us_a_um
 latcommon.adjn13555|lsx.n13555|detrimentos|us_a_um
 latcommon.adjn13557|lsx.n13557|detrit|us_a_um
 latcommon.adjn13575|lsx.n13575|deuteri|us_a_um
-latcommon.adjn13648|lsx.n13648|dextr|er_ra_rum
+latcommon.adjn13648|lsx.n13648|dext|er_ra_rum
 latcommon.adjn13653|lsx.n13653|dextim|us_a_um
 latcommon.adjn13658|lsx.n13658|dextrat|us_a_um
 latcommon.adjn13671|lsx.n13671|diabolic|us_a_um
@@ -1783,7 +1783,7 @@ latcommon.adjn13988|lsx.n13988|dilor|is_e
 latcommon.adjn13993|lsx.n13993|dilucid|us_a_um
 latcommon.adjn13998|lsx.n13998|dilut|us_a_um
 latcommon.adjn14005|lsx.n14005|dimachaer|us_a_um
-latcommon.adjn14010|lsx.n14010|dimetr|er_ra_rum
+latcommon.adjn14010|lsx.n14010|dimet|er_ra_rum
 latcommon.adjn14017|lsx.n14017|dimidiat|us_a_um
 latcommon.adjn14021|lsx.n14021|dimidi|us_a_um
 latcommon.adjn14041|lsx.n14041|dinumerabil|is_e
@@ -2181,7 +2181,7 @@ latcommon.adjn17455|lsx.n17455|fabagin|us_a_um
 latcommon.adjn17456|lsx.n17456|fabal|is_e
 latcommon.adjn17458|lsx.n17458|fabari|us_a_um
 latcommon.adjn17460|lsx.n17460|fabat|us_a_um
-latcommon.adjn17463|lsx.n17463|fabr|er_ra_rum
+latcommon.adjn17463|lsx.n17463|fab|er_ra_rum
 latcommon.adjn17473|lsx.n17473|fabricabil|is_e
 latcommon.adjn17476|lsx.n17476|fabricatori|us_a_um
 latcommon.adjn17485|lsx.n17485|fabril|is_e
@@ -2597,7 +2597,7 @@ latcommon.adjn19562|lsx.n19562|gibberos|us_a_um
 latcommon.adjn19563|lsx.n19563|gibbos|us_a_um
 latcommon.adjn19564|lsx.n19564|gibb|us_a_um
 latcommon.adjn19588|lsx.n19588|glabell|us_a_um
-latcommon.adjn19589|lsx.n19589|glabr|er_ra_rum
+latcommon.adjn19589|lsx.n19589|glab|er_ra_rum
 latcommon.adjn19596|lsx.n19596|glacial|is_e
 latcommon.adjn19599|lsx.n19599|gladiari|us_a_um
 latcommon.adjn19602|lsx.n19602|gladiatori|us_a_um
@@ -3002,7 +3002,7 @@ latcommon.adjn21905|lsx.n21905|impetibil|is_e
 latcommon.adjn21906|lsx.n21906|impetibil|is_e
 latcommon.adjn21910|lsx.n21910|impetrabil|is_e
 latcommon.adjn21918|lsx.n21918|impetuos|us_a_um
-latcommon.adjn21926|lsx.n21926|impigr|er_ra_rum
+latcommon.adjn21926|lsx.n21926|impig|er_ra_rum
 latcommon.adjn21935|lsx.n21935|impi|us_a_um
 latcommon.adjn21936|lsx.n21936|implacabil|is_e
 latcommon.adjn21939|lsx.n21939|implacat|us_a_um
@@ -3697,7 +3697,7 @@ latcommon.adjn24086|lsx.n24086|intaminat|us_a_um
 latcommon.adjn24089|lsx.n24089|intect|us_a_um
 latcommon.adjn24090|lsx.n24090|intect|us_a_um
 latcommon.adjn24091|lsx.n24091|integell|us_a_um
-latcommon.adjn24092|lsx.n24092|integr|er_ra_rum
+latcommon.adjn24092|lsx.n24092|integ|er_ra_rum
 latcommon.adjn24101|lsx.n24101|integulat|us_a_um
 latcommon.adjn24106|lsx.n24106|intellectual|is_e
 latcommon.adjn24113|lsx.n24113|intellegibil|is_e
@@ -4134,7 +4134,7 @@ latcommon.adjn27145|lsx.n27145|ludiari|us_a_um
 latcommon.adjn27147|lsx.n27147|ludibrios|us_a_um
 latcommon.adjn27149|lsx.n27149|ludibros|us_a_um
 latcommon.adjn27150|lsx.n27150|ludibund|us_a_um
-latcommon.adjn27151|lsx.n27151|ludicr|er_ra_rum
+latcommon.adjn27151|lsx.n27151|ludic|er_ra_rum
 latcommon.adjn27155|lsx.n27155|ludificabil|is_e
 latcommon.adjn27158|lsx.n27158|ludificatori|us_a_um
 latcommon.adjn27178|lsx.n27178|lugubr|is_e
@@ -4179,7 +4179,7 @@ latcommon.adjn27380|lsx.n27380|lymphat|us_a_um
 latcommon.adjn27395|lsx.n27395|luric|us_a_um
 latcommon.adjn27437|lsx.n27437|macellari|us_a_um
 latcommon.adjn27440|lsx.n27440|macell|us_a_um
-latcommon.adjn27443|lsx.n27443|macr|er_ra_rum
+latcommon.adjn27443|lsx.n27443|mac|er_ra_rum
 latcommon.adjn27449|lsx.n27449|maceriat|us_a_um
 latcommon.adjn27469|lsx.n27469|machinal|is_e
 latcommon.adjn27472|lsx.n27472|machinari|us_a_um
@@ -4211,7 +4211,7 @@ latcommon.adjn27682|lsx.n27682|malac|us_a_um
 latcommon.adjn27686|lsx.n27686|malandrios|us_a_um
 latcommon.adjn27704|lsx.n27704|maledict|us_a_um
 latcommon.adjn27705|lsx.n27705|maledic|us_a_um
-latcommon.adjn27706|lsx.n27706|malefabr|er_ra_rum
+latcommon.adjn27706|lsx.n27706|malefab|er_ra_rum
 latcommon.adjn27714|lsx.n27714|malefic|us_a_um
 latcommon.adjn27715|lsx.n27715|malefid|us_a_um
 latcommon.adjn27718|lsx.n27718|malesuad|us_a_um
@@ -4502,7 +4502,7 @@ latcommon.adjn29550|lsx.n29550|monimentari|us_a_um
 latcommon.adjn29554|lsx.n29554|monitori|us_a_um
 latcommon.adjn29586|lsx.n29586|monolith|us_a_um
 latcommon.adjn29588|lsx.n29588|monolor|is_e
-latcommon.adjn29591|lsx.n29591|monometr|er_ra_rum
+latcommon.adjn29591|lsx.n29591|monomet|er_ra_rum
 latcommon.adjn29593|lsx.n29593|monopodi|us_a_um
 latcommon.adjn29600|lsx.n29600|monosyllab|us_a_um
 latcommon.adjn29601|lsx.n29601|monotrigluph|us_a_um
@@ -4702,7 +4702,7 @@ latcommon.adjn30628|lsx.n30628|necopin|us_a_um
 latcommon.adjn30632|lsx.n30632|necrothut|us_a_um
 latcommon.adjn30636|lsx.n30636|nectare|us_a_um
 latcommon.adjn30637|lsx.n30637|nectare|us_a_um
-latcommon.adjn30644|lsx.n30644|tr|er_ra_rum
+latcommon.adjn30644|lsx.n30644|neut|er_ra_rum
 latcommon.adjn30649|lsx.n30649|nefandari|us_a_um
 latcommon.adjn30651|lsx.n30651|nefand|us_a_um
 latcommon.adjn30654|lsx.n30654|nefari|us_a_um
@@ -4726,7 +4726,7 @@ latcommon.adjn30786|lsx.n30786|nequissim|us_a_um
 latcommon.adjn30827|lsx.n30827|nesapi|us_a_um
 latcommon.adjn30833|lsx.n30833|nesci|us_a_um
 latcommon.adjn30852|lsx.n30852|net|us_a_um
-latcommon.adjn30862|lsx.n30862|neutr|er_ra_rum
+latcommon.adjn30862|lsx.n30862|neut|er_ra_rum
 latcommon.adjn30865|lsx.n30865|neutral|is_e
 latcommon.adjn30874|lsx.n30874|nexibil|is_e
 latcommon.adjn30875|lsx.n30875|nexil|is_e
@@ -4735,7 +4735,7 @@ latcommon.adjn30916|lsx.n30916|nidic|us_a_um
 latcommon.adjn30919|lsx.n30919|nidific|us_a_um
 latcommon.adjn30923|lsx.n30923|nidoros|us_a_um
 latcommon.adjn30928|lsx.n30928|nigell|us_a_um
-latcommon.adjn30930|lsx.n30930|nigr|er_ra_rum
+latcommon.adjn30930|lsx.n30930|nig|er_ra_rum
 latcommon.adjn30945|lsx.n30945|nigricul|us_a_um
 latcommon.adjn30946|lsx.n30946|nigridi|us_a_um
 latcommon.adjn30972|lsx.n30972|nimbat|us_a_um
@@ -4780,7 +4780,7 @@ latcommon.adjn31200|lsx.n31200|normal|is_e
 latcommon.adjn31203|lsx.n31203|normat|us_a_um
 latcommon.adjn31209|lsx.n31209|noscibil|is_e
 latcommon.adjn31210|lsx.n31210|noscitabund|us_a_um
-latcommon.adjn31216|lsx.n31216|nostr|er_ra_rum
+latcommon.adjn31216|lsx.n31216|nost|er_ra_rum
 latcommon.adjn31221|lsx.n31221|nostrat|is_e
 latcommon.adjn31227|lsx.n31227|notari|us_a_um
 latcommon.adjn31231|lsx.n31231|noth|us_a_um
@@ -4849,7 +4849,7 @@ latcommon.adjn31715|lsx.n31715|oblongul|us_a_um
 latcommon.adjn31725|lsx.n31725|oblurid|us_a_um
 latcommon.adjn31729|lsx.n31729|obmerit|us_a_um
 latcommon.adjn31738|lsx.n31738|obnat|us_a_um
-latcommon.adjn31741|lsx.n31741|obnigr|er_ra_rum
+latcommon.adjn31741|lsx.n31741|obnig|er_ra_rum
 latcommon.adjn31751|lsx.n31751|obnoxios|us_a_um
 latcommon.adjn31752|lsx.n31752|obnoxi|us_a_um
 latcommon.adjn31754|lsx.n31754|obnubil|us_a_um
@@ -4901,7 +4901,7 @@ latcommon.adjn32146|lsx.n32146|ocellat|us_a_um
 latcommon.adjn32158|lsx.n32158|ocliferi|us_a_um
 latcommon.adjn32163|lsx.n32163|ocreat|us_a_um
 latcommon.adjn32169|lsx.n32169|octachor|us_a_um
-latcommon.adjn32173|lsx.n32173|octametr|er_ra_rum
+latcommon.adjn32173|lsx.n32173|octamet|er_ra_rum
 latcommon.adjn32174|lsx.n32174|octangul|us_a_um
 latcommon.adjn32179|lsx.n32179|octasem|us_a_um
 latcommon.adjn32181|lsx.n32181|octateuch|us_a_um
@@ -5408,7 +5408,7 @@ latcommon.adjn35076|lsx.n35076|peringenios|us_a_um
 latcommon.adjn35077|lsx.n35077|peringrat|us_a_um
 latcommon.adjn35078|lsx.n35078|periniqu|us_a_um
 latcommon.adjn35080|lsx.n35080|perinsign|is_e
-latcommon.adjn35082|lsx.n35082|perintegr|er_ra_rum
+latcommon.adjn35082|lsx.n35082|perinteg|er_ra_rum
 latcommon.adjn35090|lsx.n35090|periodic|us_a_um
 latcommon.adjn35105|lsx.n35105|perirat|us_a_um
 latcommon.adjn35124|lsx.n35124|perit|us_a_um
@@ -5420,7 +5420,7 @@ latcommon.adjn35170|lsx.n35170|perlonginqu|us_a_um
 latcommon.adjn35171|lsx.n35171|perlong|us_a_um
 latcommon.adjn35176|lsx.n35176|perluctuos|us_a_um
 latcommon.adjn35180|lsx.n35180|perlusori|us_a_um
-latcommon.adjn35184|lsx.n35184|permacr|er_ra_rum
+latcommon.adjn35184|lsx.n35184|permac|er_ra_rum
 latcommon.adjn35188|lsx.n35188|permaest|us_a_um
 latcommon.adjn35189|lsx.n35189|permagnific|us_a_um
 latcommon.adjn35190|lsx.n35190|permagn|us_a_um
@@ -5448,7 +5448,7 @@ latcommon.adjn35273|lsx.n35273|pernet|us_a_um
 latcommon.adjn35274|lsx.n35274|perniciabil|is_e
 latcommon.adjn35275|lsx.n35275|pernicial|is_e
 latcommon.adjn35279|lsx.n35279|pernicios|us_a_um
-latcommon.adjn35282|lsx.n35282|pernigr|er_ra_rum
+latcommon.adjn35282|lsx.n35282|pernig|er_ra_rum
 latcommon.adjn35284|lsx.n35284|pernimi|us_a_um
 latcommon.adjn35289|lsx.n35289|pernobil|is_e
 latcommon.adjn35295|lsx.n35295|pernot|us_a_um
@@ -5481,7 +5481,7 @@ latcommon.adjn35380|lsx.n35380|perplex|us_a_um
 latcommon.adjn35395|lsx.n35395|perprobabil|is_e
 latcommon.adjn35397|lsx.n35397|perpropinqu|us_a_um
 latcommon.adjn35398|lsx.n35398|perprosper|er_era_erum
-latcommon.adjn35402|lsx.n35402|perpulchr|er_ra_rum
+latcommon.adjn35402|lsx.n35402|perpulch|er_ra_rum
 latcommon.adjn35403|lsx.n35403|perpuls|us_a_um
 latcommon.adjn35407|lsx.n35407|perpur|us_a_um
 latcommon.adjn35408|lsx.n35408|perpusill|us_a_um
@@ -5582,7 +5582,7 @@ latcommon.adjn36247|lsx.n36247|pice|us_a_um
 latcommon.adjn36248|lsx.n36248|picin|us_a_um
 latcommon.adjn36260|lsx.n36260|pictori|us_a_um
 latcommon.adjn36262|lsx.n36262|picturat|us_a_um
-latcommon.adjn36276|lsx.n36276|pigr|er_ra_rum
+latcommon.adjn36276|lsx.n36276|pig|er_ra_rum
 latcommon.adjn36278|lsx.n36278|pigmentari|us_a_um
 latcommon.adjn36279|lsx.n36279|pigmentat|us_a_um
 latcommon.adjn36281|lsx.n36281|pigneratici|us_a_um
@@ -5778,7 +5778,7 @@ latcommon.adjn37488|lsx.n37488|praedatici|us_a_um
 latcommon.adjn37491|lsx.n37491|praedatori|us_a_um
 latcommon.adjn37494|lsx.n37494|praedat|us_a_um
 latcommon.adjn37500|lsx.n37500|praedens|us_a_um
-latcommon.adjn37505|lsx.n37505|praedextr|er_ra_rum
+latcommon.adjn37505|lsx.n37505|praedext|er_ra_rum
 latcommon.adjn37507|lsx.n37507|praediatori|us_a_um
 latcommon.adjn37509|lsx.n37509|praediat|us_a_um
 latcommon.adjn37510|lsx.n37510|praedicabil|is_e
@@ -5838,7 +5838,7 @@ latcommon.adjn37840|lsx.n37840|praepingu|is_e
 latcommon.adjn37858|lsx.n37858|praeposter|us_a_um
 latcommon.adjn37859|lsx.n37859|praepost|us_a_um
 latcommon.adjn37866|lsx.n37866|praeproper|us_a_um
-latcommon.adjn37867|lsx.n37867|praepulchr|er_ra_rum
+latcommon.adjn37867|lsx.n37867|praepulch|er_ra_rum
 latcommon.adjn37870|lsx.n37870|praeputiat|us_a_um
 latcommon.adjn37877|lsx.n37877|praerancid|us_a_um
 latcommon.adjn37878|lsx.n37878|praerapid|us_a_um
@@ -6038,7 +6038,7 @@ latcommon.adjn39457|lsx.n39457|pugillatori|us_a_um
 latcommon.adjn39471|lsx.n39471|pugnatori|us_a_um
 latcommon.adjn39474|lsx.n39474|pugne|us_a_um
 latcommon.adjn39481|lsx.n39481|pulchell|us_a_um
-latcommon.adjn39482|lsx.n39482|pulchr|er_ra_rum
+latcommon.adjn39482|lsx.n39482|pulch|er_ra_rum
 latcommon.adjn39491|lsx.n39491|puleiat|us_a_um
 latcommon.adjn39494|lsx.n39494|pulicari|us_a_um
 latcommon.adjn39496|lsx.n39496|pulicos|us_a_um
@@ -6374,7 +6374,7 @@ latcommon.adjn41900|lsx.n41900|rotund|us_a_um
 latcommon.adjn41905|lsx.n41905|rubellian|us_a_um
 latcommon.adjn41907|lsx.n41907|rubellul|us_a_um
 latcommon.adjn41908|lsx.n41908|rubell|us_a_um
-latcommon.adjn41911|lsx.n41911|rubr|er_ra_rum
+latcommon.adjn41911|lsx.n41911|rub|er_ra_rum
 latcommon.adjn41915|lsx.n41915|rube|us_a_um
 latcommon.adjn41916|lsx.n41916|rube|us_a_um
 latcommon.adjn41920|lsx.n41920|rubicundul|us_a_um
@@ -6421,7 +6421,7 @@ latcommon.adjn42137|lsx.n42137|saburral|is_e
 latcommon.adjn42143|lsx.n42143|saccari|us_a_um
 latcommon.adjn42147|lsx.n42147|sacce|us_a_um
 latcommon.adjn42150|lsx.n42150|saccin|us_a_um
-latcommon.adjn42157|lsx.n42157|sacr|er_ra_rum
+latcommon.adjn42157|lsx.n42157|sac|er_ra_rum
 latcommon.adjn42161|lsx.n42161|sacerdotal|is_e
 latcommon.adjn42167|lsx.n42167|sacomari|us_a_um
 latcommon.adjn42172|lsx.n42172|sacramental|is_e
@@ -6522,7 +6522,7 @@ latcommon.adjn42784|lsx.n42784|saxifrag|us_a_um
 latcommon.adjn42785|lsx.n42785|saxigen|us_a_um
 latcommon.adjn42790|lsx.n42790|saxos|us_a_um
 latcommon.adjn42793|lsx.n42793|saxuos|us_a_um
-latcommon.adjn42795|lsx.n42795|scabr|er_ra_rum
+latcommon.adjn42795|lsx.n42795|scab|er_ra_rum
 latcommon.adjn42796|lsx.n42796|scabid|us_a_um
 latcommon.adjn42801|lsx.n42801|scabios|us_a_um
 latcommon.adjn42804|lsx.n42804|scabrat|us_a_um
@@ -6590,7 +6590,7 @@ latcommon.adjn43264|lsx.n43264|secundan|us_a_um
 latcommon.adjn43265|lsx.n43265|secundari|us_a_um
 latcommon.adjn43273|lsx.n43273|secund|us_a_um
 latcommon.adjn43276|lsx.n43276|securiclat|us_a_um
-latcommon.adjn43279|lsx.n43279|secur|er_ra_rum
+latcommon.adjn43279|lsx.n43279|securif|er_ra_rum
 latcommon.adjn43280|lsx.n43280|securiger|er_era_erum
 latcommon.adjn43283|lsx.n43283|secur|us_a_um
 latcommon.adjn43288|lsx.n43288|secutori|us_a_um
@@ -6651,7 +6651,7 @@ latcommon.adjn43475|lsx.n43475|semiform|is_e
 latcommon.adjn43476|lsx.n43476|semifult|us_a_um
 latcommon.adjn43487|lsx.n43487|semihiulc|us_a_um
 latcommon.adjn43490|lsx.n43490|semiinan|is_e
-latcommon.adjn43491|lsx.n43491|semiintegr|er_ra_rum
+latcommon.adjn43491|lsx.n43491|semiinteg|er_ra_rum
 latcommon.adjn43495|lsx.n43495|semilacer|er_era_erum
 latcommon.adjn43497|lsx.n43497|semilaut|us_a_um
 latcommon.adjn43498|lsx.n43498|semiliber|er_era_erum
@@ -6836,7 +6836,7 @@ latcommon.adjn44385|lsx.n44385|singular|is_e
 latcommon.adjn44388|lsx.n44388|singulari|us_a_um
 latcommon.adjn44390|lsx.n44390|singul|us_a_um
 latcommon.adjn44395|lsx.n44395|singul|us_a_um
-latcommon.adjn44397|lsx.n44397|sinistr|er_ra_rum
+latcommon.adjn44397|lsx.n44397|sinist|er_ra_rum
 latcommon.adjn44399|lsx.n44399|sinistim|us_a_um
 latcommon.adjn44417|lsx.n44417|sinuos|us_a_um
 latcommon.adjn44443|lsx.n44443|sirben|us_a_um
@@ -7101,7 +7101,7 @@ latcommon.adjn45970|lsx.n45970|sublucan|us_a_um
 latcommon.adjn45972|lsx.n45972|sublucid|us_a_um
 latcommon.adjn45976|lsx.n45976|sublustr|is_e
 latcommon.adjn45977|lsx.n45977|sublute|us_a_um
-latcommon.adjn45990|lsx.n45990|subnigr|er_ra_rum
+latcommon.adjn45990|lsx.n45990|subnig|er_ra_rum
 latcommon.adjn45991|lsx.n45991|subnis|us_a_um
 latcommon.adjn45996|lsx.n45996|subnubil|us_a_um
 latcommon.adjn45998|lsx.n45998|subobscen|us_a_um
@@ -7269,7 +7269,7 @@ latcommon.adjn47018|lsx.n47018|surculace|us_a_um
 latcommon.adjn47019|lsx.n47019|surcular|is_e
 latcommon.adjn47020|lsx.n47020|surculari|us_a_um
 latcommon.adjn47023|lsx.n47023|surculos|us_a_um
-latcommon.adjn47026|lsx.n47026|surdastr|er_ra_rum
+latcommon.adjn47026|lsx.n47026|surdast|er_ra_rum
 latcommon.adjn47032|lsx.n47032|surd|us_a_um
 latcommon.adjn47042|lsx.n47042|surrancid|us_a_um
 latcommon.adjn47044|lsx.n47044|subranc|us_a_um
@@ -7279,7 +7279,7 @@ latcommon.adjn47057|lsx.n47057|surreptici|us_a_um
 latcommon.adjn47059|lsx.n47059|surreptiti|us_a_um
 latcommon.adjn47066|lsx.n47066|surrigu|us_a_um
 latcommon.adjn47072|lsx.n47072|surrotund|us_a_um
-latcommon.adjn47074|lsx.n47074|surrubr|er_ra_rum
+latcommon.adjn47074|lsx.n47074|surrub|er_ra_rum
 latcommon.adjn47075|lsx.n47075|surrube|us_a_um
 latcommon.adjn47076|lsx.n47076|surrubicund|us_a_um
 latcommon.adjn47077|lsx.n47077|surruf|us_a_um
@@ -7333,7 +7333,7 @@ latcommon.adjn47374|lsx.n47374|tact|us_a_um
 latcommon.adjn47385|lsx.n47385|taedifer|er_era_erum
 latcommon.adjn47388|lsx.n47388|taedios|us_a_um
 latcommon.adjn47393|lsx.n47393|taeniens|is_e
-latcommon.adjn47396|lsx.n47396|taetr|er_ra_rum
+latcommon.adjn47396|lsx.n47396|taet|er_ra_rum
 latcommon.adjn47398|lsx.n47398|taetric|us_a_um
 latcommon.adjn47410|lsx.n47410|talar|is_e
 latcommon.adjn47411|lsx.n47411|talari|us_a_um

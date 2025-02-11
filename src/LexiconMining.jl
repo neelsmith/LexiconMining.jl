@@ -15,6 +15,7 @@ using DocStringExtensions
 
 include("suarez.jl")
 
+include("istems.jl")
 include("nouns.jl")
 include("adjectives.jl")
 include("verbs.jl")
@@ -36,7 +37,7 @@ export summarydirs, readdata
 export LSNoun, noun, nouns
 export LSVerb, verb, verbs
 export isregular, isdeponent
-export LSAdjective, adjectives
+export LSAdjective, adjective, adjectives
 export LSPreposition, prepositions # These are OK
 export LSConjunction, conjunctions # These are OK
 export LSAdverb, adverbs

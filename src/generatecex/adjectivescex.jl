@@ -30,13 +30,10 @@ end
 
 
 
-
-
-
 function er_ra_rum_cex(adj::LSAdjective; divider = "|")
     #StemUrn|LexicalEntity|Stem|InflClass
     lexentity = string("lsx.", adj.lsid)
-    stem = replace(adj.fnomsg, r"a$" => "") |> suareznorm
+    stem = replace(adj.mnomsg, r"er$" => "") |> suareznorm
     adj_cexlines(adj.lsid, lexentity, stem,  "er_ra_rum")
 end
 

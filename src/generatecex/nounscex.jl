@@ -19,7 +19,7 @@ function cexline(n::LSNoun; divider = "|")
 
     elseif n.declension == 2
         if endswith(n.gensg, "i")
-            #@info("DECL: $(n.declension) ends with -i in gensg $(n.gensg)")
+            @debug("DECL: $(n.declension) ends with -i in gensg $(n.gensg)")
             stem = replace(n.gensg, r"i$" => "") |> suareznorm
             #@info("SET STEM TO $(stem)")
         end

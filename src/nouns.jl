@@ -212,9 +212,12 @@ function decl2class(noun::LSNoun)
 end
 
 function decl2class(nom, gen)
-    if endswith(gen, "i") && 
-        (endswith(nom, "us") || endswith(nom, "um"))
+    if endswith(gen, "i")  
+        if (endswith(nom, "us") || endswith(nom, "um"))
             "us_i"
+        elseif endswith(nom,"r") && endswith(gen, "ri")
+            "0_i"
+        end
 
     elseif endswith(gen, "ri") && 
         endswith(nom, "er") 

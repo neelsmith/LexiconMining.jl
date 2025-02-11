@@ -134,7 +134,7 @@ function formadjective(id, cols)::LSAdjective
     col2 = Unicode.normalize(cols[2]; stripmark = true)
     col3 = Unicode.normalize(cols[3]; stripmark = true)
 
-    #@info("Looking at $(col1), $(col2), $(col3)")
+    @info("Looking at $(col1), $(col2), $(col3)")
     if endswith(col1,"us") && 
         endswith(col2, "a") &&
         endswith(col3, "um")
