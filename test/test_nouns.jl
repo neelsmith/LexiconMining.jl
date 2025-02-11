@@ -26,5 +26,5 @@ end
     
     gens = "19464|urn:cite2:hmt:ls.markdown:n19461|gens | race, clan, or nation | noun | gens, gentis, feminine" |> LexiconMining.readdataline |> noun
 
-    
+    @test LexiconMining.istem(gens)
 end
