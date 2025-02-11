@@ -15,8 +15,10 @@ using DocStringExtensions
 
 include("suarez.jl")
 
-include("istems.jl")
+
+include("orthosupplement.jl")
 include("nouns.jl")
+include("istems.jl")
 include("adjectives.jl")
 include("verbs.jl")
 include("prepositions.jl")
