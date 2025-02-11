@@ -543,7 +543,7 @@ latcommon.nounn1740|lsx.n1740|alburn|neuter|us_i
 latcommon.nounn1741|lsx.n1741|alburn|masculine|us_i
 latcommon.nounn1750|lsx.n1750|alce|feminine|a_ae
 latcommon.nounn1751|lsx.n1751|alced|feminine|o_inis
-latcommon.nounn1753|lsx.n1753|alc|feminine|
+latcommon.nounn1753|lsx.n1753|alc|feminine|i_es_is
 latcommon.nounn1775|lsx.n1775|ale|feminine|a_ae
 latcommon.nounn1778|lsx.n1778|aleator|masculine|0_is
 latcommon.nounn1782|lsx.n1782|alec|neuter|0_is
@@ -901,7 +901,7 @@ latcommon.nounn2776|lsx.n2776|antemural|neuter|
 latcommon.nounn2778|lsx.n2778|antenn|feminine|a_ae
 latcommon.nounn2783|lsx.n2783|antepagment|neuter|us_i
 latcommon.nounn2785|lsx.n2785|antepassi|feminine|o_onis
-latcommon.nounn2788|lsx.n2788|ped|masculine|
+latcommon.nounn2788|lsx.n2788|ped|masculine|i_es_is
 latcommon.nounn2789|lsx.n2789|antepilan|masculine|us_i
 latcommon.nounn2795|lsx.n2795|anteridi|neuter|nothing
 latcommon.nounn2798|lsx.n2798|ant|masculine|
@@ -932,7 +932,7 @@ latcommon.nounn2849|lsx.n2849|anticipati|feminine|o_onis
 latcommon.nounn2858|lsx.n2858|antidot|neuter|us_i
 latcommon.nounn2868|lsx.n2868|antimetabol|feminine|e_es
 latcommon.nounn2869|lsx.n2869|antinomi|feminine|a_ae
-latcommon.nounn2881|lsx.n2881|antipath|feminine|
+latcommon.nounn2881|lsx.n2881|antipath|feminine|i_es_is
 latcommon.nounn2882|lsx.n2882|antipath|neuter|0_is
 latcommon.nounn2883|lsx.n2883|antipathi|feminine|a_ae
 latcommon.nounn2888|lsx.n2888|antiphrasis|feminine|is_is
@@ -1098,7 +1098,7 @@ latcommon.nounn3294|lsx.n3294|aquil|masculine|o_onis
 latcommon.nounn3301|lsx.n3301|aquiminari|neuter|us_i
 latcommon.nounn3308|lsx.n3308|aquul|feminine|a_ae
 latcommon.nounn3310|lsx.n3310|ar|feminine|a_ae
-latcommon.nounn3311|lsx.n3311|arabarch|masculine|
+latcommon.nounn3311|lsx.n3311|arabarch|masculine|i_es_is
 latcommon.nounn3312|lsx.n3312|arabarchi|feminine|a_ae
 latcommon.nounn3320|lsx.n3320|arachidn|feminine|a_ae
 latcommon.nounn3323|lsx.n3323|araci|feminine|a_ae
@@ -1814,7 +1814,7 @@ latcommon.nounn5533|lsx.n5533|bol|masculine|us_i
 latcommon.nounn5535|lsx.n5535|bombinator|masculine|0_is
 latcommon.nounn5538|lsx.n5538|bombizati|feminine|o_onis
 latcommon.nounn5541|lsx.n5541|bomb|masculine|us_i
-latcommon.nounn5542|lsx.n5542|bombyciae harundin|feminine|
+latcommon.nounn5542|lsx.n5542|bombyciae harundin|feminine|i_es_is
 latcommon.nounn5544|lsx.n5544|bombyl|feminine|i_is_is
 latcommon.nounn5545|lsx.n5545|bomby|masculine|x_cis
 latcommon.nounn5545|lsx.n5545|bomby|feminine|x_cis
@@ -1999,7 +1999,7 @@ latcommon.nounn5994|lsx.n5994|caeci|masculine|as_ae
 latcommon.nounn5996|lsx.n5996|caecili|feminine|a_ae
 latcommon.nounn6001|lsx.n6001|caecita|feminine|s_tis
 latcommon.nounn6002|lsx.n6002|caecitud|feminine|o_inis
-latcommon.nounn6010|lsx.n6010|caed|feminine|
+latcommon.nounn6010|lsx.n6010|caed|feminine|i_es_is
 latcommon.nounn6013|lsx.n6013|caelamin|neuter|en_inis
 latcommon.nounn6014|lsx.n6014|caelator|masculine|0_is
 latcommon.nounn6015|lsx.n6015|caelatur|feminine|a_ae
@@ -2068,7 +2068,7 @@ latcommon.nounn6183|lsx.n6183|calceator|masculine|0_is
 latcommon.nounn6185|lsx.n6185|calceat|masculine|us_us
 latcommon.nounn6187|lsx.n6187|calceolari|masculine|us_i
 latcommon.nounn6188|lsx.n6188|calceol|masculine|us_i
-latcommon.nounn6189|lsx.n6189|calc|feminine|
+latcommon.nounn6189|lsx.n6189|calc|feminine|i_es_is
 latcommon.nounn6190|lsx.n6190|calce|masculine|us_i
 latcommon.nounn6194|lsx.n6194|calcifrag|feminine|a_ae
 latcommon.nounn6196|lsx.n6196|calcitrat|masculine|us_us
@@ -2185,7 +2185,7 @@ latcommon.nounn6506|lsx.n6506|can|feminine|i_is_is
 latcommon.nounn6508|lsx.n6508|canistell|neuter|us_i
 latcommon.nounn6509|lsx.n6509|canistr|neuter|us_i
 latcommon.nounn6510|lsx.n6510|caniti|feminine|a_ae
-latcommon.nounn6511|lsx.n6511|caniti|feminine|
+latcommon.nounn6511|lsx.n6511|caniti|feminine|i_es_is
 latcommon.nounn6512|lsx.n6512|canitud|feminine|o_inis
 latcommon.nounn6514|lsx.n6514|cann|feminine|a_ae
 latcommon.nounn6516|lsx.n6516|cannab|feminine|i_is_is
@@ -2490,7 +2490,7 @@ latcommon.nounn7169|lsx.n7169|caud|masculine|ex_icis
 latcommon.nounn7177|lsx.n7177|cauli|masculine|as_ae
 latcommon.nounn7179|lsx.n7179|caulicul|masculine|us_i
 latcommon.nounn7180|lsx.n7180|caul|masculine|i_is_is
-latcommon.nounn7181|lsx.n7181|caulod|feminine|
+latcommon.nounn7181|lsx.n7181|caulod|feminine|i_es_is
 latcommon.nounn7183|lsx.n7183|caumat|neuter|0_is
 latcommon.nounn7185|lsx.n7185|caup|masculine|o_onis
 latcommon.nounn7186|lsx.n7186|caupon|feminine|a_ae
@@ -2687,7 +2687,7 @@ latcommon.nounn7708|lsx.n7708|chamaemel|neuter|nothing
 latcommon.nounn7709|lsx.n7709|chamaemyrsin|feminine|e_es
 latcommon.nounn7710|lsx.n7710|chamaepeuc|feminine|e_es
 latcommon.nounn7712|lsx.n7712|chamaeplatan|feminine|us_i
-latcommon.nounn7713|lsx.n7713|chamaerep|feminine|
+latcommon.nounn7713|lsx.n7713|chamaerep|feminine|i_es_is
 latcommon.nounn7714|lsx.n7714|chamaerop|feminine|0_is
 latcommon.nounn7715|lsx.n7715|chamaesyc|feminine|e_es
 latcommon.nounn7717|lsx.n7717|chamaezel|neuter|nothing
@@ -2968,8 +2968,8 @@ latcommon.nounn8455|lsx.n8455|citr|neuter|us_i
 latcommon.nounn8456|lsx.n8456|citr|masculine|us_i
 latcommon.nounn8467|lsx.n8467|clabular|neuter|
 latcommon.nounn8468|lsx.n8468|clacendi|feminine|x_cis
-latcommon.nounn8469|lsx.n8469|clad|feminine|
-latcommon.nounn8471|lsx.n8471|clagalop|feminine|
+latcommon.nounn8469|lsx.n8469|clad|feminine|i_es_is
+latcommon.nounn8471|lsx.n8471|clagalop|feminine|i_es_is
 latcommon.nounn8473|lsx.n8473|clamator|masculine|0_is
 latcommon.nounn8475|lsx.n8475|clamat|masculine|us_us
 latcommon.nounn8476|lsx.n8476|clamitati|feminine|o_onis
@@ -3365,7 +3365,7 @@ latcommon.nounn9504|lsx.n9504|compactur|feminine|a_ae
 latcommon.nounn9507|lsx.n9507|compaedagogit|masculine|a_ae
 latcommon.nounn9508|lsx.n9508|compaedagogi|masculine|us_i
 latcommon.nounn9509|lsx.n9509|compagan|masculine|us_i
-latcommon.nounn9510|lsx.n9510|compag|feminine|
+latcommon.nounn9510|lsx.n9510|compag|feminine|i_es_is
 latcommon.nounn9511|lsx.n9511|compagin|feminine|a_ae
 latcommon.nounn9512|lsx.n9512|compaginati|feminine|o_onis
 latcommon.nounn9514|lsx.n9514|compag|feminine|o_inis
@@ -3451,7 +3451,7 @@ latcommon.nounn9736|lsx.n9736|conament|neuter|us_i
 latcommon.nounn9737|lsx.n9737|conati|feminine|o_onis
 latcommon.nounn9738|lsx.n9738|conat|neuter|us_i
 latcommon.nounn9739|lsx.n9739|conat|masculine|us_us
-latcommon.nounn9742|lsx.n9742|concaed|feminine|
+latcommon.nounn9742|lsx.n9742|concaed|feminine|i_es_is
 latcommon.nounn9751|lsx.n9751|concamerati|feminine|o_onis
 latcommon.nounn9757|lsx.n9757|concarnati|feminine|o_onis
 latcommon.nounn9760|lsx.n9760|concatenati|feminine|o_onis
@@ -3620,7 +3620,7 @@ latcommon.nounn10163|lsx.n10163|conflicti|feminine|o_onis
 latcommon.nounn10166|lsx.n10166|conflict|masculine|us_us
 latcommon.nounn10168|lsx.n10168|confligi|neuter|us_i
 latcommon.nounn10174|lsx.n10174|confluenti|feminine|a_ae
-latcommon.nounn10175|lsx.n10175|conflug|masculine|
+latcommon.nounn10175|lsx.n10175|conflug|masculine|i_es_is
 latcommon.nounn10180|lsx.n10180|confoederati|feminine|o_onis
 latcommon.nounn10188|lsx.n10188|conformati|feminine|o_onis
 latcommon.nounn10189|lsx.n10189|conformator|masculine|0_is
@@ -3788,7 +3788,7 @@ latcommon.nounn10710|lsx.n10710|consurrecti|feminine|o_onis
 latcommon.nounn10714|lsx.n10714|consut|neuter|us_i
 latcommon.nounn10718|lsx.n10718|contabulati|feminine|o_onis
 latcommon.nounn10722|lsx.n10722|contact|masculine|us_us
-latcommon.nounn10723|lsx.n10723|contag|feminine|
+latcommon.nounn10723|lsx.n10723|contag|feminine|i_es_is
 latcommon.nounn10724|lsx.n10724|contagi|feminine|o_onis
 latcommon.nounn10726|lsx.n10726|contagi|neuter|us_i
 latcommon.nounn10727|lsx.n10727|contamin|neuter|en_inis
@@ -3818,7 +3818,7 @@ latcommon.nounn10804|lsx.n10804|contextor|masculine|0_is
 latcommon.nounn10806|lsx.n10806|context|masculine|us_us
 latcommon.nounn10807|lsx.n10807|contherolet|masculine|a_ae
 latcommon.nounn10810|lsx.n10810|conticini|neuter|us_i
-latcommon.nounn10812|lsx.n10812|contific|masculine|
+latcommon.nounn10812|lsx.n10812|contific|masculine|i_es_is
 latcommon.nounn10813|lsx.n10813|contiger|masculine|0_i
 latcommon.nounn10814|lsx.n10814|contignati|feminine|o_onis
 latcommon.nounn10816|lsx.n10816|contign|neuter|us_i
@@ -3981,7 +3981,7 @@ latcommon.nounn11316|lsx.n11316|corrupti|feminine|o_onis
 latcommon.nounn11318|lsx.n11318|corruptor|masculine|0_is
 latcommon.nounn11320|lsx.n11320|corruptri|feminine|x_cis
 latcommon.nounn11323|lsx.n11323|cort|feminine|i_s_tis
-latcommon.nounn11326|lsx.n11326|corsoid|masculine|
+latcommon.nounn11326|lsx.n11326|corsoid|masculine|i_es_is
 latcommon.nounn11328|lsx.n11328|cort|masculine|ex_icis
 latcommon.nounn11328|lsx.n11328|cort|feminine|ex_icis
 latcommon.nounn11332|lsx.n11332|corticul|masculine|us_i
@@ -4345,7 +4345,7 @@ latcommon.nounn12168|lsx.n12168|cunoid|neuter|s_dis
 latcommon.nounn12169|lsx.n12169|cunomaz|neuter|nothing
 latcommon.nounn12170|lsx.n12170|cunomori|neuter|nothing
 latcommon.nounn12171|lsx.n12171|cunomyi|feminine|a_ae
-latcommon.nounn12172|lsx.n12172|cunophan|masculine|
+latcommon.nounn12172|lsx.n12172|cunophan|masculine|i_es_is
 latcommon.nounn12173|lsx.n12173|cunop|feminine|0_is
 latcommon.nounn12174|lsx.n12174|cunorrod|neuter|nothing
 latcommon.nounn12174|lsx.n12174|cunorod|feminine|a_ae
@@ -4377,7 +4377,7 @@ latcommon.nounn12259|lsx.n12259|daduch|masculine|us_i
 latcommon.nounn12264|lsx.n12264|daemon|masculine|0_is
 latcommon.nounn12267|lsx.n12267|daemonicol|masculine|a_ae
 latcommon.nounn12269|lsx.n12269|daemoni|neuter|us_i
-latcommon.nounn12271|lsx.n12271|dagnad|feminine|
+latcommon.nounn12271|lsx.n12271|dagnad|feminine|i_es_is
 latcommon.nounn12280|lsx.n12280|damali|masculine|o_onis
 latcommon.nounn12285|lsx.n12285|damasoni|neuter|nothing
 latcommon.nounn12286|lsx.n12286|dami|neuter|us_i
@@ -4390,7 +4390,7 @@ latcommon.nounn12309|lsx.n12309|damul|feminine|a_ae
 latcommon.nounn12318|lsx.n12318|danist|masculine|a_ae
 latcommon.nounn12324|lsx.n12324|daphn|feminine|e_es
 latcommon.nounn12325|lsx.n12325|daphni|feminine|a_ae
-latcommon.nounn12327|lsx.n12327|daphnoid|feminine|
+latcommon.nounn12327|lsx.n12327|daphnoid|feminine|i_es_is
 latcommon.nounn12328|lsx.n12328|daphnon|masculine|0_is
 latcommon.nounn12329|lsx.n12329|dapifer|masculine|0_i
 latcommon.nounn12330|lsx.n12330|dapif|masculine|ex_icis
@@ -4477,7 +4477,7 @@ latcommon.nounn12559|lsx.n12559|decreti|feminine|o_onis
 latcommon.nounn12561|lsx.n12561|decret|neuter|us_i
 latcommon.nounn12568|lsx.n12568|decum|feminine|a_ae
 latcommon.nounn12572|lsx.n12572|decunc|masculine|i_is_is
-latcommon.nounn12576|lsx.n12576|decur|masculine|
+latcommon.nounn12576|lsx.n12576|decur|masculine|i_es_is
 latcommon.nounn12577|lsx.n12577|decuri|feminine|a_ae
 latcommon.nounn12580|lsx.n12580|decuriati|feminine|o_onis
 latcommon.nounn12581|lsx.n12581|decuriat|masculine|us_us
@@ -4626,7 +4626,7 @@ latcommon.nounn13076|lsx.n13076|denarism|masculine|us_i
 latcommon.nounn13077x|lsx.n13077x|denari|masculine|us_i
 latcommon.nounn13082|lsx.n13082|dendrachat|masculine|es_ae
 latcommon.nounn13083|lsx.n13083|dendritid|feminine|s_dis
-latcommon.nounn13084|lsx.n13084|dendroid|masculine|
+latcommon.nounn13084|lsx.n13084|dendroid|masculine|i_es_is
 latcommon.nounn13085|lsx.n13085|dendrophor|masculine|us_i
 latcommon.nounn13089|lsx.n13089|denigrati|feminine|o_onis
 latcommon.nounn13093|lsx.n13093|denominati|feminine|o_onis
@@ -4969,7 +4969,7 @@ latcommon.nounn14069|lsx.n14069|diopet|masculine|i_s_tis
 latcommon.nounn14071|lsx.n14071|dioptr|feminine|a_ae
 latcommon.nounn14073|lsx.n14073|dioryg|feminine|x_gis
 latcommon.nounn14077|lsx.n14077|diot|feminine|a_ae
-latcommon.nounn14081|lsx.n14081|diphrug|feminine|
+latcommon.nounn14081|lsx.n14081|diphrug|feminine|i_es_is
 latcommon.nounn14082|lsx.n14082|diphthong|feminine|us_i
 latcommon.nounn14084|lsx.n14084|diplangi|neuter|us_i
 latcommon.nounn14087|lsx.n14087|diploid|feminine|s_dis
@@ -6175,7 +6175,7 @@ latcommon.nounn17629|lsx.n17629|falsita|feminine|s_tis
 latcommon.nounn17633|lsx.n17633|falc|feminine|
 latcommon.nounn17634|lsx.n17634|fam|feminine|a_ae
 latcommon.nounn17641|lsx.n17641|famell|feminine|a_ae
-latcommon.nounn17642|lsx.n17642|fam|feminine|
+latcommon.nounn17642|lsx.n17642|fam|feminine|i_es_is
 latcommon.nounn17644|lsx.n17644|fam|masculine|ex_icis
 latcommon.nounn17645|lsx.n17645|fame|feminine|x_cis
 latcommon.nounn17646|lsx.n17646|famiger|masculine|0_is
@@ -6256,7 +6256,7 @@ latcommon.nounn17865|lsx.n17865|febru|neuter|us_i
 latcommon.nounn17868|lsx.n17868|fecundator|masculine|0_is
 latcommon.nounn17870|lsx.n17870|fecundita|feminine|s_tis
 latcommon.nounn17875|lsx.n17875|fell|neuter|0_is
-latcommon.nounn17876|lsx.n17876|fel|feminine|
+latcommon.nounn17876|lsx.n17876|fel|feminine|i_es_is
 latcommon.nounn17878|lsx.n17878|felicita|feminine|s_tis
 latcommon.nounn17886|lsx.n17886|fel|feminine|i_is_is
 latcommon.nounn17890|lsx.n17890|fellator|masculine|0_is
@@ -6360,7 +6360,7 @@ latcommon.nounn18173|lsx.n18173|fili|feminine|a_ae
 latcommon.nounn18175|lsx.n18175|filiastr|masculine|0_i
 latcommon.nounn18176|lsx.n18176|filiastr|feminine|a_ae
 latcommon.nounn18178|lsx.n18178|filicin|feminine|a_ae
-latcommon.nounn18179|lsx.n18179|filicon|masculine|
+latcommon.nounn18179|lsx.n18179|filicon|masculine|i_es_is
 latcommon.nounn18180|lsx.n18180|filict|neuter|us_i
 latcommon.nounn18181|lsx.n18181|filicul|feminine|a_ae
 latcommon.nounn18182|lsx.n18182|filieta|feminine|s_tis
@@ -6806,7 +6806,7 @@ latcommon.nounn19318|lsx.n19318|garrulita|feminine|s_tis
 latcommon.nounn19320|lsx.n19320|gar|neuter|us_i
 latcommon.nounn19323|lsx.n19323|gar|masculine|us_i
 latcommon.nounn19324|lsx.n19324|garuophyl|neuter|nothing
-latcommon.nounn19325|lsx.n19325|gassinad|masculine|
+latcommon.nounn19325|lsx.n19325|gassinad|masculine|i_es_is
 latcommon.nounn19326|lsx.n19326|gaster|feminine|0_is
 latcommon.nounn19328|lsx.n19328|gaudi|neuter|us_i
 latcommon.nounn19335|lsx.n19335|gaudimoni|neuter|us_i
@@ -6862,7 +6862,7 @@ latcommon.nounn19462|lsx.n19462|gentian|feminine|a_ae
 latcommon.nounn19466|lsx.n19466|gentilita|feminine|s_tis
 latcommon.nounn19471|lsx.n19471|gen|neuter|
 latcommon.nounn19477|lsx.n19477|gen|neuter|us_eris
-latcommon.nounn19480|lsx.n19480|geod|masculine|
+latcommon.nounn19480|lsx.n19480|geod|masculine|i_es_is
 latcommon.nounn19481|lsx.n19481|geographi|feminine|a_ae
 latcommon.nounn19483|lsx.n19483|geome^tr|masculine|es_ae
 latcommon.nounn19484|lsx.n19484|geometri|feminine|a_ae
@@ -6878,7 +6878,7 @@ latcommon.nounn19510|lsx.n19510|germinat|masculine|us_us
 latcommon.nounn19513|lsx.n19513|ger|masculine|o_onis
 latcommon.nounn19515|lsx.n19515|geronte|feminine|a_ae
 latcommon.nounn19516|lsx.n19516|gerontocomi|neuter|us_i
-latcommon.nounn19519|lsx.n19519|gerre|masculine|
+latcommon.nounn19519|lsx.n19519|gerre|masculine|i_es_is
 latcommon.nounn19520|lsx.n19520|gerr|masculine|o_onis
 latcommon.nounn19521|lsx.n19521|gerul|feminine|a_ae
 latcommon.nounn19522|lsx.n19522|gerulifigul|masculine|us_i
@@ -7293,7 +7293,7 @@ latcommon.nounn20500|lsx.n20500|herbul|feminine|a_ae
 latcommon.nounn20501|lsx.n20501|herbuscul|feminine|a_ae
 latcommon.nounn20505|lsx.n20505|herct|neuter|us_i
 latcommon.nounn20509|lsx.n20509|herculari|feminine|a_ae
-latcommon.nounn20510|lsx.n20510|hercul|masculine|
+latcommon.nounn20510|lsx.n20510|hercul|masculine|i_es_is
 latcommon.nounn20519|lsx.n20519|herediol|neuter|us_i
 latcommon.nounn20520|lsx.n20520|heredipet|masculine|a_ae
 latcommon.nounn20523|lsx.n20523|heredita|feminine|s_tis
@@ -8442,8 +8442,8 @@ latcommon.nounn25472|lsx.n25472|labefactati|feminine|o_onis
 latcommon.nounn25476|lsx.n25476|labell|neuter|us_i
 latcommon.nounn25477|lsx.n25477|labell|neuter|us_i
 latcommon.nounn25478|lsx.n25478|labe|masculine|o_onis
-latcommon.nounn25482|lsx.n25482|lab|feminine|
-latcommon.nounn25483|lsx.n25483|lab|feminine|
+latcommon.nounn25482|lsx.n25482|lab|feminine|i_es_is
+latcommon.nounn25483|lsx.n25483|lab|feminine|i_es_is
 latcommon.nounn25484|lsx.n25484|labi|feminine|a_ae
 latcommon.nounn25489|lsx.n25489|labin|feminine|a_ae
 latcommon.nounn25490|lsx.n25490|labi|masculine|o_onis
@@ -9578,7 +9578,7 @@ latcommon.nounn28455|lsx.n28455|melapi|neuter|us_i
 latcommon.nounn28458|lsx.n28458|melaspermon|neuter|nothing
 latcommon.nounn28459|lsx.n28459|melcul|neuter|us_i
 latcommon.nounn28463|lsx.n28463|meleagrid|feminine|s_dis
-latcommon.nounn28464|lsx.n28464|mel|feminine|
+latcommon.nounn28464|lsx.n28464|mel|feminine|i_es_is
 latcommon.nounn28474|lsx.n28474|melic|feminine|a_ae
 latcommon.nounn28475|lsx.n28475|melicerid|feminine|s_dis
 latcommon.nounn28477|lsx.n28477|melichlor|masculine|nothing
@@ -9609,7 +9609,7 @@ latcommon.nounn28546|lsx.n28546|mellini|feminine|a_ae
 latcommon.nounn28553|lsx.n28553|mell|neuter|us_i
 latcommon.nounn28555|lsx.n28555|mel|masculine|o_onis
 latcommon.nounn28556|lsx.n28556|melocarp|neuter|nothing
-latcommon.nounn28557|lsx.n28557|melod|masculine|
+latcommon.nounn28557|lsx.n28557|melod|masculine|i_es_is
 latcommon.nounn28558|lsx.n28558|melodi|feminine|a_ae
 latcommon.nounn28564|lsx.n28564|melimel|neuter|nothing
 latcommon.nounn28565|lsx.n28565|melopep|masculine|o_onis
@@ -9911,7 +9911,7 @@ latcommon.nounn29429|lsx.n29429|moesile|neuter|us_i
 latcommon.nounn29434|lsx.n29434|mol|feminine|a_ae
 latcommon.nounn29439|lsx.n29439|molemoni|neuter|us_i
 latcommon.nounn29442|lsx.n29442|molendin|neuter|us_i
-latcommon.nounn29443|lsx.n29443|mol|feminine|
+latcommon.nounn29443|lsx.n29443|mol|feminine|i_es_is
 latcommon.nounn29445|lsx.n29445|molesti|feminine|a_ae
 latcommon.nounn29448|lsx.n29448|moletrin|feminine|a_ae
 latcommon.nounn29450|lsx.n29450|molil|neuter|
@@ -10413,7 +10413,7 @@ latcommon.nounn30840|lsx.n30840|nessi|neuter|nothing
 latcommon.nounn30841|lsx.n30841|nessotrophi|neuter|us_i
 latcommon.nounn30843|lsx.n30843|nestid|feminine|s_dis
 latcommon.nounn30847|lsx.n30847|net|feminine|e_es
-latcommon.nounn30850|lsx.n30850|netoid|masculine|
+latcommon.nounn30850|lsx.n30850|netoid|masculine|i_es_is
 latcommon.nounn30853|lsx.n30853|net|masculine|us_us
 latcommon.nounn30858|lsx.n30858|neurobat|masculine|a_ae
 latcommon.nounn30859|lsx.n30859|neuroid|neuter|s_dis
@@ -10519,13 +10519,13 @@ latcommon.nounn31244x|lsx.n31244x|notori|feminine|a_ae
 latcommon.nounn31244y|lsx.n31244y|notori|neuter|us_i
 latcommon.nounn31247|lsx.n31247|notri|feminine|x_cis
 latcommon.nounn31248|lsx.n31248|notul|feminine|a_ae
-latcommon.nounn31309|lsx.n31309|noct|feminine|
+latcommon.nounn31309|lsx.n31309|noct|feminine|i_x_tis
 latcommon.nounn31310|lsx.n31310|nox|feminine|a_ae
 latcommon.nounn31312|lsx.n31312|noxi|feminine|a_ae
 latcommon.nounn31314|lsx.n31314|noxieta|feminine|s_tis
 latcommon.nounn31316|lsx.n31316|noxitud|feminine|o_inis
 latcommon.nounn31320|lsx.n31320|nubecul|feminine|a_ae
-latcommon.nounn31321|lsx.n31321|nub|feminine|
+latcommon.nounn31321|lsx.n31321|nub|feminine|i_es_is
 latcommon.nounn31325|lsx.n31325|nubigen|masculine|a_ae
 latcommon.nounn31325|lsx.n31325|nubigen|feminine|a_ae
 latcommon.nounn31328|lsx.n31328|nubil|feminine|a_ae
@@ -11283,8 +11283,8 @@ latcommon.nounn33543|lsx.n33543|paludicol|masculine|a_ae
 latcommon.nounn33543|lsx.n33543|paludicol|feminine|a_ae
 latcommon.nounn33548|lsx.n33548|pal|neuter|us_i
 latcommon.nounn33550|lsx.n33550|palumbari|masculine|us_i
-latcommon.nounn33551|lsx.n33551|palumb|masculine|
-latcommon.nounn33551|lsx.n33551|palumb|feminine|
+latcommon.nounn33551|lsx.n33551|palumb|masculine|i_es_is
+latcommon.nounn33551|lsx.n33551|palumb|feminine|i_es_is
 latcommon.nounn33554|lsx.n33554|palumbul|masculine|us_i
 latcommon.nounn33555|lsx.n33555|palumb|masculine|us_i
 latcommon.nounn33556|lsx.n33556|pal|masculine|us_i
@@ -11339,7 +11339,7 @@ latcommon.nounn33685|lsx.n33685|panther|feminine|0_is
 latcommon.nounn33686|lsx.n33686|panther|masculine|0_is
 latcommon.nounn33687|lsx.n33687|panther|feminine|a_ae
 latcommon.nounn33688|lsx.n33688|panther|feminine|a_ae
-latcommon.nounn33695|lsx.n33695|pantic|masculine|
+latcommon.nounn33695|lsx.n33695|pantic|masculine|i_es_is
 latcommon.nounn33697|lsx.n33697|pantomim|feminine|a_ae
 latcommon.nounn33699|lsx.n33699|pantomim|masculine|us_i
 latcommon.nounn33700|lsx.n33700|panucl|feminine|a_ae
@@ -11673,7 +11673,7 @@ latcommon.nounn34566|lsx.n34566|pentathl|masculine|nothing
 latcommon.nounn34566x|lsx.n34566x|pentathl|neuter|us_i
 latcommon.nounn34567|lsx.n34567|pentatomon|neuter|nothing
 latcommon.nounn34573|lsx.n34573|penterid|feminine|s_dis
-latcommon.nounn34576|lsx.n34576|penthemimer|feminine|
+latcommon.nounn34576|lsx.n34576|penthemimer|feminine|i_es_is
 latcommon.nounn34579|lsx.n34579|pentorob|neuter|nothing
 latcommon.nounn34581|lsx.n34581|pen|masculine|us_i
 latcommon.nounn34585|lsx.n34585|penuri|feminine|a_ae
@@ -12192,7 +12192,7 @@ latcommon.nounn36522|lsx.n36522|plag|feminine|a_ae
 latcommon.nounn36523|lsx.n36523|plagell|feminine|a_ae
 latcommon.nounn36524|lsx.n36524|plagiari|masculine|us_i
 latcommon.nounn36526|lsx.n36526|plagiator|masculine|0_is
-latcommon.nounn36526x|lsx.n36526x|plagiaul|masculine|
+latcommon.nounn36526x|lsx.n36526x|plagiaul|masculine|i_es_is
 latcommon.nounn36531|lsx.n36531|plagipatid|masculine|a_ae
 latcommon.nounn36532|lsx.n36532|plagi|neuter|us_i
 latcommon.nounn36535|lsx.n36535|plagul|feminine|a_ae
@@ -12299,7 +12299,7 @@ latcommon.nounn36766|lsx.n36766|pocill|neuter|us_i
 latcommon.nounn36768|lsx.n36768|pocul|neuter|us_i
 latcommon.nounn36769|lsx.n36769|podager|masculine|0_i
 latcommon.nounn36770|lsx.n36770|podagr|feminine|a_ae
-latcommon.nounn36774|lsx.n36774|poder|masculine|
+latcommon.nounn36774|lsx.n36774|poder|masculine|i_es_is
 latcommon.nounn36775|lsx.n36775|pod|masculine|ex_icis
 latcommon.nounn36776|lsx.n36776|podi|feminine|a_ae
 latcommon.nounn36777|lsx.n36777|podiari|masculine|us_i
@@ -12354,7 +12354,7 @@ latcommon.nounn36910|lsx.n36910|polycnemon|neuter|0_is
 latcommon.nounn36918|lsx.n36918|polugal|feminine|a_ae
 latcommon.nounn36920|lsx.n36920|polugonat|neuter|nothing
 latcommon.nounn36921|lsx.n36921|polugoni|neuter|us_i
-latcommon.nounn36923|lsx.n36923|polugonoid|feminine|
+latcommon.nounn36923|lsx.n36923|polugonoid|feminine|i_es_is
 latcommon.nounn36924|lsx.n36924|polugon|feminine|nothing
 latcommon.nounn36925|lsx.n36925|polugon|neuter|us_i
 latcommon.nounn36926|lsx.n36926|polygramm|feminine|nothing
@@ -12732,7 +12732,7 @@ latcommon.nounn38199|lsx.n38199|pransor|masculine|0_is
 latcommon.nounn38202|lsx.n38202|prapedi|neuter|nothing
 latcommon.nounn38209|lsx.n38209|prasi|neuter|nothing
 latcommon.nounn38210|lsx.n38210|prasi|masculine|us_i
-latcommon.nounn38211|lsx.n38211|prasoid|masculine|
+latcommon.nounn38211|lsx.n38211|prasoid|masculine|i_es_is
 latcommon.nounn38212|lsx.n38212|prason|neuter|0_is
 latcommon.nounn38216|lsx.n38216|pratul|neuter|us_i
 latcommon.nounn38217|lsx.n38217|prat|neuter|us_i
@@ -12909,7 +12909,7 @@ latcommon.nounn38706|lsx.n38706|prolati|feminine|o_onis
 latcommon.nounn38710|lsx.n38710|prolat|masculine|us_us
 latcommon.nounn38713|lsx.n38713|prolegat|masculine|us_i
 latcommon.nounn38715|lsx.n38715|prolepsis/|feminine|i_is_is
-latcommon.nounn38716|lsx.n38716|prol|feminine|
+latcommon.nounn38716|lsx.n38716|prol|feminine|i_es_is
 latcommon.nounn38717|lsx.n38717|proletane|masculine|us_i
 latcommon.nounn38718|lsx.n38718|proletari|masculine|us_i
 latcommon.nounn38724|lsx.n38724|prolimin|neuter|en_inis
@@ -12967,7 +12967,7 @@ latcommon.nounn38848|lsx.n38848|prooeconomi|feminine|a_ae
 latcommon.nounn38850|lsx.n38850|prooemi|neuter|us_i
 latcommon.nounn38851|lsx.n38851|propagati|feminine|o_onis
 latcommon.nounn38852|lsx.n38852|propagator|masculine|0_is
-latcommon.nounn38853|lsx.n38853|propag|feminine|
+latcommon.nounn38853|lsx.n38853|propag|feminine|i_es_is
 latcommon.nounn38854|lsx.n38854|propaginati|feminine|o_onis
 latcommon.nounn38856|lsx.n38856|propagmin|neuter|en_inis
 latcommon.nounn38858|lsx.n38858|propag|feminine|o_inis
@@ -13118,7 +13118,7 @@ latcommon.nounn39254|lsx.n39254|prun|neuter|us_i
 latcommon.nounn39255|lsx.n39255|prun|feminine|us_i
 latcommon.nounn39257|lsx.n39257|prurig|feminine|o_inis
 latcommon.nounn39261|lsx.n39261|prurit|masculine|us_us
-latcommon.nounn39266|lsx.n39266|prutan|masculine|
+latcommon.nounn39266|lsx.n39266|prutan|masculine|i_es_is
 latcommon.nounn39267|lsx.n39267|prutane|neuter|us_i
 latcommon.nounn39268|lsx.n39268|prutan|masculine|i_is_is
 latcommon.nounn39271|lsx.n39271|psalmat|neuter|0_is
@@ -13191,7 +13191,7 @@ latcommon.nounn39375|lsx.n39375|ptochotroph|masculine|us_i
 latcommon.nounn39377|lsx.n39377|ptuad|feminine|s_dis
 latcommon.nounn39379|lsx.n39379|pubed|masculine|a_ae
 latcommon.nounn39382|lsx.n39382|puberta|feminine|s_tis
-latcommon.nounn39384|lsx.n39384|pub|feminine|
+latcommon.nounn39384|lsx.n39384|pub|feminine|i_es_is
 latcommon.nounn39386|lsx.n39386|pub|feminine|i_is_is
 latcommon.nounn39390|lsx.n39390|publicati|feminine|o_onis
 latcommon.nounn39391|lsx.n39391|publicator|masculine|0_is
@@ -13362,7 +13362,7 @@ latcommon.nounn39785|lsx.n39785|pyrrhich|feminine|a_ae
 latcommon.nounn39786|lsx.n39786|pyrrhichari|masculine|us_i
 latcommon.nounn39790|lsx.n39790|pyrrhocora|masculine|x_cis
 latcommon.nounn39795|lsx.n39795|pysmat|neuter|0_is
-latcommon.nounn39799|lsx.n39799|pythaul|masculine|
+latcommon.nounn39799|lsx.n39799|pythaul|masculine|i_es_is
 latcommon.nounn39805|lsx.n39805|pythi|neuter|nothing
 latcommon.nounn39813|lsx.n39813|pythoni|neuter|nothing
 latcommon.nounn39814|lsx.n39814|pythoniss|feminine|a_ae
@@ -13444,7 +13444,7 @@ latcommon.nounn40183|lsx.n40183|quinquennat|masculine|us_us
 latcommon.nounn40185|lsx.n40185|quinquenni|neuter|us_i
 latcommon.nounn40188|lsx.n40188|quinquepedal|neuter|is_is
 latcommon.nounn40192|lsx.n40192|quinquepl|neuter|us_i
-latcommon.nounn40195|lsx.n40195|quinquer|feminine|
+latcommon.nounn40195|lsx.n40195|quinquer|feminine|i_es_is
 latcommon.nounn40196|lsx.n40196|quinquerti|masculine|o_onis
 latcommon.nounn40197|lsx.n40197|quinquerti|neuter|us_i
 latcommon.nounn40198|lsx.n40198|quinquess|masculine|i_is_is
@@ -14022,7 +14022,7 @@ latcommon.nounn42020|lsx.n42020|runcator|masculine|0_is
 latcommon.nounn42021|lsx.n42021|runcin|feminine|a_ae
 latcommon.nounn42025|lsx.n42025|runc|masculine|o_onis
 latcommon.nounn42027|lsx.n42027|rup|feminine|a_ae
-latcommon.nounn42028|lsx.n42028|rup|feminine|
+latcommon.nounn42028|lsx.n42028|rup|feminine|i_es_is
 latcommon.nounn42029|lsx.n42029|rupic|masculine|0_is
 latcommon.nounn42030|lsx.n42030|rupicapr|feminine|a_ae
 latcommon.nounn42031|lsx.n42031|rupic|masculine|o_onis
@@ -14092,7 +14092,7 @@ latcommon.nounn42196|lsx.n42196|sacrilegi|neuter|us_i
 latcommon.nounn42200|lsx.n42200|sacri|neuter|us_i
 latcommon.nounn42205|lsx.n42205|sacr|neuter|us_i
 latcommon.nounn42210|lsx.n42210|saecul|neuter|us_i
-latcommon.nounn42213|lsx.n42213|saep|feminine|
+latcommon.nounn42213|lsx.n42213|saep|feminine|i_es_is
 latcommon.nounn42214|lsx.n42214|saepicul|feminine|a_ae
 latcommon.nounn42216|lsx.n42216|saepimin|neuter|en_inis
 latcommon.nounn42217|lsx.n42217|saepiment|neuter|us_i
@@ -14216,7 +14216,7 @@ latcommon.nounn42527|lsx.n42527|sanguinati|feminine|o_onis
 latcommon.nounn42530|lsx.n42530|sanguinolenti|feminine|a_ae
 latcommon.nounn42533|lsx.n42533|sanguin|masculine|is_is
 latcommon.nounn42534|lsx.n42534|sanguisug|feminine|a_ae
-latcommon.nounn42535|lsx.n42535|sani|feminine|
+latcommon.nounn42535|lsx.n42535|sani|feminine|i_es_is
 latcommon.nounn42538|lsx.n42538|sanita|feminine|s_tis
 latcommon.nounn42540|lsx.n42540|sann|feminine|a_ae
 latcommon.nounn42542|lsx.n42542|sannator|masculine|0_is
@@ -14285,7 +14285,7 @@ latcommon.nounn42709|lsx.n42709|satisdator|masculine|0_is
 latcommon.nounn42712|lsx.n42712|satisfacti|feminine|o_onis
 latcommon.nounn42716|lsx.n42716|sator|masculine|0_is
 latcommon.nounn42718|lsx.n42718|satrape|feminine|a_ae
-latcommon.nounn42719|lsx.n42719|satrap|masculine|
+latcommon.nounn42719|lsx.n42719|satrap|masculine|i_es_is
 latcommon.nounn42720|lsx.n42720|satrap|masculine|0_is
 latcommon.nounn42725|lsx.n42725|sat|neuter|us_i
 latcommon.nounn42727|lsx.n42727|satur|feminine|a_ae
@@ -14315,7 +14315,7 @@ latcommon.nounn42799|lsx.n42799|scabill|neuter|us_i
 latcommon.nounn42800|lsx.n42800|scabiol|feminine|a_ae
 latcommon.nounn42802|lsx.n42802|scabitud|feminine|o_inis
 latcommon.nounn42805|lsx.n42805|scabred|feminine|o_inis
-latcommon.nounn42807|lsx.n42807|sca_br|feminine|
+latcommon.nounn42807|lsx.n42807|sca_br|feminine|i_es_is
 latcommon.nounn42809|lsx.n42809|scabriti|feminine|a_ae
 latcommon.nounn42812|lsx.n42812|scaen|feminine|a_ae
 latcommon.nounn42815|lsx.n42815|scaenatic|masculine|us_i
@@ -14551,7 +14551,7 @@ latcommon.nounn43296|lsx.n43296|sedati|feminine|o_onis
 latcommon.nounn43297|lsx.n43297|sedator|masculine|0_is
 latcommon.nounn43299|lsx.n43299|sedd|feminine|a_ae
 latcommon.nounn43303|lsx.n43303|sedecul|feminine|a_ae
-latcommon.nounn43306|lsx.n43306|sed|feminine|
+latcommon.nounn43306|lsx.n43306|sed|feminine|i_es_is
 latcommon.nounn43309|lsx.n43309|sedil|neuter|
 latcommon.nounn43310|lsx.n43310|sedimin|neuter|en_inis
 latcommon.nounn43311|lsx.n43311|sediment|neuter|us_i
@@ -14911,7 +14911,7 @@ latcommon.nounn44531|lsx.n44531|smyrn|feminine|a_ae
 latcommon.nounn44533|lsx.n44533|smyrni|neuter|nothing
 latcommon.nounn44534|lsx.n44534|smyrrhiz|feminine|a_ae
 latcommon.nounn44535|lsx.n44535|smyr|masculine|us_i
-latcommon.nounn44536|lsx.n44536|sobol|feminine|
+latcommon.nounn44536|lsx.n44536|sobol|feminine|i_es_is
 latcommon.nounn44540|lsx.n44540|sobrieta|feminine|s_tis
 latcommon.nounn44541|lsx.n44541|sobrin|masculine|us_i
 latcommon.nounn44541|lsx.n44541|sobrin|feminine|a_ae
@@ -15004,7 +15004,7 @@ latcommon.nounn44776|lsx.n44776|sorbiti|neuter|us_i
 latcommon.nounn44777|lsx.n44777|sorbituncul|feminine|a_ae
 latcommon.nounn44778|lsx.n44778|sorb|neuter|us_i
 latcommon.nounn44779|lsx.n44779|sorb|feminine|us_i
-latcommon.nounn44781|lsx.n44781|sord|feminine|
+latcommon.nounn44781|lsx.n44781|sord|feminine|i_es_is
 latcommon.nounn44783|lsx.n44783|sordicul|feminine|a_ae
 latcommon.nounn44789|lsx.n44789|sorditi|feminine|es_ei
 latcommon.nounn44790|lsx.n44790|sorditud|feminine|o_inis
@@ -15189,7 +15189,7 @@ latcommon.nounn45172|lsx.n45172|sputator|masculine|0_is
 latcommon.nounn45174|lsx.n45174|sput|neuter|us_i
 latcommon.nounn45175|lsx.n45175|sput|masculine|us_us
 latcommon.nounn45177|lsx.n45177|squalenti|feminine|a_ae
-latcommon.nounn45179|lsx.n45179|squal|feminine|
+latcommon.nounn45179|lsx.n45179|squal|feminine|i_es_is
 latcommon.nounn45181|lsx.n45181|squalidita|feminine|s_tis
 latcommon.nounn45183|lsx.n45183|squalita|feminine|s_tis
 latcommon.nounn45184|lsx.n45184|squalitud|feminine|o_inis
@@ -15320,7 +15320,7 @@ latcommon.nounn45485|lsx.n45485|stora|feminine|x_cis
 latcommon.nounn45487|lsx.n45487|store|feminine|a_ae
 latcommon.nounn45488|lsx.n45488|stori|feminine|a_ae
 latcommon.nounn45491|lsx.n45491|strab|masculine|o_onis
-latcommon.nounn45495|lsx.n45495|strag|feminine|
+latcommon.nounn45495|lsx.n45495|strag|feminine|i_es_is
 latcommon.nounn45497|lsx.n45497|stragul|neuter|us_i
 latcommon.nounn45499|lsx.n45499|stramin|neuter|en_inis
 latcommon.nounn45503|lsx.n45503|strament|neuter|us_i
@@ -15464,7 +15464,7 @@ latcommon.nounn45965|lsx.n45965|sublingi|masculine|o_onis
 latcommon.nounn45966|lsx.n45966|sublingui|neuter|us_i
 latcommon.nounn45993|lsx.n45993|subnotati|feminine|o_onis
 latcommon.nounn45995|lsx.n45995|subnub|feminine|a_ae
-latcommon.nounn46006|lsx.n46006|subol|feminine|
+latcommon.nounn46006|lsx.n46006|subol|feminine|i_es_is
 latcommon.nounn46010|lsx.n46010|subornator|masculine|0_is
 latcommon.nounn46012|lsx.n46012|subort|masculine|us_us
 latcommon.nounn46020|lsx.n46020|subsannati|feminine|o_onis
@@ -15481,7 +15481,7 @@ latcommon.nounn46049|lsx.n46049|subsessor|masculine|0_is
 latcommon.nounn46052|lsx.n46052|subsidenti|feminine|a_ae
 latcommon.nounn46057|lsx.n46057|subsidi|neuter|us_i
 latcommon.nounn46061|lsx.n46061|subsignati|feminine|o_onis
-latcommon.nounn46064|lsx.n46064|subsill|feminine|
+latcommon.nounn46064|lsx.n46064|subsill|feminine|i_es_is
 latcommon.nounn46068|lsx.n46068|subsistenti|feminine|a_ae
 latcommon.nounn46075|lsx.n46075|subsortiti|feminine|o_onis
 latcommon.nounn46078|lsx.n46078|substamin|neuter|en_inis
@@ -15833,7 +15833,7 @@ latcommon.nounn47324|lsx.n47324|tabelli|masculine|o_onis
 latcommon.nounn47326|lsx.n47326|tabern|feminine|a_ae
 latcommon.nounn47327|lsx.n47327|tabernaculari|masculine|us_i
 latcommon.nounn47328|lsx.n47328|tabernacul|neuter|us_i
-latcommon.nounn47331|lsx.n47331|tab|feminine|
+latcommon.nounn47331|lsx.n47331|tab|feminine|i_es_is
 latcommon.nounn47337|lsx.n47337|tabificati|feminine|o_onis
 latcommon.nounn47343|lsx.n47343|tabitud|feminine|o_inis
 latcommon.nounn47344|lsx.n47344|tablin|neuter|us_i
@@ -16013,7 +16013,7 @@ latcommon.nounn47883|lsx.n47883|terminator|masculine|0_is
 latcommon.nounn47884|lsx.n47884|terminat|masculine|us_i
 latcommon.nounn47886|lsx.n47886|termin|masculine|us_i
 latcommon.nounn47892|lsx.n47892|terni|masculine|o_onis
-latcommon.nounn47893|lsx.n47893|noct|feminine|
+latcommon.nounn47893|lsx.n47893|noct|feminine|i_x_tis
 latcommon.nounn47897|lsx.n47897|terr|feminine|a_ae
 latcommon.nounn47899|lsx.n47899|terralis herb|feminine|a_ae
 latcommon.nounn47905|lsx.n47905|terribilita|feminine|s_tis
@@ -16101,7 +16101,7 @@ latcommon.nounn48086|lsx.n48086|thall|masculine|us_i
 latcommon.nounn48088|lsx.n48088|thamn|neuter|us_i
 latcommon.nounn48090|lsx.n48090|thamn|neuter|us_i
 latcommon.nounn48092|lsx.n48092|thapsi|feminine|a_ae
-latcommon.nounn48097|lsx.n48097|theamed|masculine|
+latcommon.nounn48097|lsx.n48097|theamed|masculine|i_es_is
 latcommon.nounn48098|lsx.n48098|theangelid|feminine|s_dis
 latcommon.nounn48101|lsx.n48101|theatr|neuter|us_i
 latcommon.nounn48107|lsx.n48107|thec|feminine|a_ae
@@ -16131,7 +16131,7 @@ latcommon.nounn48196|lsx.n48196|theurgi|feminine|a_ae
 latcommon.nounn48198|lsx.n48198|theurg|masculine|us_i
 latcommon.nounn48200|lsx.n48200|thiasita|feminine|s_tis
 latcommon.nounn48201|lsx.n48201|thias|masculine|us_i
-latcommon.nounn48204|lsx.n48204|thieldon|masculine|
+latcommon.nounn48204|lsx.n48204|thieldon|masculine|i_es_is
 latcommon.nounn48208|lsx.n48208|thlasi|masculine|as_ae
 latcommon.nounn48209|lsx.n48209|thlasp|neuter|0_is
 latcommon.nounn48212|lsx.n48212|thoc|masculine|us_i
@@ -16293,7 +16293,7 @@ latcommon.nounn48633|lsx.n48633|trabari|feminine|a_ae
 latcommon.nounn48634|lsx.n48634|trabe|feminine|a_ae
 latcommon.nounn48637x|lsx.n48637x|trabeat|feminine|a_ae
 latcommon.nounn48638|lsx.n48638|trabecul|feminine|a_ae
-latcommon.nounn48639|lsx.n48639|trab|feminine|
+latcommon.nounn48639|lsx.n48639|trab|feminine|i_es_is
 latcommon.nounn48640|lsx.n48640|trabic|feminine|a_ae
 latcommon.nounn48641|lsx.n48641|trab|feminine|0_is
 latcommon.nounn48645|lsx.n48645|trachi|feminine|a_ae
@@ -16316,7 +16316,7 @@ latcommon.nounn48677|lsx.n48677|traduct|masculine|us_us
 latcommon.nounn48678|lsx.n48678|tradu|masculine|x_cis
 latcommon.nounn48679|lsx.n48679|tragacanth|feminine|a_ae
 latcommon.nounn48680|lsx.n48680|tragacanth|neuter|us_i
-latcommon.nounn48681|lsx.n48681|traganth|feminine|
+latcommon.nounn48681|lsx.n48681|traganth|feminine|i_es_is
 latcommon.nounn48682|lsx.n48682|tragan|masculine|us_i
 latcommon.nounn48684|lsx.n48684|tragelaph|masculine|us_i
 latcommon.nounn48688|lsx.n48688|tragicocomoedi|feminine|a_ae
@@ -16463,7 +16463,7 @@ latcommon.nounn49132|lsx.n49132|trinocti|neuter|us_i
 latcommon.nounn49139|lsx.n49139|tri|masculine|o_onis
 latcommon.nounn49140|lsx.n49140|triobol|masculine|us_i
 latcommon.nounn49145|lsx.n49145|triophthalm|masculine|nothing
-latcommon.nounn49146|lsx.n49146|triorch|masculine|
+latcommon.nounn49146|lsx.n49146|triorch|masculine|i_es_is
 latcommon.nounn49147|lsx.n49147|triorchid|feminine|s_dis
 latcommon.nounn49150|lsx.n49150|tripartiti|feminine|o_onis
 latcommon.nounn49153|lsx.n49153|tripatin|neuter|us_i
@@ -16543,7 +16543,7 @@ latcommon.nounn49355|lsx.n49355|tubulati|feminine|o_onis
 latcommon.nounn49357|lsx.n49357|tubul|masculine|us_i
 latcommon.nounn49361|lsx.n49361|tub|masculine|us_i
 latcommon.nounn49362|lsx.n49362|tuccet|neuter|us_i
-latcommon.nounn49365|lsx.n49365|tud|masculine|
+latcommon.nounn49365|lsx.n49365|tud|masculine|i_es_is
 latcommon.nounn49367|lsx.n49367|tudicul|feminine|a_ae
 latcommon.nounn49373|lsx.n49373|tuf|feminine|a_ae
 latcommon.nounn49375|lsx.n49375|tuguriol|neuter|us_i
@@ -16783,7 +16783,7 @@ latcommon.nounn51503|lsx.n51503|xyst|masculine|us_i
 latcommon.nounn51503|lsx.n51503|xyst|neuter|us_i
 latcommon.nounn51513|lsx.n51513|zami|feminine|a_ae
 latcommon.nounn51515|lsx.n51515|zanch|feminine|a_ae
-latcommon.nounn51517|lsx.n51517|zanthen|masculine|
+latcommon.nounn51517|lsx.n51517|zanthen|masculine|i_es_is
 latcommon.nounn51519|lsx.n51519|ze|feminine|a_ae
 latcommon.nounn51521|lsx.n51521|zelator|masculine|0_is
 latcommon.nounn51524|lsx.n51524|zelot|masculine|i_s_tis

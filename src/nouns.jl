@@ -70,7 +70,6 @@ function expand(nom, gen)
         replace(nom, r"ae$" => "") * "arum"
 
     elseif gen == "i"
-        #if endswith()
         replace(nom, r"[ou][smn]$" => "") * "i"
 
     elseif gen == "orum"
@@ -241,9 +240,16 @@ function decl3istem(n::LSNoun)
 end
 
 function decl3istem(nom,gen)
+    @info("Check for istem $(nom)/$(gen)")
     if endswith(gen, "tis") && endswith(nom, "s")
         "i_s_tis"
 
+    elseif endswith(gen, "tis") && endswith(nom, "x")
+        "i_x_tis"
+
+    elseif endswith(gen, "is") && endswith(nom, "es")
+        "i_es_is"
+        
     elseif endswith(gen, "is") && endswith(nom, "is")
         "i_is_is"
     
@@ -353,6 +359,7 @@ function tabulaeclass(noun::LSNoun)
         decl2class(noun)
 
     elseif noun.declension == 3
+        #@info("Check if istem $(istem(noun))")
         istem(noun) ? decl3istem(noun) :   decl3class(noun)
 
     elseif noun.declension == 4

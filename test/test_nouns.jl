@@ -27,4 +27,10 @@ end
     gens = "19464|urn:cite2:hmt:ls.markdown:n19461|gens | race, clan, or nation | noun | gens, gentis, feminine" |> LexiconMining.readdataline |> noun
 
     @test LexiconMining.istem(gens)
+
+    @test cexline(gens) == ["latcommon.nounn19461|lsx.n19461|gent|feminine|i_s_tis"]
+
+
+    nox = "31312|urn:cite2:hmt:ls.markdown:n31309|nox|night; darkness, obscurity, sleep, death|noun|nox, noctis, feminine"  |> LexiconMining.readdataline |> noun
+
 end
