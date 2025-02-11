@@ -4,7 +4,7 @@
 $(SIGNATURES)
 """
 function istemneuter(n::LSNoun)
-    if ! n.gender == "neuter"
+    if ! (n.gender == "neuter")
         false
 
     else

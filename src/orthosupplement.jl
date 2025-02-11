@@ -16,6 +16,8 @@ function consonant(c)
     ! vowel(c)
 end
 
+
+# Change this: use graphemes, not char indices
 function syllabify(raw)
 
     diphthongs = ["ae", "oe", "au", "eu", "ei", "ui"]  # Common diphthongs

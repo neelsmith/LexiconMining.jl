@@ -110,13 +110,13 @@ lat23.nounn5602|lsx.n5602|bou|feminine|a_ae
 lat23.nounn5606|lsx.n5606|bouicidi|neuter|us_i
 lat23.nounn5608|lsx.n5608|bouill|feminine|a_ae
 lat23.nounn5611|lsx.n5611|bouinator|masculine|0_is
-lat23.nounn5676|lsx.n5676|breuiati|feminine|o_onis
+lat23.nounn5676|lsx.n5676|breuation|feminine|
 lat23.nounn5677|lsx.n5677|breuiator|masculine|0_is
 lat23.nounn5680|lsx.n5680|breuiloquenti|feminine|a_ae
 lat23.nounn5681|lsx.n5681|breuiloqui|neuter|us_i
 lat23.nounn5685|lsx.n5685|breuita|feminine|s_tis
-lat23.nounn5790|lsx.n5790|bucconiatis uiti|feminine|s_tis
-lat23.nounn5968|lsx.n5968|cadauer|neuter|0_is
+lat23.nounn5790|lsx.n5790|bucconiatis uit|feminine|i_s_tis
+lat23.nounn5968|lsx.n5968|cadauer|neuter|
 lat23.nounn6158|lsx.n6158|calatinae uiol|feminine|a_ae
 lat23.nounn6334|lsx.n6334|calu|feminine|a_ae
 lat23.nounn6335|lsx.n6335|caluari|feminine|a_ae
@@ -149,7 +149,7 @@ lat23.nounn7263|lsx.n7263|cauosita|feminine|s_tis
 lat23.nounn7264|lsx.n7264|cau|neuter|us_i
 lat23.nounn7541|lsx.n7541|cereuisi|feminine|a_ae
 lat23.nounn7598|lsx.n7598|ceru|feminine|a_ae
-lat23.nounn7601|lsx.n7601|ceruical|neuter|0_is
+lat23.nounn7601|lsx.n7601|ceruical|neuter|
 lat23.nounn7603|lsx.n7603|ceruicosita|feminine|s_tis
 lat23.nounn7605|lsx.n7605|ceruicul|feminine|a_ae
 lat23.nounn7607|lsx.n7607|ceruisi|feminine|a_ae
@@ -166,8 +166,8 @@ lat23.nounn8360|lsx.n8360|circumuenti|feminine|o_onis
 lat23.nounn8361|lsx.n8361|circumuentor|masculine|0_is
 lat23.nounn8365|lsx.n8365|circumuersi|feminine|o_onis
 lat23.nounn8462|lsx.n8462|ciuilita|feminine|s_tis
-lat23.nounn8464|lsx.n8464|ciu|masculine|is_is
-lat23.nounn8464|lsx.n8464|ciu|feminine|is_is
+lat23.nounn8464|lsx.n8464|ciu|masculine|i_is_is
+lat23.nounn8464|lsx.n8464|ciu|feminine|i_is_is
 lat23.nounn8465|lsx.n8465|ciuita|feminine|s_tis
 lat23.nounn8466|lsx.n8466|ciuitatul|feminine|a_ae
 lat23.nounn8550|lsx.n8550|clau|feminine|a_ae
@@ -176,7 +176,7 @@ lat23.nounn8552|lsx.n8552|clauator|masculine|0_is
 lat23.nounn8554|lsx.n8554|clauicari|masculine|us_i
 lat23.nounn8555|lsx.n8555|clauicul|feminine|a_ae
 lat23.nounn8557|lsx.n8557|clauiger|masculine|0_i
-lat23.nounn8558|lsx.n8558|clau|feminine|is_is
+lat23.nounn8558|lsx.n8558|clau|feminine|i_is_is
 lat23.nounn8560|lsx.n8560|clauul|feminine|a_ae
 lat23.nounn8562|lsx.n8562|clauul|masculine|us_i
 lat23.nounn8563|lsx.n8563|clau|masculine|us_i
@@ -184,15 +184,15 @@ lat23.nounn8635|lsx.n8635|cliuul|masculine|us_i
 lat23.nounn8636|lsx.n8636|cliu|masculine|us_i
 lat23.nounn8725|lsx.n8725|coaceruati|feminine|o_onis
 lat23.nounn8739|lsx.n8739|coadiutor|masculine|0_is
-lat23.nounn9123|lsx.n9123|colluuiar|masculine|is_is
+lat23.nounn9123|lsx.n9123|colluuiar|masculine|i_is_is
 lat23.nounn9124|lsx.n9124|colluui|feminine|es_ei
 lat23.nounn9125|lsx.n9125|colluui|feminine|o_onis
 lat23.nounn9126|lsx.n9126|genitiue singular: colluui|neuter|us_i
 lat23.nounn9645|lsx.n9645|compluui|neuter|us_i
 lat23.nounn9756|lsx.n9756|concaptiu|masculine|us_i
 lat23.nounn9763|lsx.n9763|concauita|feminine|s_tis
-lat23.nounn9860|lsx.n9860|conciu|masculine|is_is
-lat23.nounn9868|lsx.n9868|conclau|neuter|0_is
+lat23.nounn9860|lsx.n9860|conciu|masculine|i_is_is
+lat23.nounn9868|lsx.n9868|conclau|neuter|
 lat23.nounn10094|lsx.n10094|conferu|feminine|a_ae
 lat23.nounn10113|lsx.n10113|confideiussor|masculine|0_is
 lat23.nounn10178|lsx.n10178|confluui|neuter|us_i
@@ -225,7 +225,7 @@ lat23.nounn10910|lsx.n10910|controuersiol|feminine|a_ae
 lat23.nounn10958|lsx.n10958|conualescenti|feminine|a_ae
 lat23.nounn10960|lsx.n10960|conuallati|feminine|o_onis
 lat23.nounn10961|lsx.n10961|conuall|neuter|i_is_is
-lat23.nounn10962|lsx.n10962|conuall|feminine|is_is
+lat23.nounn10962|lsx.n10962|conuall|feminine|i_is_is
 lat23.nounn10966|lsx.n10966|conuecti|feminine|o_onis
 lat23.nounn10968|lsx.n10968|conuector|masculine|0_is
 lat23.nounn10969|lsx.n10969|conuictor|masculine|0_is
@@ -262,7 +262,7 @@ lat23.nounn11042|lsx.n11042|conuocati|feminine|o_onis
 lat23.nounn11043|lsx.n11043|conuoci|neuter|us_i
 lat23.nounn11050|lsx.n11050|conuoluul|masculine|us_i
 lat23.nounn11055|lsx.n11055|conuulsi|feminine|o_onis
-lat23.nounn11294|lsx.n11294|corriual|masculine|is_is
+lat23.nounn11294|lsx.n11294|corriual|masculine|i_is_is
 lat23.nounn11295|lsx.n11295|corriuati|feminine|o_onis
 lat23.nounn11296|lsx.n11296|corriui|neuter|us_i
 lat23.nounn11350|lsx.n11350|coru|masculine|us_i
@@ -447,7 +447,7 @@ lat23.nounn22965|lsx.n22965|induui|feminine|
 lat23.nounn23377|lsx.n23377|ingluui|feminine|es_ei
 lat23.nounn23389|lsx.n23389|ingrauati|feminine|o_onis
 lat23.nounn23497|lsx.n23497|iniecti|feminine|o_onis
-lat23.nounn23498|lsx.n23498|iniectional|neuter|0_is
+lat23.nounn23498|lsx.n23498|iniectional|neuter|
 lat23.nounn23502|lsx.n23502|iniect|masculine|us_us
 lat23.nounn23506|lsx.n23506|iniucundita|feminine|s_tis
 lat23.nounn23511|lsx.n23511|iniuncti|feminine|o_onis
@@ -542,7 +542,7 @@ lat23.nounn25194|lsx.n25194|ianitor|masculine|0_is
 lat23.nounn25196|lsx.n25196|ianitri|feminine|x_cis
 lat23.nounn25197|lsx.n25197|ianu|feminine|a_ae
 lat23.nounn25211|lsx.n25211|iectur|feminine|a_ae
-lat23.nounn25212|lsx.n25212|iecor|neuter|0_is
+lat23.nounn25212|lsx.n25212|iecor|neuter|
 lat23.nounn25213|lsx.n25213|iecuscul|neuter|us_i
 lat23.nounn25214|lsx.n25214|ieiunati|feminine|o_onis
 lat23.nounn25215|lsx.n25215|ieiunator|masculine|0_is
@@ -551,13 +551,13 @@ lat23.nounn25219|lsx.n25219|ieiuni|neuter|us_i
 lat23.nounn25222|lsx.n25222|ientacul|neuter|us_i
 lat23.nounn25223|lsx.n25223|ientati|feminine|o_onis
 lat23.nounn25232|lsx.n25232|iocati|feminine|o_onis
-lat23.nounn25233|lsx.n25233|iocinor|neuter|0_is
+lat23.nounn25233|lsx.n25233|iocinor|neuter|
 lat23.nounn25241|lsx.n25241|ioculati|feminine|o_onis
 lat23.nounn25242|lsx.n25242|ioculator|masculine|0_is
 lat23.nounn25245|lsx.n25245|iocul|masculine|us_i
 lat23.nounn25248|lsx.n25248|ioc|masculine|us_i
 lat23.nounn25260|lsx.n25260|iub|feminine|a_ae
-lat23.nounn25262|lsx.n25262|iubar|neuter|0_is
+lat23.nounn25262|lsx.n25262|iubar|neuter|
 lat23.nounn25266|lsx.n25266|iubilae|masculine|us_i
 lat23.nounn25267|lsx.n25267|iubilati|feminine|o_onis
 lat23.nounn25268|lsx.n25268|iubilat|masculine|us_i
@@ -571,7 +571,7 @@ lat23.nounn25286|lsx.n25286|iudicatri|feminine|x_cis
 lat23.nounn25287|lsx.n25287|iudicat|neuter|us_i
 lat23.nounn25289|lsx.n25289|iudicat|masculine|us_us
 lat23.nounn25293|lsx.n25293|iudici|neuter|us_i
-lat23.nounn25297|lsx.n25297|iugalita|feminine|s_tis
+lat23.nounn25297|lsx.n25297|iugalit|feminine|i_s_tis
 lat23.nounn25301|lsx.n25301|iugati|feminine|o_onis
 lat23.nounn25302|lsx.n25302|iugator|masculine|0_is
 lat23.nounn25306|lsx.n25306|iugerati|feminine|o_onis
@@ -628,8 +628,8 @@ lat23.nounn25432|lsx.n25432|iuuenc|feminine|a_ae
 lat23.nounn25435x|lsx.n25435x|iuuenc|masculine|us_i
 lat23.nounn25435y|lsx.n25435y|iuuenc|feminine|a_ae
 lat23.nounn25439|lsx.n25439|iuuenilita|feminine|s_tis
-lat23.nounn25441|lsx.n25441|iuuen|masculine|is_is
-lat23.nounn25441|lsx.n25441|iuuen|feminine|is_is
+lat23.nounn25441|lsx.n25441|iuuen|masculine|i_is_is
+lat23.nounn25441|lsx.n25441|iuuen|feminine|i_is_is
 lat23.nounn25444|lsx.n25444|iuuent|feminine|a_ae
 lat23.nounn25445|lsx.n25445|iuuenta|feminine|s_tis
 lat23.nounn25447|lsx.n25447|iuuentu|feminine|s_tis
@@ -664,7 +664,7 @@ lat23.nounn26430|lsx.n26430|leuor|masculine|0_is
 lat23.nounn26853|lsx.n26853|liued|feminine|o_inis
 lat23.nounn26867|lsx.n26867|liuor|masculine|0_is
 lat23.nounn26942|lsx.n26942|longaeuita|feminine|s_tis
-lat23.nounn27664|lsx.n27664|maial|masculine|is_is
+lat23.nounn27664|lsx.n27664|maial|masculine|i_is_is
 lat23.nounn27666|lsx.n27666|maiesta|feminine|s_tis
 lat23.nounn27668|lsx.n27668|maioriari|masculine|us_i
 lat23.nounn27671|lsx.n27671|maium|feminine|a_ae
@@ -673,7 +673,7 @@ lat23.nounn27724x|lsx.n27724x|maleuol|masculine|us_i
 lat23.nounn27724y|lsx.n27724y|maleuol|feminine|a_ae
 lat23.nounn27760|lsx.n27760|malluui|neuter|us_i
 lat23.nounn27779|lsx.n27779|malu|feminine|a_ae
-lat23.nounn28979|lsx.n28979|mettica uiti|feminine|s_tis
+lat23.nounn28979|lsx.n28979|metticae uit|feminine|i_s_tis
 lat23.nounn29264|lsx.n29264|misereuiui|neuter|us_i
 lat23.nounn29937|lsx.n29937|multiuir|feminine|a_ae
 lat23.nounn29940|lsx.n29940|multiuoranti|feminine|a_ae
@@ -682,17 +682,17 @@ lat23.nounn30344|lsx.n30344|naeuul|masculine|us_i
 lat23.nounn30345|lsx.n30345|naeu|masculine|us_i
 lat23.nounn30467|lsx.n30467|natiuita|feminine|s_tis
 lat23.nounn30546|lsx.n30546|nauacul|neuter|us_i
-lat23.nounn30547|lsx.n30547|naual|neuter|0_is
+lat23.nounn30547|lsx.n30547|naual|neuter|
 lat23.nounn30552|lsx.n30552|naui|feminine|a_ae
 lat23.nounn30554|lsx.n30554|nauicell|feminine|a_ae
 lat23.nounn30555|lsx.n30555|nauicul|feminine|a_ae
 lat23.nounn30562|lsx.n30562|nauigati|feminine|o_onis
 lat23.nounn30565|lsx.n30565|nauigiol|neuter|us_i
 lat23.nounn30566|lsx.n30566|nauigi|neuter|us_i
-lat23.nounn30568|lsx.n30568|nau|feminine|is_is
+lat23.nounn30568|lsx.n30568|nau|feminine|i_is_is
 lat23.nounn30571|lsx.n30571|nauita|feminine|s_tis
 lat23.nounn30573|lsx.n30573|nauiti|feminine|es_ei
-lat23.nounn30772|lsx.n30772|genitiue singular: nepud|feminine|s_dis
+lat23.nounn30772|lsx.n30772|genitiue singular: nepud|feminine|
 lat23.nounn30822|lsx.n30822|neruosita|feminine|s_tis
 lat23.nounn30824|lsx.n30824|neruul|masculine|us_i
 lat23.nounn30825|lsx.n30825|neru|masculine|us_i
@@ -745,12 +745,12 @@ lat23.nounn33218|lsx.n33218|ouari|masculine|us_i
 lat23.nounn33219|lsx.n33219|ouati|feminine|o_onis
 lat23.nounn33222|lsx.n33222|ouat|masculine|us_i
 lat23.nounn33227|lsx.n33227|ouicul|feminine|a_ae
-lat23.nounn33229|lsx.n33229|ouil|neuter|0_is
-lat23.nounn33230|lsx.n33230|ouili|masculine|o_inis
+lat23.nounn33229|lsx.n33229|ouil|neuter|
+lat23.nounn33230|lsx.n33230|ouin|masculine|
 lat23.nounn33237|lsx.n33237|ou|feminine|is_is
 lat23.nounn33240|lsx.n33240|ou|neuter|us_i
 lat23.nounn33666|lsx.n33666|pannuuelli|neuter|us_i
-lat23.nounn33710|lsx.n33710|papauer|neuter|0_is
+lat23.nounn33710|lsx.n33710|papauer|neuter|
 lat23.nounn33712|lsx.n33712|papauercul|neuter|us_i
 lat23.nounn33796|lsx.n33796|parasceu|feminine|e_es
 lat23.nounn33819|lsx.n33819|parauered|masculine|us_i
@@ -767,7 +767,7 @@ lat23.nounn34248|lsx.n34248|pauor|masculine|0_is
 lat23.nounn34249|lsx.n34249|pau|masculine|us_i
 lat23.nounn34382|lsx.n34382|peierati|feminine|o_onis
 lat23.nounn34457|lsx.n34457|pelluui|feminine|a_ae
-lat23.nounn34473|lsx.n34473|pelu|feminine|is_is
+lat23.nounn34473|lsx.n34473|pelu|feminine|i_is_is
 lat23.nounn34865|lsx.n34865|perenniseru|masculine|us_i
 lat23.nounn35127|lsx.n35127|perieratiuncul|feminine|a_ae
 lat23.nounn35132|lsx.n35132|periuri|neuter|us_i
@@ -852,9 +852,9 @@ lat23.nounn39548|lsx.n39548|puluer|masculine|0_is
 lat23.nounn39550|lsx.n39550|pulueratic|neuter|us_i
 lat23.nounn39551|lsx.n39551|puluerati|feminine|o_onis
 lat23.nounn39556|lsx.n39556|puluill|masculine|us_i
-lat23.nounn39557|lsx.n39557|puluinar|neuter|0_is
+lat23.nounn39557|lsx.n39557|puluinar|neuter|
 lat23.nounn39559|lsx.n39559|puluinari|neuter|us_i
-lat23.nounn39562|lsx.n39562|puluinens|feminine|is_is
+lat23.nounn39562|lsx.n39562|puluinens|feminine|i_is_is
 lat23.nounn39563|lsx.n39563|puluinul|masculine|us_i
 lat23.nounn39564|lsx.n39564|puluin|masculine|us_i
 lat23.nounn39565|lsx.n39565|puluer|masculine|is_is
@@ -866,7 +866,7 @@ lat23.nounn40147|lsx.n40147|quindecimuir|masculine|0_i
 lat23.nounn40149|lsx.n40149|quindecimuirat|masculine|us_us
 lat23.nounn40200|lsx.n40200|quinqueuir|masculine|0_i
 lat23.nounn40203|lsx.n40203|quinqueuirat|masculine|us_us
-lat23.nounn40487|lsx.n40487|rau|feminine|is_is
+lat23.nounn40487|lsx.n40487|rau|feminine|i_is_is
 lat23.nounn40521|lsx.n40521|recaluati|feminine|o_onis
 lat23.nounn40563|lsx.n40563|recidiuat|masculine|us_us
 lat23.nounn40775|lsx.n40775|reduui|feminine|a_ae
@@ -913,11 +913,11 @@ lat23.nounn42821|lsx.n42821|scaeu|masculine|a_ae
 lat23.nounn42823|lsx.n42823|scaeuita|feminine|s_tis
 lat23.nounn43214|lsx.n43214|seu|neuter|us_i
 lat23.nounn43227|lsx.n43227|seciu|neuter|us_i
-lat23.nounn43371|lsx.n43371|seiug|masculine|is_is
+lat23.nounn43371|lsx.n43371|seiug|masculine|i_is_is
 lat23.nounn43375|lsx.n43375|seiuncti|feminine|o_onis
 lat23.nounn43441|lsx.n43441|bou|masculine|0_is
 lat23.nounn43494|lsx.n43494|semiiuger|neuter|us_i
-lat23.nounn43721|lsx.n43721|septeiug|masculine|is_is
+lat23.nounn43721|lsx.n43721|septeiug|masculine|i_is_is
 lat23.nounn43730|lsx.n43730|septemneru|feminine|a_ae
 lat23.nounn43735|lsx.n43735|septemuir|masculine|0_i
 lat23.nounn43737|lsx.n43737|septemuirat|masculine|us_us
@@ -980,13 +980,13 @@ lat23.nounn45927|lsx.n45927|subiunctori|neuter|us_i
 lat23.nounn45947|lsx.n45947|subleuati|feminine|o_onis
 lat23.nounn45979|lsx.n45979|subluui|feminine|es_ei
 lat23.nounn46143|lsx.n46143|subterluui|feminine|o_onis
-lat23.nounn46203|lsx.n46203|subuad|masculine|s_dis
+lat23.nounn46203|lsx.n46203|subuad|masculine|
 lat23.nounn46204|lsx.n46204|subuecti|feminine|o_onis
 lat23.nounn46206|lsx.n46206|subuector|masculine|0_is
 lat23.nounn46208|lsx.n46208|subuect|masculine|us_us
 lat23.nounn46213|lsx.n46213|subuenti|feminine|o_onis
 lat23.nounn46215|lsx.n46215|subuentor|masculine|0_is
-lat23.nounn46217|lsx.n46217|subuentril|neuter|0_is
+lat23.nounn46217|lsx.n46217|subuentril|neuter|
 lat23.nounn46220|lsx.n46220|subuersi|feminine|o_onis
 lat23.nounn46222|lsx.n46222|subuersor|masculine|0_is
 lat23.nounn46225|lsx.n46225|subuespertini uent|masculine|us_i
@@ -1018,7 +1018,7 @@ lat23.nounn48871|lsx.n48871|transpositiu|feminine|a_ae
 lat23.nounn48899|lsx.n48899|transuecti|feminine|o_onis
 lat23.nounn48902|lsx.n48902|transuen|masculine|a_ae
 lat23.nounn48914|lsx.n48914|transuorati|feminine|o_onis
-lat23.nounn49174|lsx.n49174|genitiue singular: tripod|masculine|s_dis
+lat23.nounn49174|lsx.n49174|genitiue singular: tripod|masculine|
 lat23.nounn49216|lsx.n49216|tritaui|feminine|a_ae
 lat23.nounn49217|lsx.n49217|tritau|masculine|us_i
 lat23.nounn49242|lsx.n49242|triumuir|masculine|0_i
@@ -1058,10 +1058,10 @@ lat23.nounn50123|lsx.n50123|ualeri|feminine|a_ae
 lat23.nounn50129|lsx.n50129|ualetud|feminine|o_inis
 lat23.nounn50134|lsx.n50134|ualidita|feminine|s_tis
 lat23.nounn50137|lsx.n50137|uallati|feminine|o_onis
-lat23.nounn50138|lsx.n50138|uall|feminine|0_is
+lat23.nounn50138|lsx.n50138|uall|feminine|
 lat23.nounn50140|lsx.n50140|uallestr|neuter|i_is_is
 lat23.nounn50141|lsx.n50141|uallicul|feminine|a_ae
-lat23.nounn50142|lsx.n50142|uall|feminine|is_is
+lat23.nounn50142|lsx.n50142|uall|feminine|i_is_is
 lat23.nounn50145|lsx.n50145|uall|neuter|us_i
 lat23.nounn50146|lsx.n50146|uall|masculine|us_i
 lat23.nounn50147|lsx.n50147|uall|masculine|us_i
@@ -1106,8 +1106,8 @@ lat23.nounn50247|lsx.n50247|uastita|feminine|s_tis
 lat23.nounn50248|lsx.n50248|uastiti|feminine|es_ei
 lat23.nounn50249|lsx.n50249|uastitud|feminine|o_inis
 lat23.nounn50253|lsx.n50253|uas|neuter|us_i
-lat23.nounn50254|lsx.n50254|uate|masculine|s_tis
-lat23.nounn50254|lsx.n50254|uate|feminine|s_tis
+lat23.nounn50254|lsx.n50254|uat|masculine|i_s_tis
+lat23.nounn50254|lsx.n50254|uat|feminine|i_s_tis
 lat23.nounn50256|lsx.n50256|uaticae herb|feminine|a_ae
 lat23.nounn50258|lsx.n50258|uaticinati|feminine|o_onis
 lat23.nounn50259|lsx.n50259|uaticinator|masculine|0_is
@@ -1118,10 +1118,10 @@ lat23.nounn50278|lsx.n50278|uectabul|neuter|us_i
 lat23.nounn50279|lsx.n50279|uectacul|neuter|us_i
 lat23.nounn50281|lsx.n50281|uectati|feminine|o_onis
 lat23.nounn50282|lsx.n50282|uectiari|masculine|us_i
-lat23.nounn50285|lsx.n50285|uectigal|neuter|0_is
+lat23.nounn50285|lsx.n50285|uectigal|neuter|
 lat23.nounn50286|lsx.n50286|uectigaliari|masculine|us_i
 lat23.nounn50288|lsx.n50288|uecti|feminine|o_onis
-lat23.nounn50289|lsx.n50289|uecti|masculine|s_tis
+lat23.nounn50289|lsx.n50289|uect|masculine|i_s_tis
 lat23.nounn50295|lsx.n50295|uector|masculine|0_is
 lat23.nounn50297|lsx.n50297|uectri|feminine|x_cis
 lat23.nounn50298|lsx.n50298|uectur|feminine|a_ae
@@ -1131,7 +1131,7 @@ lat23.nounn50307|lsx.n50307|uegetati|feminine|o_onis
 lat23.nounn50308|lsx.n50308|uegetator|masculine|0_is
 lat23.nounn50313|lsx.n50313|uehati|feminine|o_onis
 lat23.nounn50317|lsx.n50317|uehementi|feminine|a_ae
-lat23.nounn50318|lsx.n50318|ueh|feminine|0_is
+lat23.nounn50318|lsx.n50318|ueh|feminine|
 lat23.nounn50321|lsx.n50321|uehicul|neuter|us_i
 lat23.nounn50327|lsx.n50327|uel|feminine|a_ae
 lat23.nounn50329|lsx.n50329|uelabr|neuter|us_i
@@ -1172,7 +1172,7 @@ lat23.nounn50421|lsx.n50421|uenen|neuter|us_i
 lat23.nounn50429|lsx.n50429|uenerati|feminine|o_onis
 lat23.nounn50430|lsx.n50430|uenerator|masculine|0_is
 lat23.nounn50437|lsx.n50437|ueni|feminine|a_ae
-lat23.nounn50447|lsx.n50447|uentr|masculine|0_is
+lat23.nounn50447|lsx.n50447|uentr|masculine|
 lat23.nounn50450|lsx.n50450|uentilabr|neuter|us_i
 lat23.nounn50452|lsx.n50452|uentilati|feminine|o_onis
 lat23.nounn50453|lsx.n50453|uentilator|masculine|0_is
@@ -1191,21 +1191,21 @@ lat23.nounn50476|lsx.n50476|uen|neuter|us_i
 lat23.nounn50479|lsx.n50479|uen|masculine|us_us
 lat23.nounn50481|lsx.n50481|uenusta|feminine|s_tis
 lat23.nounn50488|lsx.n50488|ueprecul|feminine|a_ae
-lat23.nounn50489|lsx.n50489|uepr|masculine|0_is
+lat23.nounn50489|lsx.n50489|uepr|masculine|
 lat23.nounn50490|lsx.n50490|uepret|neuter|us_i
-lat23.nounn50491|lsx.n50491|uer|neuter|0_is
+lat23.nounn50491|lsx.n50491|uer|neuter|
 lat23.nounn50494|lsx.n50494|ueratri|feminine|x_cis
 lat23.nounn50495|lsx.n50495|ueratr|neuter|us_i
 lat23.nounn50499|lsx.n50499|uerbasc|neuter|us_i
 lat23.nounn50501|lsx.n50501|uerben|feminine|a_ae
 lat23.nounn50502|lsx.n50502|uerbenac|feminine|a_ae
 lat23.nounn50503|lsx.n50503|uerbenari|masculine|us_i
-lat23.nounn50505|lsx.n50505|uerber|neuter|0_is
+lat23.nounn50505|lsx.n50505|uerber|neuter|
 lat23.nounn50508|lsx.n50508|uerberati|feminine|o_onis
 lat23.nounn50509|lsx.n50509|uerberator|masculine|0_is
 lat23.nounn50510|lsx.n50510|uerberat|masculine|us_us
 lat23.nounn50514|lsx.n50514|uerber|masculine|o_onis
-lat23.nounn50516|lsx.n50516|uerbiﬁcati|feminine|o_onis
+lat23.nounn50516|lsx.n50516|uerbificati|feminine|o_onis
 lat23.nounn50517|lsx.n50517|uerbigen|masculine|a_ae
 lat23.nounn50519|lsx.n50519|uerbiuelitati|feminine|o_onis
 lat23.nounn50521|lsx.n50521|uerbosita|feminine|s_tis
@@ -1226,7 +1226,7 @@ lat23.nounn50559|lsx.n50559|ueriuerbi|neuter|us_i
 lat23.nounn50562|lsx.n50562|uermiculati|feminine|o_onis
 lat23.nounn50566|lsx.n50566|uermicul|masculine|us_i
 lat23.nounn50569|lsx.n50569|uerminati|feminine|o_onis
-lat23.nounn50572|lsx.n50572|uerm|masculine|is_is
+lat23.nounn50572|lsx.n50572|uerm|masculine|i_is_is
 lat23.nounn50573|lsx.n50573|uern|masculine|a_ae
 lat23.nounn50573|lsx.n50573|uern|feminine|a_ae
 lat23.nounn50576|lsx.n50576|uernati|feminine|o_onis
@@ -1237,7 +1237,7 @@ lat23.nounn50585|lsx.n50585|uern|neuter|us_i
 lat23.nounn50590|lsx.n50590|ueron|neuter|0_is
 lat23.nounn50593|lsx.n50593|uerp|feminine|a_ae
 lat23.nounn50594|lsx.n50594|uerp|masculine|us_i
-lat23.nounn50595|lsx.n50595|uerr|masculine|0_is
+lat23.nounn50595|lsx.n50595|uerr|masculine|
 lat23.nounn50597|lsx.n50597|uericul|neuter|us_i
 lat23.nounn50603|lsx.n50603|uerruc|feminine|a_ae
 lat23.nounn50604|lsx.n50604|uerrucari|feminine|a_ae
@@ -1292,7 +1292,7 @@ lat23.nounn50728|lsx.n50728|uestigi|neuter|us_i
 lat23.nounn50730|lsx.n50730|uestiment|neuter|us_i
 lat23.nounn50733|lsx.n50733|uestiplic|feminine|a_ae
 lat23.nounn50734|lsx.n50734|uestiplic|masculine|us_i
-lat23.nounn50735|lsx.n50735|uesti|feminine|s_tis
+lat23.nounn50735|lsx.n50735|uest|feminine|i_s_tis
 lat23.nounn50736|lsx.n50736|uestispic|feminine|a_ae
 lat23.nounn50737|lsx.n50737|uestitor|masculine|0_is
 lat23.nounn50739|lsx.n50739|uestit|masculine|us_us
@@ -1337,7 +1337,7 @@ lat23.nounn50842|lsx.n50842|uici|feminine|a_ae
 lat23.nounn50843|lsx.n50843|uicial|neuter|i_is_is
 lat23.nounn50850|lsx.n50850|uicini|feminine|a_ae
 lat23.nounn50851|lsx.n50851|uicinita|feminine|s_tis
-lat23.nounn50855|lsx.n50855|uic|feminine|is_is
+lat23.nounn50855|lsx.n50855|uic|feminine|i_is_is
 lat23.nounn50858|lsx.n50858|uicissita|feminine|s_tis
 lat23.nounn50859|lsx.n50859|uicissitud|feminine|o_inis
 lat23.nounn50861|lsx.n50861|uictim|feminine|a_ae
@@ -1350,13 +1350,13 @@ lat23.nounn50874x|lsx.n50874x|uictual|neuter|i_is_is
 lat23.nounn50877|lsx.n50877|uict|masculine|us_us
 lat23.nounn50878|lsx.n50878|uicul|masculine|us_i
 lat23.nounn50879|lsx.n50879|uic|masculine|us_i
-lat23.nounn50882|lsx.n50882|uiden|masculine|s_tis
+lat23.nounn50882|lsx.n50882|uident|masculine|i_s_tis
 lat23.nounn50885|lsx.n50885|uiduat|masculine|us_us
 lat23.nounn50886|lsx.n50886|uiduerta|feminine|s_tis
 lat23.nounn50887|lsx.n50887|uiduita|feminine|s_tis
 lat23.nounn50889|lsx.n50889|uidul|masculine|us_i
 lat23.nounn50892|lsx.n50892|uiduui|neuter|us_i
-lat23.nounn50902|lsx.n50902|uigess|masculine|is_is
+lat23.nounn50902|lsx.n50902|uigess|masculine|i_is_is
 lat23.nounn50908|lsx.n50908|uigilanti|feminine|a_ae
 lat23.nounn50910|lsx.n50910|uigilati|feminine|o_onis
 lat23.nounn50912|lsx.n50912|uigili|feminine|a_ae
@@ -1476,7 +1476,7 @@ lat23.nounn51178|lsx.n51178|uitilig|feminine|o_inis
 lat23.nounn51180|lsx.n51180|uitilitigator|masculine|0_is
 lat23.nounn51185|lsx.n51185|uitiosita|feminine|s_tis
 lat23.nounn51187|lsx.n51187|uitiparr|feminine|a_ae
-lat23.nounn51188|lsx.n51188|uiti|feminine|s_tis
+lat23.nounn51188|lsx.n51188|uit|feminine|i_s_tis
 lat23.nounn51189|lsx.n51189|uitisator|masculine|0_is
 lat23.nounn51190|lsx.n51190|uiti|neuter|us_i
 lat23.nounn51192|lsx.n51192|uitor|masculine|0_is
@@ -1523,7 +1523,7 @@ lat23.nounn51316|lsx.n51316|uolticul|masculine|us_i
 lat23.nounn51321|lsx.n51321|uolt|masculine|us_us
 lat23.nounn51323|lsx.n51323|uolubilita|feminine|s_tis
 lat23.nounn51325|lsx.n51325|uolucr|feminine|a_ae
-lat23.nounn51328|lsx.n51328|uolucr|feminine|is_is
+lat23.nounn51328|lsx.n51328|uolucr|feminine|i_is_is
 lat23.nounn51329|lsx.n51329|uolucrita|feminine|s_tis
 lat23.nounn51331|lsx.n51331|uolumin|neuter|en_inis
 lat23.nounn51337|lsx.n51337|uolunta|feminine|s_tis
@@ -1561,7 +1561,7 @@ lat23.nounn51423|lsx.n51423|uulnerator|masculine|0_is
 lat23.nounn51428|lsx.n51428|uuln|neuter|us_eris
 lat23.nounn51429|lsx.n51429|uulnuscul|neuter|us_i
 lat23.nounn51430|lsx.n51430|uulpecul|feminine|a_ae
-lat23.nounn51431|lsx.n51431|uulp|feminine|0_is
+lat23.nounn51431|lsx.n51431|uulp|feminine|
 lat23.nounn51434|lsx.n51434|uulpi|masculine|o_onis
 lat23.nounn51438|lsx.n51438|uulsi|feminine|o_onis
 lat23.nounn51440|lsx.n51440|uulsur|feminine|a_ae

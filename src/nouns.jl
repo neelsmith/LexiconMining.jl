@@ -236,12 +236,31 @@ function decl2class(nom, gen)
     end
 end
 
+function decl3istem(n::LSNoun)
+    decl3istem(n.nomsg, n.gensg)
+end
+
+function decl3istem(nom,gen)
+    if endswith(gen, "tis") && endswith(nom, "s")
+        "i_s_tis"
+
+    elseif endswith(gen, "is") && endswith(nom, "is")
+        "i_is_is"
+    
+    else 
+        @warn("Declension 3 i-stem conflicts with endings ($(gen)) for  $(nom)")
+        ""
+    end
+end
+
 """Find Tabulae class for a third declension noun.
 $(SIGNATURES)
 """
 function decl3class(noun::LSNoun)
     decl3class(noun.nomsg, noun.gensg)
 end
+
+
 
 function decl3class(nom, gen)
     if endswith(gen, "onis") && endswith(nom, "o")
@@ -334,7 +353,7 @@ function tabulaeclass(noun::LSNoun)
         decl2class(noun)
 
     elseif noun.declension == 3
-        decl3class(noun)
+        istem(noun) ? decl3istem(noun) :   decl3class(noun)
 
     elseif noun.declension == 4
         decl4class(noun)
