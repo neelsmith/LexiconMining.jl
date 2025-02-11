@@ -28,6 +28,20 @@ function ==(p1::LSPreposition, p2::LSPreposition)
     p1.cases == p2.cases
 end
 
+
+
+function preposition(tpl)
+    shortid = trimid(tpl.urn)
+    cases = split(tpl.morphology,",")
+    if isempty(cases) 
+        @warn("Failed for preposition record $(tpl)")
+        nothing
+    else
+        LSPreposition(shortid, tpl.lemma, cases)
+    end
+end
+
+
 """
 """
 function prepositions(datatuples; includebad = false)::Union{Vector{LSPreposition}, Tuple{Vector{Any}, Vector{Any}}}
@@ -35,21 +49,18 @@ function prepositions(datatuples; includebad = false)::Union{Vector{LSPrepositio
     good = LSPreposition[]
     bad = []
     for tpl in prepdata
-        shortid = trimid(tpl.urn)
-        cases = split(tpl.morphology,",")
-        if isempty(cases) 
-            push!(bad, tpl)
-            @warn("Failed for preposition record $(tpl)")
+        parsed = preposition(tpl)
+        if parsed isa LSPreposition
+            push!(good, parsed)
         else
-            push!(good, LSPreposition(shortid, tpl.lemma, cases)) 
+            push!(bad, tpl)
         end
-
     end
     if includebad
         (good, bad)
     else
         good
-    end
+    end   
 end
 
 

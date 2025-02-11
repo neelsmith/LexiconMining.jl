@@ -40,8 +40,8 @@ export LSNoun, noun, nouns
 export LSVerb, verb, verbs
 export isregular, isdeponent
 export LSAdjective, adjective, adjectives
-export LSPreposition, prepositions # These are OK
-export LSConjunction, conjunctions # These are OK
+export LSPreposition, preposition, prepositions
+export LSConjunction, conjunctions
 export LSAdverb, adverbs
 
 
