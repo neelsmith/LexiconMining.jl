@@ -69,4 +69,7 @@ end
 
 
     magudaris = "27656|urn:cite2:hmt:ls.markdown:n27653|măgŭdăris or magudĕris| the stalk/root/juice of a plant | noun | măgŭdăris, măgŭdăris , feminine" |> LexiconMining.readdataline |> noun
+
+
+    requies = "41286|urn:cite2:hmt:ls.markdown:n41283|rĕ-quĭes|rest, repose|noun|requies, requietis, feminine" |> LexiconMining.readdataline |> noun
 end
