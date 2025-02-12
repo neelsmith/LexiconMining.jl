@@ -30,4 +30,6 @@
     pestiscex = ["latcommon.nounn35784|lsx.n35784|pest|feminine|i_is_is"]
     @test cexline(pestis) == pestiscex
 
+
+    merces = "28772|urn:cite2:hmt:ls.markdown:n28769|merces|hire, pay, wages, salary, fee, reward|noun|merces, mercedis, feminine"  |> LexiconMining.readdataline |> noun
 end
