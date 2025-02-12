@@ -227,7 +227,7 @@ function decl2class(nom, gen)
                 "os_i"            
 
     elseif endswith(gen, "orum")
-        "os_i_pl"
+        "us_i_pl"
 
     else
         @warn("Declension 2 conflicts with endings in $(gen) for $(nom)")
@@ -240,8 +240,10 @@ function decl3istem(n::LSNoun)
 end
 
 function decl3istem(nom,gen)
-    @info("Check for istem $(nom)/$(gen)")
-    if endswith(gen, "tis") && endswith(nom, "s")
+    @debug("Check for istem $(nom)/$(gen)")
+    if endswith(gen, "is") && endswith(nom, "is")
+        "i_is_is"
+    elseif endswith(gen, "tis") && endswith(nom, "s")
         "i_s_tis"
 
     elseif endswith(gen, "tis") && endswith(nom, "x")
@@ -250,8 +252,7 @@ function decl3istem(nom,gen)
     elseif endswith(gen, "is") && endswith(nom, "es")
         "i_es_is"
         
-    elseif endswith(gen, "is") && endswith(nom, "is")
-        "i_is_is"
+   
     
     else 
         @warn("Declension 3 i-stem conflicts with endings ($(gen)) for  $(nom)")

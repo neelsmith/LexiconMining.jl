@@ -22,11 +22,13 @@ function cexline(n::LSNoun; divider = "|")
             @debug("DECL: $(n.declension) ends with -i in gensg $(n.gensg)")
             stem = replace(n.gensg, r"i$" => "") |> suareznorm
             #@info("SET STEM TO $(stem)")
+        elseif endswith(n.gensg, "orum")
+            stem = replace(n.gensg, r"orum$" => "") |> suareznorm
         end
 
     elseif n.declension == 3
         @debug("Declension 3, iclass $(iclass)")
-        if iclass == "s_tis"
+        if iclass == "s_tis" || iclass == "i_s_tis"
             stem = replace(n.nomsg, r"s$" => "") |> suareznorm
 
         elseif iclass == "x_cis"

@@ -33,4 +33,18 @@ end
 
     nox = "31312|urn:cite2:hmt:ls.markdown:n31309|nox|night; darkness, obscurity, sleep, death|noun|nox, noctis, feminine"  |> LexiconMining.readdataline |> noun
 
+
+
+    visualia = "51143|urn:cite2:hmt:ls.markdown:n51140x|vīsŭālĭa|the power of vision|noun|vīsŭālĭa, vīsŭālĭōrum, neuter " |> LexiconMining.readdataline |> noun
+
+    expectedvisualia = ["lat23.nounn51140x|lsx.n51140x|uisuali|neuter|us_i_pl",
+    "lat24.nounn51140x|lsx.n51140x|visuali|neuter|us_i_pl",
+    "lat25.nounn51140x|lsx.n51140x|visuali|neuter|us_i_pl"]
+
+    visualiacex = cexline(visualia)
+    @test length(visualiacex) == 3
+    for ln in visualiacex
+        @test ln in expectedvisualia
+    end
+
 end
