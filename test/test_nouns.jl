@@ -65,4 +65,8 @@ end
     for ln in ventercex
         @test_broken lon in expectedventer
     end
+
+
+
+    magudaris = "27656|urn:cite2:hmt:ls.markdown:n27653|măgŭdăris or magudĕris| the stalk/root/juice of a plant | noun | măgŭdăris, măgŭdăris , feminine" |> LexiconMining.readdataline |> noun
 end
