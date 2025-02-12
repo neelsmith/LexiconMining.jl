@@ -15,6 +15,8 @@ function cexline(n::LSNoun; divider = "|")
             stem = replace(n.gensg, r"ae$" => "") |> suareznorm
         elseif endswith(n.gensg, "es")
             stem = replace(n.gensg, r"es$" => "") |> suareznorm
+        elseif endswith(n.gensg, "arum")
+            stem = replace(n.gensg, r"arum$" => "") |> suareznorm
         end
 
     elseif n.declension == 2

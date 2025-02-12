@@ -28,7 +28,7 @@ end
 
     @test LexiconMining.istem(gens)
 
-    @test cexline(gens) == ["latcommon.nounn19461|lsx.n19461|gent|feminine|i_s_tis"]
+    @test cexline(gens) == ["latcommon.nounn19461|lsx.n19461|gen|feminine|i_s_tis"]
 
 
     nox = "31312|urn:cite2:hmt:ls.markdown:n31309|nox|night; darkness, obscurity, sleep, death|noun|nox, noctis, feminine"  |> LexiconMining.readdataline |> noun
@@ -47,4 +47,22 @@ end
         @test ln in expectedvisualia
     end
 
+
+    xerampelinae = "51481|urn:cite2:hmt:ls.markdown:n51478|xērampĕlĭnae|dark-red or dark-colored clothes|noun|xērampĕlĭnae,xērampĕlĭnārum,feminine"  |> LexiconMining.readdataline |> noun
+    
+    expectedxerampelinae = ["latcommon.nounn51478|lsx.n51478|xerampelin|feminine|a_ae_pl"]
+    @test cexline(xerampelinae) == expectedxerampelinae
+
+
+    venter = "50450|urn:cite2:hmt:ls.markdown:n50447|venter | belly, paunch, maw, womb | noun | venter, ventris, masculine" |> LexiconMining.readdataline |> noun
+
+    expectedventer = [
+        "is it an istem or not?"
+    ]
+
+    ventercex =  cexline(venter)
+    @test length(ventercex) == 3
+    for ln in ventercex
+        @test_broken lon in expectedventer
+    end
 end
